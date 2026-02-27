@@ -171,6 +171,35 @@
                     published here in the coming weeks.
                 </p>
             </section>
+
+            <section class="signup-section" aria-label="Subscribe for updates">
+                <h2 class="signup-title">Stay updated</h2>
+                <p class="signup-text">
+                    Get notified when new companion papers are published.
+                    No spam. Unsubscribe anytime.
+                </p>
+                <form
+                    action="https://buttondown.com/api/emails/embed-subscribe/susheel"
+                    method="post"
+                    target="popupwindow"
+                    onsubmit="window.open('https://buttondown.com/opentre', 'popupwindow')"
+                    class="signup-form"
+                >
+                    <label for="bd-email" class="visually-hidden">Email address</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="bd-email"
+                        placeholder="you@example.com"
+                        required
+                        class="signup-input"
+                    />
+                    <button type="submit" class="signup-button">Subscribe</button>
+                </form>
+                <p class="signup-powered">
+                    Powered by <a href="https://buttondown.com/refer/opentre" target="_blank" rel="noopener">Buttondown</a>
+                </p>
+            </section>
         </main>
 
         <footer class="landing-footer" role="contentinfo">
@@ -322,6 +351,84 @@
                 line-height: 1.7;
                 max-width: 55ch;
                 margin: 0 auto;
+            }
+            .signup-section {
+                max-width: var(--content-width);
+                margin: 0 auto;
+                padding: var(--space-3xl) var(--space-xl) 0;
+                text-align: center;
+            }
+            .signup-title {
+                font-family: var(--font-headline);
+                font-size: var(--text-xl);
+                font-weight: 500;
+                color: var(--text-secondary);
+                margin-bottom: var(--space-sm);
+            }
+            .signup-text {
+                font-family: var(--font-body);
+                font-size: var(--text-base);
+                color: var(--text-muted);
+                line-height: 1.7;
+                max-width: 45ch;
+                margin: 0 auto var(--space-lg);
+            }
+            .signup-form {
+                display: flex;
+                gap: var(--space-sm);
+                justify-content: center;
+                max-width: 420px;
+                margin: 0 auto;
+            }
+            .signup-input {
+                flex: 1;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                padding: var(--space-sm) var(--space-md);
+                border: 1px solid var(--border-light);
+                border-radius: 6px;
+                background: var(--bg-surface);
+                color: var(--text-primary);
+                outline: none;
+                transition: border-color var(--transition-fast);
+            }
+            .signup-input:focus {
+                border-color: var(--accent-teal);
+            }
+            .signup-input::placeholder {
+                color: var(--text-muted);
+            }
+            .signup-button {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 600;
+                padding: var(--space-sm) var(--space-lg);
+                background: var(--accent-teal);
+                color: #fff;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                white-space: nowrap;
+                transition: background var(--transition-fast);
+            }
+            .signup-button:hover {
+                background: var(--accent-teal-dark, #085858);
+            }
+            .signup-powered {
+                font-family: var(--font-ui);
+                font-size: var(--text-xs);
+                color: var(--text-muted);
+                opacity: 0.5;
+                margin-top: var(--space-sm);
+            }
+            .signup-powered a {
+                color: var(--text-muted);
+                text-decoration: underline;
+            }
+            @media (max-width: 480px) {
+                .signup-form {
+                    flex-direction: column;
+                }
             }
             .landing-footer {
                 text-align: center;
