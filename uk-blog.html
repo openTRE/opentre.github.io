@@ -1,0 +1,3628 @@
+<!doctype html>
+<html lang="en-GB">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Catalogue and the Crisis - OpenTRE</title>
+        <meta
+            name="description"
+            content="Why the UK's &pound;600 million Health Data Research Service needs cataloguing rules, not another library building."
+        />
+        <meta name="author" content="Susheel Varma" />
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="The Catalogue and the Crisis" />
+        <meta
+            property="og:description"
+            content="Why the UK needs cataloguing rules for health data, not another library building. A case for protocols over platforms."
+        />
+        <meta property="og:url" content="https://opentre.org/uk-blog.html" />
+        <meta
+            property="og:image"
+            content="https://opentre.org/images/hero-uk-blog.png"
+        />
+        <meta property="og:site_name" content="OpenTRE" />
+        <meta property="article:author" content="Susheel Varma" />
+        <meta property="article:published_time" content="2026-02-25" />
+        <meta property="article:modified_time" content="2026-02-26" />
+        <meta
+            property="og:image:alt"
+            content="A hand writing cataloguing rules in a ledger with golden lines radiating outward to connect institutions, representing protocol-based health data federation"
+        />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="The Catalogue and the Crisis" />
+        <meta
+            name="twitter:description"
+            content="Why the UK needs cataloguing rules for health data, not another library building. A case for protocols over platforms."
+        />
+        <meta
+            name="twitter:image"
+            content="https://opentre.org/images/hero-uk-blog.png"
+        />
+        <meta name="twitter:creator" content="@susheelvarma" />
+        <meta
+            name="twitter:image:alt"
+            content="A hand writing cataloguing rules in a ledger with golden lines radiating outward to connect institutions, representing protocol-based health data federation"
+        />
+
+        <link rel="canonical" href="https://opentre.org/uk-blog.html" />
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BlogPosting",
+                "headline": "The Catalogue and the Crisis",
+                "description": "Why the UK's 600 million pound Health Data Research Service needs cataloguing rules, not another library building. The library standards that connected the world, and the health data reform that could.",
+                "author": {
+                    "@type": "Person",
+                    "name": "Susheel Varma"
+                },
+                "datePublished": "2026-02-25",
+                "dateModified": "2026-02-26",
+                "image": "https://opentre.org/images/hero-uk-blog.png",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "OpenTRE"
+                },
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://opentre.org/uk-blog.html"
+                },
+                "isPartOf": {
+                    "@type": "Blog",
+                    "name": "OpenTRE",
+                    "url": "https://opentre.org/"
+                },
+                "inLanguage": "en-GB",
+                "wordCount": 6500
+            }
+        </script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body class="doc-blog">
+        <!-- Reading progress bar -->
+        <div
+            class="progress-bar"
+            role="progressbar"
+            aria-valuenow="0"
+            aria-valuemin="0"
+            aria-valuemax="100"
+        ></div>
+
+        <!-- Site navigation -->
+        <nav class="suite-nav" aria-label="OpenTRE">
+            <div class="suite-nav-inner">
+                <a href="./index.html" class="suite-nav-label"
+                    ><img
+                        src="images/opentre-icon-512.png"
+                        alt=""
+                        class="nav-logo"
+                    />OpenTRE</a
+                >
+                <span class="nav-sep">|</span>
+                <div class="nav-dropdown">
+                    <button class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">Blog</button>
+                    <div class="nav-dropdown-menu" role="menu">
+                        <a href="./uk-blog.html" role="menuitem" class="active">UK Perspective</a>
+                        <a href="./us-blog.html" role="menuitem">US Perspective</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <header class="hero" role="banner">
+            <div
+                class="hero-bg"
+                style="
+                    background-image: url(&quot;images/hero-uk-blog.png&quot;);
+                "
+            ></div>
+            <div class="hero-content">
+                <img
+                    src="images/opentre-logo-white.png"
+                    alt="OpenTRE"
+                    style="height: 48px; margin-bottom: 1rem; opacity: 0.9"
+                />
+                <p class="hero-label">Blog Post</p>
+                <h1 class="hero-title">The Catalogue and the Crisis</h1>
+                <p class="hero-subtitle">
+                    Why the UK's &pound;600 Million Investment Needs Protocols,
+                    Not Another Platform
+                </p>
+                <div class="hero-meta">
+                    <span>Susheel Varma</span>
+                    <span>25 February 2026</span>
+                    <span>~30 min read</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Table of Contents (sidebar) -->
+        <aside class="toc-wrapper" aria-label="Table of contents">
+            <nav class="toc">
+                <p class="toc-title">Contents</p>
+                <a href="#catalogue-crisis">The Catalogue and the Crisis</a>
+                <a href="#pattern-repeating"
+                    >The Pattern That Keeps Repeating</a
+                >
+                <a href="#opentre-proposes">What OpenTRE Proposes Instead</a>
+                <a href="#numbers">The Numbers That Matter</a>
+                <a href="#incentives">The Deeper Problem</a>
+                <a href="#bermuda">The Bermuda Precedent</a>
+                <a href="#choice">The Choice</a>
+            </nav>
+        </aside>
+
+        <!-- Article body -->
+        <main>
+            <article class="article-body" role="article">
+                <!-- Suite context note -->
+                <aside
+                    class="callout callout-amber fade-in"
+                    style="margin-bottom: var(--space-3xl)"
+                >
+                    <p class="callout-title">OpenTRE</p>
+                    <p style="margin-bottom: 0">
+                        This is part of a series of papers arguing that the UK's
+                        health data infrastructure should build protocols, not
+                        services. Companion papers covering the full technical
+                        case, a visual executive summary, the political and
+                        rights-based vision, an enforceable rights framework, a
+                        protocol specification, and an implementation roadmap
+                        are available at
+                        <a href="https://opentre.org/">opentre.org</a>. For the
+                        US perspective, see
+                        <a href="us-blog.html"
+                            ><em>The Current Wars of Biomedical Data</em></a
+                        >.
+                    </p>
+                </aside>
+
+                <!-- 60-Second Executive Summary (Comment 6.1) -->
+                <div class="exec-summary fade-in">
+                    <p class="exec-summary-title">In 60 Seconds</p>
+                    <p>
+                        <strong>What:</strong> OpenTRE proposes that the HDRS
+                        invest its &pound;600 million in open interoperability
+                        protocols (shared cataloguing rules for health data)
+                        rather than another centrally operated platform.
+                    </p>
+                    <p>
+                        <strong>Why:</strong> The UK has spent over two decades
+                        and billions of pounds on centralised health data
+                        programmes (NPfIT, care.data, GPDPR, FDP) that follow
+                        the same pattern: centralise, meet resistance, retreat,
+                        rebrand. The problem is not technology. It is the
+                        absence of shared rules.
+                    </p>
+                    <p>
+                        <strong>What should be done now:</strong> Five
+                        Bermuda-style mandates (24-hour governance disclosure,
+                        federated-first architecture, open protocol conformance,
+                        48-hour credential portability, and governance
+                        transparency) would give the HDRS a durable foundation
+                        that survives political cycles.
+                    </p>
+                </div>
+
+                <!-- Glossary Box (Comment 7.1) -->
+                <details
+                    class="callout fade-in"
+                    id="glossary"
+                    style="margin-bottom: var(--space-2xl); cursor: pointer"
+                >
+                    <summary
+                        class="callout-title"
+                        style="
+                            list-style: none;
+                            display: flex;
+                            align-items: center;
+                            gap: var(--space-sm);
+                        "
+                    >
+                        <span style="transition: transform 0.2s">&#9654;</span>
+                        Key Terms &amp; Acronyms
+                    </summary>
+                    <div
+                        style="
+                            margin-top: var(--space-md);
+                            columns: 2;
+                            column-gap: var(--space-xl);
+                        "
+                    >
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>TRE</strong>: Trusted Research Environment.
+                            A secure computing facility where approved
+                            researchers analyse sensitive data without the data
+                            leaving the facility.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>SDE</strong>: Secure Data Environment. The
+                            NHS-specific term for a TRE within the NHS
+                            ecosystem.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>HDRS</strong>: Health Data Research Service.
+                            The UK government's &pound;600 million programme to
+                            improve health data access for research.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>OMOP</strong>: Observational Medical
+                            Outcomes Partnership Common Data Model. A
+                            standardised schema for health data.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>FHIR</strong>: Fast Healthcare
+                            Interoperability Resources. An HL7 standard for
+                            exchanging healthcare information electronically.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>GA4GH</strong>: Global Alliance for Genomics
+                            and Health. An international standards body for
+                            genomic and health data sharing.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>ODRL</strong>: Open Digital Rights Language.
+                            A W3C standard for expressing permissions and
+                            obligations over data.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>DUO</strong>: Data Use Ontology. A GA4GH
+                            standard for machine-readable data use conditions.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>OHDSI</strong>: Observational Health Data
+                            Sciences and Informatics. A multi-stakeholder
+                            network using the OMOP model across 54 countries.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>SATRE</strong>: Standard Architecture for
+                            Trusted Research Environments. A UK specification
+                            for TRE design.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>DARE UK</strong>: Data and Analytics
+                            Research Environments UK. A UKRI programme building
+                            national TRE infrastructure.
+                        </p>
+                        <p
+                            style="
+                                break-inside: avoid;
+                                margin-bottom: var(--space-sm);
+                            "
+                        >
+                            <strong>FDP</strong>: Federated Data Platform. NHS
+                            England's &pound;330 million data analytics
+                            platform.
+                        </p>
+                        <p style="break-inside: avoid; margin-bottom: 0">
+                            <strong>NPfIT</strong>: National Programme for IT.
+                            The &pound;12.7 billion NHS IT programme
+                            (2002-2011), largely abandoned.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Opening section: The Catalogue and the Crisis -->
+                <section id="catalogue-crisis" class="fade-in">
+                    <h2 class="section-label">The Catalogue and the Crisis</h2>
+                    <figure class="figure-wide">
+                        <img
+                            src="images/hero-panizzi.png"
+                            alt="A hand writing cataloguing rules in a ledger, with golden lines radiating outward to connect a library, a university, a hospital, and a GP surgery"
+                            loading="eager"
+                        />
+                        <figcaption>
+                            One set of rules, written once, connecting every
+                            institution
+                        </figcaption>
+                    </figure>
+
+                    <p class="drop-cap">
+                        A clinical researcher at University College London is
+                        studying antibiotic resistance patterns across three
+                        regions of England. The data she needs exists in three
+                        separate Secure Data Environments. She has ethics
+                        approval. She has funding. She has a clear research
+                        question. What she does not have is a way to query
+                        across all three environments without negotiating a
+                        separate data access agreement with each one, a process
+                        that will take, by her own estimate, between nine and
+                        fourteen months per SDE<sup
+                            ><a
+                                href="#glossary"
+                                style="
+                                    text-decoration: none;
+                                    color: var(--accent-teal);
+                                "
+                                title="Secure Data Environment: the NHS term for a Trusted Research Environment (TRE), a secure facility where approved researchers analyse sensitive data without the data leaving"
+                                >[?]</a
+                            ></sup
+                        >. By the time she can run the analysis, her grant will
+                        have expired. This is exactly the kind of problem
+                        <a href="https://www.opensafely.org/">OpenSAFELY</a>
+                        solved during COVID-19: code travelling to 58 million GP
+                        records rather than records travelling to researchers.
+                        The architecture works. The governance interoperability
+                        does not yet exist.
+                    </p>
+
+                    <p>
+                        This is not a technology problem. It is a cataloguing
+                        problem. The data exists. The shared rules for accessing
+                        it do not. The same problem existed in the library world
+                        before 1841, when a political refugee published the
+                        rules that eventually connected every library on earth.
+                    </p>
+
+                    <!-- Why this matters for HDRS (Comment 10.1) -->
+                    <aside
+                        class="callout callout-teal fade-in"
+                        style="margin: var(--space-xl) 0"
+                    >
+                        <p class="callout-title">
+                            Why this matters for the HDRS
+                        </p>
+                        <ul style="margin-bottom: 0">
+                            <li>
+                                <strong>The pattern is identical:</strong>
+                                before Panizzi, every library was an island with
+                                its own catalogue. Today, every NHS SDE is an
+                                island with its own governance process. The
+                                &pound;600 million HDRS can write the shared
+                                rules, or build another island.
+                            </li>
+                            <li>
+                                <strong
+                                    >Metadata travels, content stays:</strong
+                                >
+                                Panizzi's rules standardised how to describe a
+                                book, not the book itself. OpenTRE standardises
+                                how to describe data access conditions, not the
+                                patient data. The "book" never leaves the shelf.
+                            </li>
+                            <li>
+                                <strong>Sovereignty is preserved:</strong> no
+                                library surrendered its collection. No NHS Trust
+                                needs to surrender its data. Only the catalogue
+                                entries (the governance interfaces) need to
+                                conform.
+                            </li>
+                        </ul>
+                    </aside>
+
+                    <p>
+                        In 1823, a young Italian revolutionary named Antonio
+                        Panizzi arrived in England. He had been sentenced to
+                        death in absentia for conspiracy against the Duke of
+                        Modena. He spoke little English. He had no money, no
+                        connections, and no prospects. Within fourteen years he
+                        would become Keeper of Printed Books at the British
+                        Museum Library, and in 1841 he would publish
+                        <a
+                            href="https://www.britannica.com/biography/Anthony-Panizzi"
+                            >91 cataloguing rules</a
+                        >
+                        that became the foundation of every library
+                        interoperability standard that followed.
+                    </p>
+
+                    <p>
+                        Before Panizzi, every library was an island. Each
+                        institution catalogued its holdings in its own way,
+                        using its own conventions, its own entry formats, its
+                        own filing logic. A scholar who could navigate the
+                        Bodleian's catalogue was lost in the British Museum's.
+                        Finding a book meant knowing the local system. There was
+                        no shared language for describing what a library held.
+                    </p>
+
+                    <p>
+                        Panizzi's insight was that the problem was not the
+                        buildings or the collections. The problem was the
+                        absence of shared rules. His 91 rules specified how to
+                        record an author's name, how to handle anonymous works,
+                        how to cross-reference editions, how to standardise
+                        titles. They were, in modern terms, a protocol: a set of
+                        agreements about representation that allowed any two
+                        institutions to understand each other's holdings without
+                        merging their collections.
+                    </p>
+
+                    <p>
+                        The rules did not require libraries to reorganise their
+                        shelves, rebuild their reading rooms, or surrender their
+                        collections to a central repository. Each library kept
+                        its own governance, its own physical arrangements, its
+                        own traditions. Only the catalogue entries (the metadata
+                        describing what was held and how to find it) needed to
+                        conform to a shared standard. The books themselves never
+                        left the shelf. A scholar could discover what existed
+                        anywhere; the sensitive content stayed where it
+                        belonged. In OpenTRE's terms: the catalogue (governance
+                        metadata) travels; the patient data (the book) never
+                        does.
+                    </p>
+
+                    <p>
+                        That lineage is direct and unbroken. Panizzi's rules
+                        (1841) led to Charles Ammi Cutter's
+                        <a
+                            href="https://www.britannica.com/biography/Charles-Ammi-Cutter"
+                            ><em>Rules for a Dictionary Catalog</em></a
+                        >
+                        (1876) and, in the same year, Melvil Dewey's
+                        <a href="https://www.oclc.org/en/dewey.html"
+                            >Decimal Classification</a
+                        >, which gave every library a shared language for
+                        organising knowledge by subject. Cutter standardised how
+                        to describe a book; Dewey standardised where to put it.
+                        Together they solved both halves of the interoperability
+                        problem. That dual tradition led to the
+                        <a href="https://www.aacr2.org/"
+                            >Anglo-American Cataloguing Rules</a
+                        >
+                        (1967) and to
+                        <a href="https://www.loc.gov/marc/">Henriette Avram</a
+                        >'s MARC format at the Library of Congress (1966), which
+                        gave cataloguing a machine-readable encoding. MARC led
+                        to
+                        <a href="https://www.loc.gov/z3950/agency/">Z39.50</a>,
+                        the federated query protocol that lets a researcher in
+                        London search the catalogue of a library in Tokyo
+                        without either institution surrendering its data. Z39.50
+                        led to <a href="https://www.worldcat.org/">WorldCat</a>,
+                        a federated discovery catalogue spanning tens of
+                        thousands of libraries across 170 countries. And the
+                        entire system rests on persistent identifiers like
+                        <a href="https://www.isbn-international.org/">ISBN</a>
+                        and
+                        <a href="https://www.issn.org/">ISSN</a>, which let any
+                        catalogue entry point unambiguously to the same work.
+                    </p>
+
+                    <p>
+                        A political refugee wrote the rules that let every
+                        library in the world talk to each other. No central
+                        warehouse was required. No single institution controlled
+                        the system. The protocol was the agreement. Everything
+                        else was implementation.
+                    </p>
+
+                    <p>
+                        I find myself thinking about Panizzi's rules as I watch
+                        the UK prepare to spend &pound;600 million on a
+                        <a
+                            href="https://www.gov.uk/government/news/prime-minister-turbocharges-medical-research"
+                            >Health Data Research Service</a
+                        >. The NHS has a cataloguing problem. Institutions that
+                        hold health data are essentially running incompatible
+                        catalogues: bespoke governance agreements, variable
+                        access processes, months-long negotiations, each request
+                        treated as a unique transaction. The data exists. The
+                        shared rules do not.
+                    </p>
+
+                    <p>
+                        Panizzi built the Round Reading Room and expanded the
+                        collection, but his lasting contribution was the 91
+                        rules that made every catalogue interoperable. The UK's
+                        health data infrastructure needs the same kind of
+                        reform.
+                    </p>
+
+                    <p>
+                        The
+                        <a href="https://healthdatagateway.org/"
+                            >Health Data Research Gateway</a
+                        >, which we built at
+                        <a href="https://hdruk.ac.uk/">HDR UK</a>, was the first
+                        metadata catalogue of health research datasets across
+                        all four UK nations. We also began aligning governance
+                        processes by developing a unified Data Access Request
+                        process using the Five Safes framework. Without a
+                        political mandate, however, uptake has been hard. The
+                        challenge of interoperable governance remains.
+                    </p>
+
+                    <div class="key-takeaway fade-in">
+                        <p class="key-takeaway-label">Key Takeaway</p>
+                        <p style="margin-bottom: 0">
+                            The NHS has a cataloguing problem, not a technology
+                            problem. Shared rules for describing data access
+                            conditions, not more buildings, are what connect
+                            institutions.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 2: The Pattern That Keeps Repeating -->
+                <section id="pattern-repeating" class="fade-in">
+                    <h2>The Pattern That Keeps Repeating</h2>
+
+                    <figure class="figure-wide">
+                        <img
+                            src="images/centralisation-cycle.png"
+                            alt="The centralisation cycle: centralise, resist, collapse, rebrand"
+                            loading="lazy"
+                        />
+                        <figcaption>
+                            The centralisation cycle: centralise, resist,
+                            collapse, rebrand
+                        </figcaption>
+                    </figure>
+
+                    <p class="drop-cap">
+                        Every major UK health data programme has tried to build
+                        the British Library. None of them thought to write the
+                        cataloguing rules first.
+                    </p>
+
+                    <p>
+                        The
+                        <strong
+                            ><a
+                                href="https://www.nao.org.uk/reports/the-national-programme-for-it-in-the-nhs-an-update-on-the-delivery-of-detailed-care-records-systems/"
+                                >National Programme for IT</a
+                            ></strong
+                        >
+                        (2002-2011) tried to build a single electronic health
+                        record system for the entire NHS. Cost: &pound;12.7
+                        billion. Result: largely abandoned. Twelve billion
+                        pounds, and the scale of that failure should have been
+                        instructive. The Public Accounts Committee's verdict:
+                        "an overambitious and unwieldy centralised model." It
+                        was the equivalent of demanding that every hospital in
+                        England physically relocate its records to a single
+                        building. The British Library's St Pancras building, by
+                        comparison, cost &pound;511 million and took 35 years
+                        from conception to completion (1962-1997). NPfIT tried
+                        to build something vastly more ambitious in a fraction
+                        of the time.
+                    </p>
+
+                    <p>
+                        <strong
+                            ><a
+                                href="https://www.england.nhs.uk/2013/10/care-data/"
+                                >Care.data</a
+                            ></strong
+                        >
+                        (2013-2016) tried to extract GP data into a central
+                        repository. It cost the taxpayer &pound;8 million. 1.5
+                        million patients opted out. Programme cancelled. The
+                        library equivalent: photocopying every book in every
+                        local library and shipping the copies to a central
+                        warehouse, without asking the borrowers.
+                    </p>
+
+                    <p>
+                        <strong
+                            ><a
+                                href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/general-practice-data-for-planning-and-research"
+                                >GPDPR</a
+                            ></strong
+                        >
+                        (2021) tried the same thing with a different acronym.
+                        Within weeks of announcement, opt-outs nearly doubled
+                        (June-July 2021). 1.27 million additional people refused
+                        in a single month. Programme paused indefinitely.
+                    </p>
+
+                    <p>
+                        The
+                        <strong
+                            ><a
+                                href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/gpes-data-for-consented-research"
+                                >GPES Data for Consented Research Directions
+                                2026</a
+                            ></strong
+                        >
+                        represent the latest iteration. On 10 February 2026, the
+                        Secretary of State directed NHS England to share GP
+                        health records with approved research studies where
+                        participants have given explicit consent. The consent
+                        model is a real step forward. But look beneath it: the
+                        same GDPPR (GPES Data for Pandemic Planning and
+                        Research) data pipeline, originally justified under
+                        pandemic emergency powers, repurposed for a new purpose.
+                        Data still flows from GP systems to NHS England to study
+                        platforms. The architecture remains centralised even
+                        when the consent is not. OpenTRE's protocol layer could
+                        make this Directions work better: machine-readable
+                        consent verification, automated Type 1 objection
+                        enforcement, and interoperable SDE access. The result
+                        would be auditable, computable governance in place of a
+                        manual multi-stage approval process.
+                    </p>
+
+                    <p>
+                        The
+                        <strong
+                            ><a
+                                href="https://www.england.nhs.uk/digitaltechnology/nhs-federated-data-platform/"
+                                >Federated Data Platform</a
+                            ></strong
+                        >
+                        (2023-present), despite its name, is a centrally
+                        mandated system under a &pound;330 million single-vendor
+                        contract. Think of it as building a grand reading room
+                        with a single proprietary catalogue system: excellent
+                        for patrons within its walls, and useful for direct care
+                        analytics within participating trusts. But a single
+                        reading room cannot serve every community. Several
+                        trusts with mature local capabilities have concluded it
+                        would reduce their functionality. Greater Manchester,
+                        which built its own interoperable platform, declined
+                        entirely.
+                    </p>
+
+                    <p>
+                        The FDP is a useful node, one that needs protocol
+                        interfaces to participate in a wider ecosystem.
+                    </p>
+
+                    <p>
+                        And then there is the British Library itself. In October
+                        2023, a
+                        <a href="https://www.bl.uk/cyber-incident"
+                            >Rhysida ransomware attack</a
+                        >
+                        took its digital services offline for months and cost an
+                        estimated &pound;7 million. Everything was concentrated
+                        in one infrastructure; when it fell, everything fell
+                        with it. The physical inter-library loan network,
+                        federated by design, kept working. The lesson is hard to
+                        miss.
+                    </p>
+
+                    <p>
+                        Federation distributes risk rather than eliminating it.
+                        A protocol-based ecosystem must address the expanded
+                        attack surface through mandatory security conformance
+                        testing, incident response coordination across SDEs, and
+                        disclosure control at the aggregation layer. The HDRS
+                        should fund a shared security operations capability for
+                        the SDE Network.
+                    </p>
+
+                    <!-- Security surface area rebuttal (Comment 15.2) -->
+                    <aside
+                        class="callout fade-in"
+                        style="
+                            margin: var(--space-xl) 0;
+                            background: linear-gradient(
+                                135deg,
+                                rgba(193, 120, 23, 0.04),
+                                rgba(139, 69, 19, 0.04)
+                            );
+                        "
+                    >
+                        <p class="callout-title">
+                            Rebuttal: "Federation increases points of failure"
+                        </p>
+                        <p style="margin-bottom: var(--space-sm)">
+                            <strong>The sceptic:</strong> "Every new SDE
+                            endpoint is another attack surface. Centralisation
+                            is simpler to defend."
+                        </p>
+                        <p style="margin-bottom: 0">
+                            <strong>The response:</strong> Centralisation is
+                            simpler to defend until it fails, at which point
+                            everything fails simultaneously (see: British
+                            Library, October 2023). A federated model limits the
+                            blast radius of any single compromise. The HDRS
+                            should establish a
+                            <strong>Federated Security Council</strong> with a
+                            shared Incident Response Protocol. The protocol
+                            includes a "circuit breaker" mechanism: if any node
+                            is compromised, the network can isolate it within
+                            minutes while the rest continues to operate.
+                            Spreading risk across many nodes, with a coordinated
+                            response plan, beats concentrating it in a single
+                            target.
+                        </p>
+                    </aside>
+
+                    <p>
+                        Four programmes. Over two decades. Billions of pounds.
+                        Partial successes (the Spine, Summary Care Record) but a
+                        recurring pattern: build a bigger library, meet
+                        resistance, retreat, rebrand. The UK keeps trying to
+                        centralise the collection when what it needs is to
+                        standardise the catalogue.
+                    </p>
+
+                    <!-- Centralisation Cycle vs Protocol Successes (Comment 5.2) -->
+                    <div class="comparison-box fade-in">
+                        <div class="comparison-col comparison-service">
+                            <h4>
+                                The Centralisation Cycle
+                                <span class="comparison-tag"
+                                    >Service-based</span
+                                >
+                            </h4>
+                            <ul>
+                                <li>
+                                    NPfIT (2002-2011): &pound;12.7B, largely
+                                    abandoned
+                                </li>
+                                <li>
+                                    Care.data (2013-2016): &pound;8M, 1.5M
+                                    opt-outs, cancelled
+                                </li>
+                                <li>
+                                    GPDPR (2021): 1.27M opt-outs in one month,
+                                    paused
+                                </li>
+                                <li>
+                                    FDP (2023-): &pound;330M single-vendor,
+                                    trusts declining
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="comparison-vs">vs</div>
+                        <div class="comparison-col comparison-protocol">
+                            <h4>
+                                Protocol Successes
+                                <span class="comparison-tag"
+                                    >Protocol-based</span
+                                >
+                            </h4>
+                            <ul>
+                                <li>
+                                    Email (SMTP, 1982): billions of users, no
+                                    central operator
+                                </li>
+                                <li>
+                                    The Web (HTTP, 1991): survived seven US
+                                    presidents
+                                </li>
+                                <li>
+                                    OHDSI (OMOP, 2014): 974M records, 54
+                                    countries, volunteer-governed
+                                </li>
+                                <li>
+                                    OpenSAFELY (2020): 58M GP records,
+                                    code-to-data at scale
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Sunk cost / fiscal conservatism framing (Comment 1.1) -->
+                    <p>
+                        A protocol layer is not a repudiation of past
+                        investment. It is an insurance policy against platform
+                        obsolescence. The &pound;12.7 billion spent on NPfIT,
+                        the &pound;330 million committed to the FDP, the
+                        existing SDE Network: none of these need to be
+                        abandoned. They need protocol interfaces that protect
+                        the public's investment by making each system
+                        interoperable with the next, regardless of which vendor
+                        built it or which government funded it. The alternative
+                        (another generation of proprietary platforms) is the
+                        real sunk cost.
+                    </p>
+
+                    <!-- Sovereignty argument (Comment 1.3) -->
+                    <p>
+                        There is a middle way between the centralisation that
+                        provokes resistance and the fragmentation that prevents
+                        research. Protocol-based federation preserves NHS Trust
+                        sovereignty (every Trust keeps its data, its governance,
+                        its Caldicott Guardian's authority) while enabling
+                        national-scale queries across the entire SDE Network.
+                        Local control and national reach are not opposites. They
+                        are two sides of the same protocol. For UK policymakers,
+                        this is the win-win: Trusts retain the autonomy they
+                        will fight to protect, while HDRS delivers the
+                        cross-institutional research capability that justifies
+                        the &pound;600 million investment.
+                    </p>
+
+                    <!-- Sovereignty Guarantee callout (Comment 14.2) -->
+                    <aside
+                        class="callout callout-teal fade-in"
+                        style="margin: var(--space-xl) 0"
+                    >
+                        <p class="callout-title">Sovereignty Guarantee</p>
+                        <p style="margin-bottom: var(--space-sm)">
+                            Under a protocol-based model, every participating
+                            institution <strong>keeps</strong>:
+                        </p>
+                        <ul style="margin-bottom: var(--space-sm)">
+                            <li>
+                                <strong>Local data ownership.</strong> Patient
+                                data stays within local NHS systems.
+                            </li>
+                            <li>
+                                <strong>Final approval authority.</strong> The
+                                Caldicott Guardian retains the last word on
+                                every access decision.
+                            </li>
+                            <li>
+                                <strong>Local security protocols.</strong> Each
+                                institution maintains its own security posture
+                                and incident response.
+                            </li>
+                            <li>
+                                <strong>Operational independence.</strong>
+                                Staffing, budgets, and day-to-day operations
+                                remain local.
+                            </li>
+                            <li>
+                                <strong
+                                    >Choice of internal technology
+                                    stack.</strong
+                                >
+                                The protocol standardises the interface, not the
+                                implementation behind it.
+                            </li>
+                        </ul>
+                        <p style="margin-bottom: 0">
+                            This is the middle way between centralisation and
+                            fragmentation. Trusts share a common language for
+                            governance; they give up nothing else.
+                        </p>
+                    </aside>
+
+                    <!-- Low-Risk Transition Path callout (Comment 14.1) -->
+                    <aside
+                        class="callout fade-in"
+                        style="
+                            margin: var(--space-xl) 0;
+                            background: linear-gradient(
+                                135deg,
+                                rgba(10, 110, 110, 0.04),
+                                rgba(27, 42, 74, 0.04)
+                            );
+                        "
+                    >
+                        <p class="callout-title">Low-Risk Transition Path</p>
+                        <p style="margin-bottom: 0">
+                            Leaders rightly fear "big-bang" deployments: the
+                            lesson of NPfIT is that wholesale replacement fails.
+                            Adding a protocol interface to an existing SDE is
+                            the opposite. It is a
+                            <strong
+                                >"small-bang" task with "big-network"
+                                returns</strong
+                            >. An SDE publishes machine-readable governance
+                            policies alongside its existing processes. Nothing
+                            about internal operations changes on day one. But
+                            the moment two SDEs share a protocol interface, they
+                            gain cross-institutional query capability that
+                            neither could offer alone. Each additional SDE that
+                            joins multiplies the network's value. Low risk,
+                            compounding returns.
+                        </p>
+                    </aside>
+
+                    <div class="key-takeaway fade-in">
+                        <p class="key-takeaway-label">Key Takeaway</p>
+                        <p style="margin-bottom: 0">
+                            Centralised services follow a cycle: build, resist,
+                            collapse, rebrand. Protocols follow a different
+                            pattern: agree on rules, let institutions implement,
+                            survive political change. The UK's &pound;600
+                            million investment is a generational opportunity. It
+                            should be used to establish the rules of the grid,
+                            ensuring our infrastructure survives political
+                            cycles rather than being consumed by them.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 3: What OpenTRE Proposes Instead -->
+                <section id="opentre-proposes" class="fade-in">
+                    <h2>What OpenTRE Proposes Instead</h2>
+
+                    <figure class="figure-wide">
+                        <img
+                            src="images/protocols-vs-services.png"
+                            alt="Protocols vs services: distributed mesh networks versus centralised hub-and-spoke"
+                            loading="lazy"
+                        />
+                        <figcaption>
+                            The structural difference between service-based and
+                            protocol-based architectures
+                        </figcaption>
+                    </figure>
+
+                    <p class="drop-cap">
+                        OpenTRE, the Open Trusted Research Ecosystem, is a
+                        protocol stack, not a product. You do not procure it. It
+                        complements the HDRS by formalising how the funded
+                        environments actually talk to each other. The HDRS funds
+                        the ecosystem. OpenTRE provides the rules.
+                    </p>
+
+                    <p>
+                        Two terms recur throughout this argument. A
+                        <strong>Trusted Research Environment</strong> (TRE) is a
+                        secure computing facility where approved researchers can
+                        analyse sensitive data without the data leaving the
+                        facility. A
+                        <strong>Secure Data Environment</strong> (SDE) is the
+                        NHS-specific term for the same concept: a TRE within the
+                        NHS ecosystem, governed under NHS data governance
+                        frameworks. The UK's SDE Network currently comprises
+                        twelve regional and national SDEs, each operating
+                        independently.
+                    </p>
+
+                    <h3>What changes architecturally</h3>
+
+                    <p>
+                        The philosophy is simple:
+                        <strong
+                            >the minimum shared infrastructure for a federated
+                            health data ecosystem is a set of interoperable
+                            protocols, not a centrally operated service.</strong
+                        >
+                        This does not mean "no services": real health data
+                        infrastructure needs identity providers, support desks,
+                        reference implementations, and patient engagement
+                        operations. The point is: standardise the seams, don't
+                        centralise the substance. Services are welcome. But they
+                        must interoperate through open protocols rather than
+                        monopolise through proprietary interfaces.
+                    </p>
+
+                    <p>
+                        This is what library standards achieved. Panizzi did not
+                        ask every library to merge its collection into one
+                        building. He published rules that any existing catalogue
+                        could adopt. The library world built on this: MARC gave
+                        cataloguing a machine-readable format, much as
+                        <a href="https://ohdsi.github.io/CommonDataModel/"
+                            >OMOP</a
+                        >
+                        and
+                        <a href="https://www.hl7.org/fhir/">FHIR</a>
+                        give health data a common structure today. Z39.50 let a
+                        researcher in London search a catalogue in Tokyo;
+                        OpenTRE's protocol stack lets a researcher in Manchester
+                        query data held in Birmingham, with Layer 4 --
+                        Interoperable Governance, the narrow waist of the
+                        protocol stack's hourglass architecture -- determining
+                        computationally whether the access is permissible.
+                        (Layer 4 defines how data access conditions are
+                        expressed in machine-readable formats using ODRL and
+                        DUO, so that policies can be matched automatically
+                        across institutions.) The Inter-Library Loan system
+                        sends the request to where the book lives. WorldCat
+                        provides federated discovery across tens of thousands of
+                        libraries. Every time, the architecture is the same:
+                        agree on the rules, let each institution implement them
+                        locally, and never build a central warehouse.
+                    </p>
+
+                    <p>
+                        There is an obvious objection: catalogue records are
+                        public; patient records are not. The library analogy
+                        holds at the level of architecture, not content. MARC
+                        standardised how to describe a book. Layer 4
+                        standardises how to describe the conditions under which
+                        a patient's data may be accessed. The information
+                        protected is different. The interoperability problem is
+                        the same.
+                    </p>
+
+                    <p>
+                        Consider the email analogy: Gmail, Outlook, and
+                        ProtonMail compete fiercely but interoperate seamlessly
+                        because they all implement the same protocol. The
+                        competition is real. The interoperability is mandatory.
+                    </p>
+
+                    <p>
+                        Now think about the NHS SDE Network. Twelve Secure Data
+                        Environments, each with different governance processes,
+                        different committee structures, different
+                        interpretations of what good looks like. A researcher
+                        approved by the London SDE cannot automatically access
+                        data in the North West SDE. The same analysis pipeline
+                        cannot run across three regions without bespoke
+                        agreements with each.
+                    </p>
+
+                    <figure class="figure-wide">
+                        <img
+                            src="images/governance-fragmentation-taylor-2021.png"
+                            alt="Governance fragmentation across NHS data flows: most data interactions bypass secure environments"
+                            loading="lazy"
+                        />
+                        <figcaption>
+                            The cost of governance fragmentation. Adapted from
+                            <a
+                                href="https://bmjopen.bmj.com/content/11/8/e047575"
+                                >Taylor et al. (2021)</a
+                            >.
+                        </figcaption>
+                    </figure>
+
+                    <p>
+                        Research has documented how this fragmentation imposes
+                        real costs: duplicated governance reviews, inconsistent
+                        access timelines, and wasted researcher effort
+                        navigating incompatible systems.<sup
+                            ><a
+                                href="#endnote-1"
+                                id="ref-1"
+                                style="text-decoration: none"
+                                >[1]</a
+                            ></sup
+                        >
+                        Subsequent mapping quantified it further: 78% of NHS
+                        Digital data consumers, including 89% of commercial
+                        users, opted for physical data transfer outside SDEs
+                        rather than working within secure environments.<sup
+                            ><a
+                                href="#endnote-2"
+                                id="ref-2"
+                                style="text-decoration: none"
+                                >[2]</a
+                            ></sup
+                        >
+                        Most data interactions do not fulfil
+                        <a href="https://fivesafes.org/">Five Safes</a>
+                        best practices.
+                        <strong>
+                            The infrastructure on the ground looks quite
+                            different from the infrastructure on paper.</strong
+                        >
+                    </p>
+
+                    <p>
+                        HDR UK's own
+                        <a
+                            href="https://www.hdruk.ac.uk/news/introducing-the-data-access-map-a-clearer-route-to-health-data/"
+                            >Data Access Map</a
+                        >, which visualises data access routes as lines on a
+                        transport network, is an implicit acknowledgement of the
+                        problem: if the system were interoperable, researchers
+                        would not need a tube map to navigate it. The map
+                        documents the fragmentation; machine-readable governance
+                        policies would resolve it.
+                    </p>
+
+                    <figure class="figure-wide">
+                        <img
+                            src="images/data-access-tubemap-hdruk.png"
+                            alt="HDR UK Data Access Map: data access routes visualised as lines on a transport network, showing fragmented processes across multiple TREs"
+                            loading="lazy"
+                        />
+                        <figcaption>
+                            The Data Access Map. Source:
+                            <a
+                                href="https://ukhealthdata.org/trust-and-transparency/data-access-and-governance/data-access-tubemap/"
+                                >UK Health Data Research Alliance</a
+                            >.
+                        </figcaption>
+                    </figure>
+
+                    <p>
+                        OpenTRE proposes seven layers of interoperable
+                        protocols. The most critical layer, and the one nobody
+                        wants to fund because it is invisible, is
+                        <strong>Layer 4: Interoperable Governance</strong>.
+                    </p>
+
+                    <img
+                        src="images/hourglass-protocol-stack.png"
+                        alt="OpenTRE seven-layer protocol stack showing the hourglass architecture with Layer 4 Interoperable Governance as the thin waist"
+                        style="
+                            max-width: 400px;
+                            margin: 2rem auto;
+                            display: block;
+                        "
+                        loading="lazy"
+                    />
+
+                    <h3>What Layer 4 does</h3>
+
+                    <p>
+                        Today: a researcher submits a lengthy application to an
+                        SDE. A data access committee meets monthly. They review
+                        the application against a PDF policy document. They
+                        request clarifications. The researcher responds. The
+                        committee meets again. Approval arrives four to twelve
+                        months later. The researcher repeats this process for
+                        every SDE that holds relevant data.
+                    </p>
+
+                    <p>
+                        With Layer 4: the same SDE publishes its access
+                        conditions in a machine-readable format. The same
+                        committee still sets those conditions; nothing about
+                        their authority changes. But when a researcher presents
+                        their credentials and states their purpose, a conformant
+                        system can check in seconds whether the application
+                        matches the published policy. If it does: automatic
+                        approval for the straightforward case. If it does not:
+                        routed to the committee for human review. Based on
+                        OHDSI network benchmarks, where standardised queries
+                        across federated nodes execute in days, the target is
+                        that the majority of routine access requests are
+                        processed on a similar timeline -- not months. The
+                        remainder, the cases that require judgement, get more of
+                        the committee's attention, not less.
+                    </p>
+
+                    <p>
+                        Think of it as a WorldCat for health data governance:
+                        federated discovery, not of books, but of permissible
+                        research pathways. A researcher can ask not just "does
+                        this dataset exist?" but "can I access it, and what
+                        would I need to do?"
+                    </p>
+
+                    <p>
+                        When two SDEs publish conflicting policies for the same
+                        query, the most restrictive policy wins. That is not a
+                        design preference; it is a legal necessity. No automated
+                        system should grant access that any participating
+                        institution has prohibited. Machine-readable governance
+                        encodes that principle. It does not override human
+                        judgement.
+                    </p>
+
+                    <p>
+                        Nobody is proposing we replace ethics committees with
+                        machines. The point is narrower: automate the routine
+                        cases where credentials, purpose, and data all clearly
+                        match existing policy, and free human reviewers for the
+                        cases where judgement actually matters.
+                    </p>
+
+                    <!-- Transparency First: Layer 4 quick wins (Comment 14.3) -->
+                    <p>
+                        Nor does Layer 4 require full automation on day one.
+                        The first step is simply
+                        <strong>publishing machine-readable policies</strong>.
+                        An SDE that publishes its access conditions in a
+                        standard format provides immediate value before any
+                        automated decision-making is in place: researchers
+                        can search for "access-friendly" datasets, compare
+                        requirements across SDEs, and identify the fastest
+                        path to approval. Put the catalogue online first;
+                        automate the lending desk later. Transparency alone
+                        -- the ability to compare policies computationally
+                        across every SDE in the network -- is already a step
+                        change from today, where researchers must telephone
+                        each institution to discover what the rules even are.
+                    </p>
+
+                    <!-- Personal narrative bridge (Comment 14.5) -->
+                    <p>
+                        To a researcher at UCL, Layer 4 is not a protocol
+                        specification. It is the difference between a project
+                        started in January and one still waiting for approval in
+                        December. It is the difference between a rare disease
+                        study that includes patients across three regions and
+                        one that can only see the patients in a single trust.
+                        The protocol is invisible. The months of a researcher's
+                        life that it returns are not.
+                    </p>
+
+                    <!-- Stakeholder voice quote (Comment 14.6) -->
+                    <div
+                        class="pull-quote fade-in"
+                        role="figure"
+                        aria-label="Pull quote"
+                    >
+                        "We are too busy doing the wrong thing to do the right
+                        thing."
+                        <span
+                            style="
+                                display: block;
+                                font-size: var(--text-sm);
+                                font-style: normal;
+                                margin-top: var(--space-sm);
+                                color: var(--text-secondary);
+                            "
+                            ><cite>A senior NHS data lead, interviewed January 2026</cite></span
+                        >
+                    </div>
+
+                    <h3>What patients experience</h3>
+
+                    <p>
+                        For patients, the proposition is concrete:
+                        <em
+                            >your data stays within your local NHS system, not
+                            extracted to a central warehouse. Only the research
+                            question travels to the data. Only aggregated,
+                            disclosure-checked results return.</em
+                        >
+                        In specific cases, governed data movement to a regional
+                        Secure Data Environment may be necessary, but that is
+                        the exception, not the rule, and it is subject to the
+                        same protocol-based governance.
+                    </p>
+
+                    <!-- Participant's Agency (Comment #39) -->
+                    <aside
+                        class="callout callout-teal fade-in"
+                        style="margin: var(--space-xl) 0"
+                    >
+                        <p class="callout-title">Participant's Agency</p>
+                        <p style="margin-bottom: 0">
+                            For patients, machine-readable consent is not an
+                            abstraction. It means being able to say: "I want
+                            my data used for cancer research, but not by
+                            tobacco-funded studies" -- and knowing the system
+                            will enforce that choice automatically, every time
+                            a query runs. This is what ODRL makes possible:
+                            consent that is not buried in a PDF nobody reads,
+                            but encoded in a format that machines check before
+                            every query executes. The patient does not need to
+                            understand the protocol any more than a web user
+                            needs to understand HTTP. They just need to know
+                            that their stated preferences hold.
+                        </p>
+                    </aside>
+
+                    <h3>What exists already</h3>
+
+                    <p>
+                        Every component technology exists today.
+                        <a href="https://www.ga4gh.org/product/ga4gh-passports/"
+                            >GA4GH Passports</a
+                        >
+                        already federate researcher identity across dozens of
+                        countries, much as an inter-library loan card lets a
+                        reader in Manchester borrow from a library in Edinburgh.
+                        The concept was first articulated as "Library Cards" for
+                        simplifying research access to genomics and health data,
+                        a direct precursor to the GA4GH Passport model.<sup
+                            ><a
+                                href="#endnote-3"
+                                id="ref-3"
+                                style="text-decoration: none"
+                                >[3]</a
+                            ></sup
+                        >
+                        DUO is a ratified standard. ODRL is a W3C
+                        recommendation. The
+                        <a
+                            href="https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en"
+                            >European Health Data Space</a
+                        >
+                        regulation mandates this kind of cross-border access by
+                        2029. (The UK's EU data adequacy decision, currently
+                        under review, will determine whether UK SDEs can
+                        participate in EHDS-compliant federated queries at all.
+                        Protocol conformance is necessary but not sufficient
+                        without legal interoperability.) What is missing is the
+                        architectural vision to compose them into a coherent
+                        stack, and the political will to prioritise protocols
+                        over procurement.
+                    </p>
+
+                    <!-- Permissionless innovation (Comment 3.1) -->
+                    <p>
+                        Open protocols create something centralised platforms
+                        cannot: a marketplace of tools on top of a grid of data.
+                        When the protocol is open, any team -- academic,
+                        commercial, or NHS -- can build analytics, dashboards,
+                        or AI applications that work across the entire SDE
+                        Network. No single vendor controls the application
+                        layer. No procurement dependency gates innovation. The
+                        Bermuda Principles showed how: by making sequence data
+                        openly accessible through standard protocols, they
+                        allowed thousands of teams to build tools the original
+                        funders never imagined. The same permissionless
+                        innovation should apply to health data analytics:
+                        permissionless at the application and tooling layer,
+                        never permissionless data access. Every query still
+                        passes through the governance layer; every result is
+                        disclosure-checked before it leaves the SDE.
+                    </p>
+
+                    <p>
+                        This is the same dynamic that made the open Web
+                        productive: HTTP did not prescribe what you could build
+                        on it. A single-vendor model like the FDP concentrates
+                        the application layer behind one proprietary interface.
+                        A protocol model opens it to everyone -- while the
+                        governance protocol ensures that "open tooling" never
+                        means "open data." The UK Life Sciences sector
+                        depends on exactly this kind of open competition atop
+                        governed access.
+                    </p>
+
+                    <!-- Governance auditability (Comment 3.2) -->
+                    <p>
+                        Machine-readable governance (ODRL/DUO) automates access
+                        decisions. It also creates auditability, which matters
+                        more. Every policy decision, every access grant, every
+                        credential check is logged in a transparency log that
+                        any auditor, patient representative, or Information
+                        Commissioner can inspect. This is not theoretical: it is
+                        a concrete implementation of the accountability that the
+                        public has been demanding since care.data. The
+                        transparency log is the selling point that no
+                        centralised platform has been able to offer, because
+                        centralised platforms concentrate both power and
+                        opacity.
+                    </p>
+
+                    <h3>What HDRS must fund</h3>
+
+                    <!-- Callout: What OpenTRE is, and is not -->
+                    <div class="callout callout-teal fade-in">
+                        <p class="callout-title">What OpenTRE is, and is not</p>
+                        <ul>
+                            <li>
+                                <strong>IS a complement to the HDRS,</strong>
+                                not a replacement. OpenTRE formalises the
+                                interoperability layer that HDRS-funded
+                                environments need to work together. The HDRS
+                                funds and convenes the ecosystem; OpenTRE
+                                provides the shared rules.
+                            </li>
+                            <li>
+                                <strong>IS a protocol standard</strong> that
+                                lets existing trusted environments talk to each
+                                other while each keeps its own governance.
+                            </li>
+                            <li>
+                                <strong
+                                    >IS designed for hybrid
+                                    infrastructure:</strong
+                                >
+                                service layers (identity, testing, support) are
+                                expected and welcome, provided they interoperate
+                                through open protocols.
+                            </li>
+                            <li>
+                                <strong>IS accountable to patients:</strong>
+                                the National Data Opt-Out is respected at the
+                                protocol level. Patient advisory boards shape
+                                governance policies before they become
+                                machine-readable. Transparency logs ensure every
+                                access decision is auditable.
+                            </li>
+                            <li>
+                                <strong>Not centralising data.</strong> Data
+                                stays where it is. Only research queries travel
+                                to the data. Only aggregated, disclosure-checked
+                                results return.
+                            </li>
+                            <li>
+                                <strong
+                                    >Not removing governance oversight.</strong
+                                >
+                                Machine-readable governance automates routine
+                                compliance checks. Ethics committees and
+                                Caldicott Guardians retain full authority over
+                                edge cases and novel requests.
+                            </li>
+                            <li>
+                                <strong
+                                    >Not opening data to commercial
+                                    interests.</strong
+                                >
+                                Protocols are open standards, not a marketplace.
+                                Commercial services build on top, subject to the
+                                same governance.
+                            </li>
+                            <li>
+                                <strong>Not replacing existing systems.</strong>
+                                Existing TREs, SDEs, and the FDP participate by
+                                adding protocol interfaces. "Wrap and evolve,"
+                                not "rip and replace."
+                            </li>
+                            <li>
+                                <strong
+                                    >Not claiming central services are never
+                                    right.</strong
+                                >
+                                Some functions genuinely belong at the centre:
+                                national identity infrastructure, conformance
+                                testing, reference implementations, security
+                                operations, and patient engagement. The
+                                principle is
+                                <em>protocols first, not protocols only</em>.
+                                Central services are welcome where they serve
+                                the network; they become problematic when the
+                                network must serve them.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- "Just Another Standard" Rebuttal (Comment #43) -->
+                    <aside
+                        class="callout fade-in"
+                        style="
+                            margin: var(--space-xl) 0;
+                            background: linear-gradient(
+                                135deg,
+                                rgba(193, 120, 23, 0.04),
+                                rgba(139, 69, 19, 0.04)
+                            );
+                        "
+                    >
+                        <p class="callout-title">
+                            Rebuttal: "We already have FHIR and OMOP"
+                        </p>
+                        <p style="margin-bottom: var(--space-sm)">
+                            <strong>The sceptic:</strong> "We already have FHIR
+                            and OMOP. Why add another layer?"
+                        </p>
+                        <p style="margin-bottom: 0">
+                            <strong>The response:</strong> OpenTRE is not a
+                            data format. FHIR and OMOP define how data is
+                            structured; OpenTRE defines how institutions
+                            negotiate access to that data across boundaries. If
+                            FHIR is the letter and OMOP is the language,
+                            OpenTRE is the postal system and the passport.
+                            You need all three, but they solve different
+                            problems.
+                        </p>
+                    </aside>
+
+                    <div class="key-takeaway fade-in">
+                        <p class="key-takeaway-label">Key Takeaway</p>
+                        <p style="margin-bottom: 0">
+                            OpenTRE is a set of shared rules, not a product to
+                            procure. It standardises how SDEs talk to each other
+                            (the governance interfaces) while each keeps its own
+                            data, its own governance, and its own operational
+                            independence.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 4: The Numbers That Matter -->
+                <section id="numbers" class="fade-in">
+                    <h2>The Numbers That Matter</h2>
+
+                    <p class="drop-cap">The comparison HDRS planners need:</p>
+
+                    <p>
+                        <em
+                            >This is a structural comparison, not a
+                            like-for-like operational benchmark.</em
+                        >
+                        OHDSI and NPfIT serve different purposes at different
+                        scales. The comparison is not about which is "better";
+                        it is about how the protocol model scales differently,
+                        sustains differently, and fails differently than the
+                        service model.
+                    </p>
+
+                    <!-- OHDSI vs NPfIT comparison -->
+                    <div class="comparison-box fade-in">
+                        <div class="comparison-col comparison-protocol">
+                            <h4>
+                                OHDSI
+                                <span class="comparison-tag"
+                                    >Protocol-based</span
+                                >
+                            </h4>
+                            <ul>
+                                <li>Nearly a billion patient records</li>
+                                <li>
+                                    544 data sources across 54 countries, 4,700
+                                    collaborators across 88 countries
+                                </li>
+                                <li>Volunteer-governed</li>
+                                <li>No central data warehouse</li>
+                                <li>Minimal central funding</li>
+                            </ul>
+                        </div>
+                        <div class="comparison-vs">vs</div>
+                        <div class="comparison-col comparison-service">
+                            <h4>
+                                NPfIT
+                                <span class="comparison-tag"
+                                    >Service-based</span
+                                >
+                            </h4>
+                            <ul>
+                                <li>One country</li>
+                                <li>60 million patients</li>
+                                <li>Centrally mandated</li>
+                                <li>Single EHR system</li>
+                                <li>&pound;12.7 billion spent</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p>
+                        Protocol governance costs a fraction of platform
+                        operations. But implementation costs are borne by
+                        participants, and that is the point: the cost is
+                        distributed, not concentrated. The IETF governs the
+                        protocols that run the entire internet on $14 million a
+                        year. The internet itself costs trillions to operate.
+                        But the coordination layer, the shared rules, has
+                        survived seven US presidents. NPfIT survived three UK
+                        prime ministers. The billions spent by companies
+                        building on internet protocols are not captured in
+                        governance budgets. The lesson is about the
+                        sustainability of the shared coordination layer, not
+                        that health data interoperability will be inexpensive.
+                    </p>
+
+                    <p>
+                        Meanwhile, Finland's Findata, the most mature
+                        centralised health data access authority in Europe,
+                        relies substantially on direct government budget
+                        funding. Fee income covers only a fraction of operating
+                        costs (<a
+                            href="https://findata.fi/en/about-findata/annual-report-2024/"
+                            >Findata Annual Report, 2024</a
+                        >). This is the sustainability trap of the service
+                        model: you are always one spending review away from
+                        collapse.
+                    </p>
+
+                    <!-- Before/after research scenario -->
+                    <div class="scenario-box fade-in">
+                        <h4 class="scenario-title">
+                            A rare disease researcher, today and tomorrow
+                        </h4>
+                        <div class="scenario-grid">
+                            <div class="scenario-before">
+                                <p class="scenario-label">Today</p>
+                                <p>
+                                    A rare disease researcher studying a
+                                    condition affecting 200 UK patients must
+                                    negotiate separate data access agreements
+                                    with each of the NHS SDEs where those
+                                    patients might be found. That process
+                                    typically takes
+                                    <strong
+                                        >12-18 months <em>per SDE</em></strong
+                                    >.
+                                </p>
+                            </div>
+                            <div
+                                class="scenario-arrow"
+                                aria-hidden="true"
+                            ></div>
+                            <div class="scenario-after">
+                                <p class="scenario-label">With OpenTRE</p>
+                                <p>
+                                    The researcher presents credentials once,
+                                    governance policies are computationally
+                                    matched across all participating SDEs
+                                    simultaneously, and federated analytics run
+                                    in situ with only aggregated results
+                                    returned. Total time:
+                                    <strong>weeks</strong>.
+                                </p>
+                            </div>
+                        </div>
+                        <p class="scenario-conclusion">
+                            The 200 patients become statistically visible for
+                            the first time. Not because data moved, but because
+                            governance interoperated.
+                        </p>
+                    </div>
+
+                    <!-- Before/after funder scenario (Comment 2.3) -->
+                    <div class="scenario-box fade-in">
+                        <h4 class="scenario-title">
+                            A funder or commissioner, today and tomorrow
+                        </h4>
+                        <div class="scenario-grid">
+                            <div class="scenario-before">
+                                <p class="scenario-label">Today</p>
+                                <p>
+                                    Paying for 40 siloed databases, each with
+                                    its own governance process, its own
+                                    technical stack, its own support contract.
+                                    Cross-institutional queries require bespoke
+                                    bilateral agreements. Every new study is a
+                                    new negotiation.
+                                </p>
+                            </div>
+                            <div
+                                class="scenario-arrow"
+                                aria-hidden="true"
+                            ></div>
+                            <div class="scenario-after">
+                                <p class="scenario-label">With OpenTRE</p>
+                                <p>
+                                    Paying for 1 interoperable grid. Each
+                                    institution retains its data and governance.
+                                    Shared protocols mean every new study runs
+                                    across the entire network without new
+                                    procurement. Funding goes to research, not
+                                    re-negotiation.
+                                </p>
+                            </div>
+                        </div>
+                        <p class="scenario-conclusion">
+                            Same investment. Exponentially more research. The
+                            protocol layer turns linear spending into network
+                            returns.
+                        </p>
+                    </div>
+
+                    <p>
+                        A fair question: can federated analytics actually work
+                        at NHS scale? The evidence is early but real.
+                        <a href="https://www.opensafely.org/">OpenSAFELY</a>
+                        demonstrated during COVID-19 that research queries could
+                        run against millions of GP records without extracting
+                        the data, producing
+                        <a href="https://doi.org/10.1038/s41586-020-2521-4"
+                            >peer-reviewed results in Nature</a
+                        >
+                        across 17 million patients initially, and later scaling
+                        to 58 million. Its approach, code to data rather than
+                        data to code, is the federated-first principle in
+                        practice. Its
+                        <a href="https://github.com/opensafely-core"
+                            >open-source codebase</a
+                        >
+                        demonstrates that federated analytics at national scale
+                        is not theoretical. But OpenSAFELY carries a structural
+                        problem. It dismissed the existing ecosystem -- the HDR
+                        Gateway catalogue, the Five Safes DAR process, TRE
+                        infrastructure, GA4GH standards, Data Use Registers --
+                        and invented its own protocol from scratch. If you
+                        dismiss everything that already exists, you can optimise
+                        for speed of delivery (which the pandemic demanded), but
+                        you do not optimise for scale. The goal is not to
+                        replicate OpenSAFELY's isolation, but to learn from its
+                        speed while building on the interoperability standards
+                        that already exist. Across the Channel, the
+                        <a href="https://www.ehden.eu/"
+                            >European Health Data and Evidence Network
+                            (EHDEN)</a
+                        >, an IMI2-funded initiative, has mapped 210 data
+                        sources across 30 countries to the OMOP Common Data
+                        Model, covering over 850 million patient records. EHDEN
+                        runs federated analytics without centralising data: code
+                        travels to each node, and only aggregated results
+                        return. The next step is extending this model beyond
+                        individual platforms into an interoperable network.
+                    </p>
+
+                    <p>
+                        The harder gap is adoption support. Every component
+                        standard exists, but an under-resourced NHS trust cannot
+                        implement OMOP mappings, ODRL policy files, and GA4GH
+                        Passport endpoints without dedicated investment. The
+                        OHDSI network addresses this through an "invest once,
+                        query many" model: institutions bear the upfront cost of
+                        mapping their data to the Common Data Model, then
+                        participate in every subsequent federated study at
+                        near-zero marginal cost. The HDRS should fund adoption
+                        tooling, reference implementations, and dedicated data
+                        engineering support for participating trusts. Protocols
+                        without adoption support are just PDFs.
+                    </p>
+
+                    <!-- Success-Based Funding (Comment 1.2) -->
+                    <p>
+                        The protocol model shifts technical burden (ETL
+                        pipelines, OMOP mappings, FHIR endpoints) from the
+                        centre to the edge, to the institutions that hold the
+                        data. This is a feature, not a bug: it preserves
+                        sovereignty and distributes cost. But it requires
+                        <strong>success-based funding</strong>: funding
+                        institutions specifically to achieve protocol
+                        compliance, rather than funding central hubs to
+                        aggregate their data. The HDRS should allocate dedicated
+                        grants for each SDE to reach conformance, with payment
+                        tied to passing interoperability tests, not to shipping
+                        data upstream. Fund the edge to join the grid, not the
+                        centre to absorb the edge.
+                    </p>
+
+                    <p>
+                        The hardest constraint is not technology but people. NHS
+                        trusts face acute shortages in data engineering,
+                        clinical informatics, and protocol implementation
+                        skills. The HDRS must fund not just reference
+                        implementations but dedicated implementation support
+                        teams, modelled on OHDSI's network of site leads or
+                        EHDEN's data partner certification programme, to make
+                        protocol adoption achievable for under-resourced
+                        institutions.
+                    </p>
+
+                    <!-- Implementation burden rebuttal (Comment 15.1) -->
+                    <aside
+                        class="callout fade-in"
+                        style="
+                            margin: var(--space-xl) 0;
+                            background: linear-gradient(
+                                135deg,
+                                rgba(193, 120, 23, 0.04),
+                                rgba(139, 69, 19, 0.04)
+                            );
+                        "
+                    >
+                        <p class="callout-title">
+                            Rebuttal: "My team is already overstretched"
+                        </p>
+                        <p style="margin-bottom: var(--space-sm)">
+                            <strong>The sceptic:</strong> "Mapping to OMOP and
+                            publishing ODRL policies is another unfunded mandate
+                            on a team that already cannot keep up with
+                            day-to-day operations."
+                        </p>
+                        <p style="margin-bottom: 0">
+                            <strong>The response:</strong> It should not be an
+                            unfunded mandate, and it need not be a local burden.
+                            The HDRS should fund
+                            <strong>"Mapping-as-a-Service"</strong>: centralised
+                            teams or pre-built adapters for the major SDE
+                            architectures that do the heavy lifting of OMOP ETL
+                            and ODRL policy authoring. The institution provides
+                            the domain knowledge (what data it holds, what its
+                            access conditions are). The service translates that
+                            knowledge into conformant artefacts. This can begin
+                            within existing funding by redirecting existing
+                            spend from bespoke bilateral agreements towards
+                            reusable protocol infrastructure.
+                        </p>
+                    </aside>
+
+                    <div
+                        class="pull-quote fade-in"
+                        role="figure"
+                        aria-label="Pull quote"
+                    >
+                        Protocols distribute coordination costs. Services
+                        concentrate them. Protocols survive political cycles.
+                        Services depend on them.
+                    </div>
+
+                    <div class="key-takeaway fade-in">
+                        <p class="key-takeaway-label">Key Takeaway</p>
+                        <p style="margin-bottom: 0">
+                            Protocol governance costs a fraction of platform
+                            operations and survives political change. But
+                            protocols without adoption support are just PDFs.
+                            The HDRS must fund both the shared rules and the
+                            implementation support that makes compliance
+                            achievable.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 5: The Deeper Problem -->
+                <section id="incentives" class="fade-in">
+                    <h2>
+                        The Deeper Problem: Incentives, Not Just Architecture
+                    </h2>
+
+                    <figure class="figure-wide">
+                        <img
+                            src="images/incentives-siloed.png"
+                            alt="Siloed institutions: a researcher stands surrounded by locked buildings representing hospitals, universities, and GP surgeries"
+                            loading="lazy"
+                        />
+                        <figcaption>
+                            Every institution is rationally choosing not to
+                            cooperate
+                        </figcaption>
+                    </figure>
+
+                    <p class="drop-cap">
+                        But I have been understating something:
+                        <strong>protocols alone are not enough.</strong>
+                    </p>
+
+                    <p>
+                        The pre-Panizzi library system was not just
+                        inconsistent. It was
+                        <em>incentive-aligned for the librarians</em>. Every
+                        proprietary cataloguing scheme was a justification for
+                        local expertise. Every incompatible system protected a
+                        curator's authority. Standardisation required external
+                        pressure: first from the British Museum's trustees,
+                        later from funders who made shared standards a condition
+                        of support, just as the EU had to mandate
+                        <a
+                            href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31987L0372"
+                            >GSM</a
+                        >
+                        in 1987 to force mobile interoperability across Europe.
+                    </p>
+
+                    <p>
+                        Health data faces the same structural problem. Every
+                        Caldicott Guardian makes the same impossible
+                        calculation: the benefit of sharing is diffuse and
+                        delayed, while the cost of a breach is immediate and
+                        career-ending. Data custodians, researchers, GP
+                        practices, and vendors are all rationally choosing not
+                        to cooperate. The companion manifesto,
+                        <em>From Protocols to Rights</em>, analyses this
+                        incentive trap in depth. The short version: collectivise
+                        the risk through a shared liability pool modelled on NHS
+                        Resolution, which already pools clinical negligence risk
+                        across the entire NHS.
+                    </p>
+
+                    <p>
+                        There is also a structural incentive not to share. A
+                        data custodian must get it right every single time; a
+                        bad actor only has to get it right once. For academic
+                        and industry data generators, the incentives to publish
+                        and commercialise are misaligned with the incentive to
+                        share access. Until protocols make sharing the path of
+                        least resistance -- and collective risk-sharing absorbs
+                        the downside of individual exposure -- rational
+                        custodians will continue to default to "no."
+                    </p>
+
+                    <p>
+                        Protocols provide the shared catalogue; regulation
+                        provides the forcing function; and collective
+                        risk-sharing provides the incentive. The full vision
+                        goes further: from protocols (the shared standards)
+                        through a governed commons (modelled on
+                        <a
+                            href="https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/"
+                            >Elinor Ostrom's</a
+                        >
+                        design principles for managing shared resources,
+                        <a href="https://doi.org/10.1017/CBO9780511807763"
+                            ><em>Governing the Commons</em></a
+                        >, 1990) to a Health Data Constitution with enforceable
+                        rights. Protocols are the first step. They are not the
+                        destination.
+                    </p>
+
+                    <!-- Researcher framing (Comments 4.1, 4.2, 4.3) -->
+                    <p>
+                        For researchers, the incentive failure is personal. A
+                        14-month negotiation to access three SDEs is not an
+                        abstraction; it is a grant clock ticking down. GA4GH
+                        Passports are not a technical curiosity; they are a
+                        <em>Passport to Science</em>, the end of the
+                        credentialing nightmare where a researcher approved by
+                        one institution must re-prove their identity, training,
+                        and ethical bona fides at every subsequent institution.
+                    </p>
+
+                    <!-- Researcher's Bill of Rights (Comment 4.3, D3) -->
+                    <div class="rights-box fade-in">
+                        <p class="rights-box-title">
+                            A Researcher's Bill of Rights
+                        </p>
+                        <p>
+                            Any researcher working with HDRS-funded data should
+                            be able to expect:
+                        </p>
+                        <ol class="rights-list">
+                            <li>
+                                <strong>Cross-portal search.</strong> Discover
+                                what data exists across all SDEs from a single
+                                query.
+                            </li>
+                            <li>
+                                <strong
+                                    >Automated access for routine
+                                    queries.</strong
+                                >
+                                When credentials, purpose, and data clearly
+                                match published policy, approval in days, not
+                                months.
+                            </li>
+                            <li>
+                                <strong>Portable credentials.</strong> Approved
+                                once, recognised everywhere, via GA4GH
+                                Passport-compatible infrastructure.
+                            </li>
+                            <li>
+                                <strong>Transparent governance logs.</strong>
+                                Know exactly where your application is, why it
+                                was approved or denied, and what conditions
+                                apply.
+                            </li>
+                            <li>
+                                <strong
+                                    >Time-to-science measured in days, not
+                                    months.</strong
+                                >
+                                The grant clock should fund research, not
+                                re-negotiation.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <!-- Time-to-Science Comparison Chart (Comment 16.3) -->
+                    <div
+                        class="time-comparison fade-in"
+                        role="figure"
+                        aria-label="Time-to-science comparison: current approach versus OpenTRE protocols"
+                    >
+                        <h4 class="time-comparison-title">Time-to-Science</h4>
+                        <div class="time-bar time-bar-current">
+                            <span class="time-label">Current approach</span>
+                            <div class="time-fill" style="width: 90%">
+                                9-14 months
+                            </div>
+                        </div>
+                        <div class="time-bar time-bar-opentre">
+                            <span class="time-label"
+                                >With OpenTRE protocols</span
+                            >
+                            <div class="time-fill" style="width: 15%">
+                                Days to weeks
+                            </div>
+                        </div>
+                        <p class="time-comparison-note">
+                            Negotiation, approval, and onboarding vs.
+                            protocol-based access
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 6: The Bermuda Precedent -->
+                <section id="bermuda" class="fade-in">
+                    <h2>The Bermuda Precedent</h2>
+
+                    <p class="drop-cap">
+                        This week, between 25-28 February 2026, scientists are
+                        gathering at the Hamilton Princess Hotel in Bermuda for
+                        the 30th anniversary of the agreement that opened the
+                        Human Genome Project to the world.
+                    </p>
+
+                    <p>
+                        The original
+                        <a href="https://bermudaprinciples.org/"
+                            >Bermuda Principles</a
+                        >, adopted 25-28 February 1996 at that same hotel,
+                        proved that the multi-stakeholder prisoner's dilemma can
+                        be solved. They are a direct precedent for what the HDRS
+                        should become.
+                    </p>
+
+                    <p>
+                        The UK already knows how this works. The Wellcome Trust
+                        and the Sanger Centre contributed roughly a third of the
+                        human genome under the Bermuda rules: release all
+                        sequence data to public databases within 24 hours. No
+                        embargoes. No patents on raw sequence. The rules fit on
+                        a single page. Michael Morgan at the Wellcome Trust
+                        brokered the international agreement; Wellcome's funding
+                        conditions enforced it.
+                    </p>
+
+                    <p>
+                        The question the HDRS must now answer is whether it can
+                        adapt the Bermuda model for governed access. Health data
+                        is harder than raw genome sequence in three specific
+                        ways: it is identifiable and consent-bounded; it spans
+                        heterogeneous data types requiring common data models;
+                        and it involves thousands of institutions rather than a
+                        dozen sequencing centres. But these are engineering
+                        challenges, not conceptual ones.
+                        <a href="https://www.ga4gh.org/product/ga4gh-passports/"
+                            >GA4GH Passports</a
+                        >
+                        address identity.
+                        <a href="https://ohdsi.github.io/CommonDataModel/"
+                            >OMOP</a
+                        >
+                        and
+                        <a href="https://www.hl7.org/fhir/">FHIR</a>
+                        address data models.
+                        <a href="https://www.w3.org/TR/odrl-model/">ODRL</a>
+                        and
+                        <a
+                            href="https://www.ga4gh.org/product/data-use-ontology-duo/"
+                            >DUO</a
+                        >
+                        address machine-readable governance. The protocol
+                        components exist. What is missing is the forcing
+                        function that Bermuda provided: a funder who says
+                        "implement these standards or lose the grant."
+                    </p>
+
+                    <figure class="figure-wide">
+                        <img
+                            src="images/bermuda-principles.png"
+                            alt="John Sulston's draft of the Bermuda Principles on a whiteboard in Hamilton, Bermuda"
+                            loading="lazy"
+                        />
+                        <figcaption>
+                            The Bermuda Principles: one page that changed
+                            science permanently
+                        </figcaption>
+                    </figure>
+
+                    <p>
+                        The $3.8 billion Human Genome Project generated an
+                        estimated
+                        <a
+                            href="https://doe-humangenomeproject.ornl.gov/economic-impact/"
+                            >$965 billion in economic activity</a
+                        >
+                        (Battelle, 2013). Papers that
+                        link to shared data receive up to 25% more
+                        citations.<sup
+                            ><a
+                                href="#endnote-4"
+                                id="ref-4"
+                                style="text-decoration: none"
+                                >[4]</a
+                            ></sup
+                        >
+                        When COVID-19 struck,
+                        <a href="https://www.gisaid.org/">GISAID</a>, directly
+                        inspired by Bermuda's rapid-release model, enabled
+                        global viral surveillance in real time. The evidence
+                        that protocol-governed data sharing generates outsized
+                        returns is not speculative. It is one of the
+                        best-documented cases in science policy.
+                    </p>
+
+                    <p>
+                        The Five Safes framework replaced Bermuda's single rule
+                        with a multi-dimensional governance model. OpenTRE is
+                        the spiritual successor to the Bermuda Principles,
+                        adapted for governed access. Where Bermuda said "deposit
+                        sequences within 24 hours," OpenTRE says "publish
+                        machine-readable governance policies so any two
+                        institutions can computationally determine whether
+                        access is permissible." The structural principles are
+                        the same: simple rules, funder enforcement,
+                        decentralised implementation, open protocols.
+                    </p>
+
+                    <p>
+                        The UK helped create the Bermuda Principles. The
+                        Wellcome Trust and the Sanger Centre contributed roughly
+                        a third of the human genome under those rules. The HDRS
+                        will be housed at the Wellcome Genome Campus, where that
+                        work was done. Yet the country that helped pioneer open
+                        genomic data sharing has spent two decades trying to
+                        centralise health data, from the &pound;12.7 billion
+                        clinical IT programme to a series of smaller research
+                        data initiatives, none of which produced lasting
+                        interoperability. The UK knows how to build data
+                        commons. The HDRS is the chance to finish the job.
+                    </p>
+
+                    <h3>Five Bermuda-Style Mandates for the HDRS</h3>
+
+                    <p>
+                        If the Bermuda Principles taught us anything, it is that
+                        protocols work when funders enforce them. Here are five
+                        mandates, each a direct adaptation of the Bermuda model
+                        for the governed-access era:
+                    </p>
+
+                    <!-- Five Mandates with owners and metrics (Comment 10.6, D7) -->
+                    <div class="mandate-table-wrapper fade-in">
+                        <table class="mandate-table">
+                            <caption>
+                                Five Bermuda-style mandates for the HDRS with
+                                owners and 12-month success metrics
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Mandate</th>
+                                    <th scope="col">Owner</th>
+                                    <th scope="col">12-Month Metric</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <strong
+                                            >1. 24-hour governance
+                                            disclosure.</strong
+                                        >
+                                        Every HDRS-funded SDE must publish
+                                        machine-readable data access policies
+                                        (W3C ODRL, GA4GH DUO) and a
+                                        <a
+                                            href="https://doi.org/10.5281/zenodo.5902743"
+                                            >Data Use Register</a
+                                        >
+                                        within 24 hours of access approval.
+                                    </td>
+                                    <td>
+                                        HDRS Programme Board / SDE Network leads
+                                    </td>
+                                    <td>
+                                        100% of funded SDEs publishing ODRL
+                                        policies
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong
+                                            >2. Federated-first
+                                            architecture.</strong
+                                        >
+                                        All HDRS-funded analysis runs at the
+                                        data source by default. Code travels to
+                                        data; only aggregated,
+                                        disclosure-checked results return.
+                                    </td>
+                                    <td>
+                                        HDRS Technical Director / SDE operators
+                                    </td>
+                                    <td>
+                                        At least 3 cross-SDE federated queries
+                                        executed successfully
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong
+                                            >3. Open protocol
+                                            conformance.</strong
+                                        >
+                                        All HDRS infrastructure must implement
+                                        open standards (GA4GH, W3C, IETF).
+                                        Conformance testing replaces procurement
+                                        dependency. No single-vendor lock-in.
+                                    </td>
+                                    <td>HDRS</td>
+                                    <td>
+                                        Published conformance test suite; 6+
+                                        SDEs passing
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong
+                                            >4. 48-hour credential
+                                            portability.</strong
+                                        >
+                                        Researcher credentials approved by any
+                                        conformant SDE must be recognised by all
+                                        others within 48 hours, via GA4GH
+                                        Passport-compatible infrastructure.
+                                    </td>
+                                    <td>
+                                        HDRS Identity Service / GA4GH Driver
+                                        Project
+                                    </td>
+                                    <td>
+                                        Cross-SDE credential recognition
+                                        operational for pilot cohort
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong
+                                            >5. Governance transparency.</strong
+                                        >
+                                        All data access decisions must be logged
+                                        with machine-readable provenance and
+                                        published in aggregate annually.
+                                    </td>
+                                    <td>
+                                        HDRS Transparency Officer / patient
+                                        advisory boards
+                                    </td>
+                                    <td>
+                                        First annual transparency report
+                                        published
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p
+                            style="
+                                font-size: var(--text-sm);
+                                color: var(--text-secondary);
+                                margin-top: var(--space-sm);
+                                margin-bottom: 0;
+                                font-style: italic;
+                            "
+                        >
+                            Detailed timelines, dependencies, and owner
+                            assignments are set out in the
+                            <em>OpenTRE 12-Month Roadmap</em>
+                            (forthcoming at
+                            <a href="https://opentre.org">opentre.org</a>).
+                        </p>
+                    </div>
+
+                    <!-- Ecosystem Certification (Comment 14.4) -->
+                    <aside
+                        class="callout fade-in"
+                        style="
+                            margin: var(--space-xl) 0;
+                            background: linear-gradient(
+                                135deg,
+                                rgba(10, 110, 110, 0.04),
+                                rgba(27, 42, 74, 0.04)
+                            );
+                        "
+                    >
+                        <p class="callout-title">Ecosystem Certification</p>
+                        <p style="margin-bottom: 0">
+                            The conformance test suite in Mandate 3 is
+                            <strong>ecosystem certification</strong>: a binary
+                            signal that an SDE meets the interoperability bar.
+                            Vendors get a target to build towards, funders get a
+                            metric to condition grants on, and trusts get an
+                            objective benchmark. "Are we interoperable?" stops
+                            being a debate and becomes a test result.
+                        </p>
+                        <p style="margin-bottom: 0; margin-top: var(--space-md)">
+                            Conformance can be incremental. Level 1 requires
+                            identity federation (accepting GA4GH Passports).
+                            Level 2 adds machine-readable governance
+                            (publishing ODRL policies). Level 3 adds query
+                            portability (supporting federated analytics). This
+                            ladder lets HDRS mandate a starting point without
+                            requiring every SDE to reach the summit on day one.
+                        </p>
+                    </aside>
+
+                    <!-- Recalibrated "technically hard" paragraph (Comment 10.5) -->
+                    <p>
+                        The components are mature. Every standard referenced
+                        above exists today, tested and deployed in production
+                        systems. What is genuinely hard is the integration,
+                        adoption, governance, and workforce development required
+                        to compose them into a working national ecosystem.
+                        Someone with chequebook authority has to make
+                        interoperability a condition of funding, not an
+                        aspiration. That is what Bermuda required in 1996. It is
+                        what the HDRS requires now.
+                    </p>
+
+                    <!-- Call to action for funders (Comment 5.3) -->
+                    <aside
+                        class="callout callout-teal fade-in"
+                        style="margin: var(--space-xl) 0"
+                    >
+                        <p class="callout-title">Language for funders</p>
+                        <p style="margin-bottom: var(--space-sm)">
+                            If the HDRS, UKRI, or NIHR want to embed these
+                            mandates, here is the clause for their next grant
+                            solicitation:
+                        </p>
+                        <blockquote
+                            style="
+                                margin: 0;
+                                padding: var(--space-md);
+                                background: var(--bg-surface);
+                                border-radius: 6px;
+                                font-family: var(--font-ui);
+                                font-size: var(--text-sm);
+                                line-height: 1.7;
+                            "
+                        >
+                            "All data infrastructure funded under this programme
+                            must be GA4GH Passport compliant, publish
+                            machine-readable data access policies in W3C ODRL
+                            format, and pass the HDRS interoperability
+                            conformance test suite within 12 months of award.
+                            Credential portability across all conformant SDEs is
+                            a condition of continued funding."
+                        </blockquote>
+                    </aside>
+
+                    <!-- Researcher's Advocacy Kit (Comment 16.4) -->
+                    <aside
+                        class="callout callout-amber fade-in"
+                        style="
+                            margin: var(--space-xl) 0;
+                            border-left: 4px solid var(--accent-amber);
+                        "
+                    >
+                        <p class="callout-title">
+                            Language for researchers: grant application text
+                        </p>
+                        <p style="margin-bottom: var(--space-sm)">
+                            Researchers can copy and adapt the following
+                            paragraph when requesting OpenTRE-compliant
+                            infrastructure in grant applications:
+                        </p>
+                        <blockquote
+                            style="
+                                margin: 0;
+                                padding: var(--space-md);
+                                background: var(--bg-surface);
+                                border-radius: 6px;
+                                font-family: var(--font-ui);
+                                font-size: var(--text-sm);
+                                line-height: 1.7;
+                            "
+                        >
+                            "This project requires access to data held across
+                            multiple Secure Data Environments. We request that
+                            all data infrastructure provisioned under this award
+                            conform to the OpenTRE interoperability protocol
+                            stack, including GA4GH Passport-based credential
+                            portability, machine-readable governance policies
+                            (W3C ODRL/GA4GH DUO), and federated analytics
+                            capability. These open standards make research
+                            outputs reproducible across the SDE Network and
+                            reduce data access timelines from months to weeks."
+                        </blockquote>
+                    </aside>
+
+                    <div
+                        class="pull-quote fade-in"
+                        role="figure"
+                        aria-label="Pull quote"
+                    >
+                        The UK helped write the Bermuda Principles. It can help
+                        write the rules for health data too.
+                    </div>
+
+                    <div class="key-takeaway fade-in">
+                        <p class="key-takeaway-label">Key Takeaway</p>
+                        <p style="margin-bottom: 0">
+                            The Bermuda Principles succeeded because funders
+                            enforced them. Five equivalent mandates (governance
+                            disclosure, federated architecture, open
+                            conformance, credential portability, and
+                            transparency) can do the same for health data.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Section 7: The Choice -->
+                <section id="choice" class="fade-in">
+                    <h2>The Choice</h2>
+
+                    <figure class="figure-wide">
+                        <img
+                            src="images/commons-vs-centralisation.png"
+                            alt="A data commons network of connected institutions versus a centralised services tower with a &pound;600 million price tag"
+                            loading="lazy"
+                        />
+                        <figcaption>
+                            The choice: a distributed data commons network or
+                            another centralised service
+                        </figcaption>
+                    </figure>
+
+                    <p class="closing-statement drop-cap">
+                        The &pound;600 million investment is a generational
+                        opportunity. But it must build the right thing: a 
+                        durable grid that survives political cycles rather 
+                        than a service consumed by them.
+                    </p>
+
+                    <p>
+                        The UK can keep building bigger libraries: more
+                        centralised services, more proprietary catalogues, more
+                        months-long negotiations. Or it can finally write the
+                        cataloguing rules. Standardise the protocols. Make
+                        governance machine-readable. Let any institution
+                        participate without surrendering its data.
+                    </p>
+
+                    <p>
+                        The role HDRS should play is the one the British Library
+                        plays in the inter-library loan system: coordinator, not
+                        controller. A convenor of standards, a certifier of
+                        conformance, a funder of reference implementations. Not
+                        the single building where all the books must go.
+                    </p>
+
+                    <p>
+                        Panizzi's 91 rules survived because they standardised
+                        descriptions, not collections. The Bermuda Principles
+                        survived because they changed the social contract, not
+                        the databases. Both are protocols. Both connected
+                        institutions by agreeing on the seams rather than
+                        merging the buildings.
+                    </p>
+
+                    <p>
+                        The HDRS has &pound;600 million and a chance to break
+                        the pattern. But protocols are the first step, not the
+                        destination. The full journey goes from protocols (the
+                        shared catalogue) through a governed commons (the
+                        inter-library loan system) to a Health Data
+                        Constitution: enforceable rights that survive political
+                        cycles.
+                    </p>
+
+                    <div class="cta-callout fade-in">
+                        <p>
+                            <img
+                                src="images/opentre-logo-transparent.png"
+                                alt="OpenTRE"
+                                style="
+                                    height: 56px;
+                                    margin-bottom: 1rem;
+                                    display: block;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    opacity: 0.8;
+                                "
+                            />
+                            Write the cataloguing rules, not the library
+                            building.
+                        </p>
+                        <p><a href="https://opentre.org">opentre.org</a></p>
+                    </div>
+
+                    <!-- Audience-specific CTAs (Comment 6.2) -->
+                    <div
+                        class="callout fade-in"
+                        style="margin-top: var(--space-2xl)"
+                    >
+                        <p class="callout-title">What you can do next</p>
+                        <ul style="margin-bottom: 0">
+                            <li>
+                                <strong>HDRS programme leads:</strong> Embed the
+                                five mandates into HDRS funding conditions.
+                                Require machine-readable governance (ODRL/DUO)
+                                as a deliverable, not an aspiration. Commission
+                                the conformance test suite.
+                            </li>
+                            <li>
+                                <strong>NHS Trust and SDE operators:</strong>
+                                Assess your current environment against the
+                                <em>OpenTRE roadmap</em>
+                                (forthcoming at
+                                <a href="https://opentre.org">opentre.org</a>). Identify the gap between your existing
+                                governance processes and machine-readable policy
+                                publication. Request HDRS adoption support
+                                funding.
+                            </li>
+                            <li>
+                                <strong>UKRI and NIHR funders:</strong> Add
+                                GA4GH Passport compliance and ODRL policy
+                                publication to your next grant solicitation
+                                requirements. Fund success-based compliance
+                                grants for under-resourced institutions.
+                            </li>
+                            <li>
+                                <strong>Researchers:</strong> Demand cross-SDE
+                                credential portability from your institution.
+                                Report time-to-data-access as a metric in grant
+                                reports. Join the
+                                <a href="https://opentre.org">OpenTRE</a>
+                                community to shape the standards that will
+                                determine your working conditions.
+                            </li>
+                            <li>
+                                <strong>Patient advocates:</strong> Insist on
+                                transparency logs for every data access
+                                decision. Ensure patient advisory boards have
+                                input into governance policies before they
+                                become machine-readable. The protocol layer
+                                makes accountability auditable; demand that it
+                                is audited.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Notes (Comment 7.2, D2) -->
+                <aside class="endnotes fade-in" id="endnotes">
+                    <h3>Notes</h3>
+                    <ol class="endnotes-list">
+                        <li id="endnote-1">
+                            Taylor, J. et al. (2021). "Health data governance
+                            for research: a review of evidence and emerging
+                            practices." <em>BMJ Open</em>, 11(8), e047575.
+                            <a
+                                href="https://bmjopen.bmj.com/content/11/8/e047575"
+                                >doi:10.1136/bmjopen-2020-047575</a
+                            >.
+                            <a href="#ref-1" aria-label="Back to reference 1"
+                                >&uarr;</a
+                            >
+                        </li>
+                        <li id="endnote-2">
+                            Zhang, C.X. et al. (2023). "Mapping NHS data flows."
+                            <em>The Lancet Digital Health</em>, 5(12),
+                            e862-e868.
+                            <a
+                                href="https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00157-7/fulltext"
+                                >doi:10.1016/S2589-7500(23)00157-7</a
+                            >.
+                            <a href="#ref-2" aria-label="Back to reference 2"
+                                >&uarr;</a
+                            >
+                        </li>
+                        <li id="endnote-3">
+                            Cabili, M.N. et al. (2018). "Simplifying access to
+                            large-scale health data through Library Cards for
+                            data access." <em>Scientific Data</em>, 5, 180039.
+                            <a href="https://doi.org/10.1038/sdata.2018.39"
+                                >doi:10.1038/sdata.2018.39</a
+                            >.
+                            <a href="#ref-3" aria-label="Back to reference 3"
+                                >&uarr;</a
+                            >
+                        </li>
+                        <li id="endnote-4">
+                            Colavizza, G. et al. (2020). "The citation advantage
+                            of linking publications to research data."
+                            <em>PLoS ONE</em>, 15(4), e0230416.
+                            <a
+                                href="https://doi.org/10.1371/journal.pone.0230416"
+                                >doi:10.1371/journal.pone.0230416</a
+                            >.
+                            <a href="#ref-4" aria-label="Back to reference 4"
+                                >&uarr;</a
+                            >
+                        </li>
+                    </ol>
+                </aside>
+
+                <hr />
+
+                <!-- Author bio -->
+                <footer class="author-bio fade-in">
+                    <div class="footer-grid">
+                        <!-- Column 1: Logo, social, disclaimer, license -->
+                        <div style="text-align: center">
+                            <div style="margin-bottom: 1rem">
+                                <img
+                                    src="images/opentre-logo-transparent.png"
+                                    alt="OpenTRE - Open Trusted Research Ecosystem"
+                                    style="height: 48px"
+                                />
+                            </div>
+                            <div
+                                class="social-links"
+                                style="
+                                    justify-content: center;
+                                    margin-bottom: 1rem;
+                                "
+                            >
+                                <a
+                                    href="https://susheelvarma.com"
+                                    title="Website"
+                                    ><svg
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <line x1="2" y1="12" x2="22" y2="12" />
+                                        <path
+                                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                                        /></svg
+                                ></a>
+                                <a
+                                    href="https://bsky.app/profile/susheelvarma.com"
+                                    title="Bluesky"
+                                    ><svg
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.785 2.627 3.601 3.476 6.178 3.126-4.478.779-8.467 2.674-4.748 7.521 4.303 4.98 6.542-1.26 7.946-4.558.513-1.205.753-2.216.753-2.216s.24 1.011.753 2.216c1.404 3.298 3.643 9.538 7.946 4.558 3.719-4.847-.27-6.742-4.748-7.521 2.577.35 5.393-.499 6.178-3.126C21.622 9.418 22 4.458 22 3.768c0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24C14.046 4.747 11.087 8.686 12 10.8z"
+                                        /></svg
+                                ></a>
+                                <a
+                                    href="https://twitter.com/susheelvarma"
+                                    title="X / Twitter"
+                                    ><svg
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                                        /></svg
+                                ></a>
+                                <a
+                                    href="https://www.linkedin.com/in/susheelvarma/"
+                                    title="LinkedIn"
+                                    ><svg
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                                        /></svg
+                                ></a>
+                            </div>
+                            <p
+                                class="image-disclaimer"
+                                style="
+                                    font-size: var(--text-sm);
+                                    color: var(--text-secondary);
+                                    margin-bottom: 1rem;
+                                "
+                            >
+                                All illustrations were generated using AI, with
+                                prompts, reviews, and revisions by the author.
+                            </p>
+                            <a
+                                href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                                rel="license"
+                                title="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+                                style="
+                                    display: inline-block;
+                                    text-decoration: none;
+                                "
+                            >
+                                <img
+                                    src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.eu.svg"
+                                    alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+                                    height="31"
+                                    style="border: 0"
+                                />
+                            </a>
+                            <p
+                                style="
+                                    font-size: var(--text-sm);
+                                    color: var(--text-secondary);
+                                    margin-top: 0.75rem;
+                                    margin-bottom: 0;
+                                "
+                            >
+                                Copyright &copy; 2026 Susheel Varma.<br />
+                                Licensed under
+                                <a
+                                    href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                                    rel="license"
+                                    style="color: var(--text-secondary)"
+                                    >CC BY-NC-SA 4.0</a
+                                >.
+                            </p>
+                        </div>
+
+                        <!-- Column 2: Author bio, companion papers, Six Pages -->
+                        <div>
+                            <p style="margin-top: 0">
+                                <a
+                                    href="https://susheelvarma.com"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Susheel Varma</a
+                                >
+                                is Chief Data Officer at
+                                <a
+                                    href="https://sagebionetworks.org"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Sage Bionetworks</a
+                                >
+                                and was previously Chief Technology Officer at
+                                <a
+                                    href="https://hdruk.ac.uk/"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Health Data Research UK</a
+                                >, where he co-authored the
+                                <a
+                                    href="https://doi.org/10.5281/zenodo.4594704"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >TRE Green Paper</a
+                                >
+                                and
+                                <a
+                                    href="https://doi.org/10.5281/zenodo.5767586"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Building Trusted Research Environments</a
+                                >
+                                guidance. He was also Head of AI and Data
+                                Science at the
+                                <a
+                                    href="https://ico.org.uk/"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Information Commissioner's Office</a
+                                >. He is a contributor to several
+                                <a
+                                    href="https://ga4gh.org/"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >GA4GH</a
+                                >
+                                standards and workstreams. The protocol-level
+                                arguments are vendor-neutral by design and not
+                                endorsed by any one organisation. OpenTRE.org
+                                may be one of several possible proposals that
+                                HDRS could consider.
+                            </p>
+                            <p>
+                                This is the UK perspective in a two-part series.
+                                For the US companion on why biomedical data
+                                portals need protocol infrastructure, read
+                                <a href="us-blog.html"
+                                    ><em
+                                        >The Current Wars of Biomedical Data</em
+                                    ></a
+                                >.
+                            </p>
+                            <p>
+                                For more on why standards matter, see
+                                <a
+                                    href="https://www.linkedin.com/pulse/copy-how-six-pages-built-america-why-biomedical-research-varma-lsdze/"
+                                    >How Six Pages Built America</a
+                                >
+                                (LinkedIn, July 2025).
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+        </main>
+
+        <!-- Page-specific styles -->
+        <style>
+            /* Visible but subtle section label (Comment 19.4) */
+            .section-label {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                color: var(--text-muted);
+                margin-top: 0;
+                margin-bottom: var(--space-md);
+            }
+            .section-label::before {
+                display: none;
+            }
+
+            /* 60-Second Executive Summary (Comment 16.2) */
+            .exec-summary {
+                background: linear-gradient(
+                    135deg,
+                    var(--accent-amber-light),
+                    #fff
+                );
+                border: 2px solid var(--accent-amber);
+                border-radius: 12px;
+                padding: var(--space-xl) var(--space-xl) var(--space-lg);
+                margin-bottom: var(--space-3xl);
+                box-shadow: var(--shadow-md);
+            }
+
+            .exec-summary-title {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--accent-amber);
+                margin-bottom: var(--space-md);
+                margin-top: 0;
+            }
+
+            .exec-summary p {
+                font-family: var(--font-body);
+                font-size: var(--text-base);
+                line-height: 1.7;
+                margin-bottom: var(--space-sm);
+            }
+
+            .exec-summary p:last-child {
+                margin-bottom: 0;
+            }
+
+            /* Researcher's Bill of Rights (Comment 16.2) */
+            .rights-box {
+                background: linear-gradient(135deg, #e8f5e9, #fff);
+                border: 2px solid var(--accent-green);
+                border-radius: 12px;
+                padding: var(--space-xl);
+                margin: var(--space-2xl) 0;
+                box-shadow: var(--shadow-md);
+            }
+
+            .rights-box-title {
+                font-family: var(--font-headline);
+                font-size: var(--text-xl);
+                font-weight: 600;
+                color: var(--accent-green);
+                margin-top: 0;
+                margin-bottom: var(--space-md);
+            }
+
+            .rights-box > p:nth-child(2) {
+                font-family: var(--font-body);
+                font-size: var(--text-base);
+                color: var(--text-secondary);
+                margin-bottom: var(--space-lg);
+            }
+
+            .rights-list {
+                padding-left: var(--space-xl);
+                margin: 0;
+            }
+
+            .rights-list li {
+                margin-bottom: var(--space-md);
+                line-height: 1.7;
+                font-size: var(--text-base);
+            }
+
+            .rights-list li:last-child {
+                margin-bottom: 0;
+            }
+
+            .rights-list li strong {
+                color: var(--accent-green);
+            }
+
+            /* Time-to-Science Comparison Chart (Comment 16.3) */
+            .time-comparison {
+                background: var(--bg-card);
+                border: 1px solid var(--border-light);
+                border-radius: 12px;
+                padding: var(--space-xl);
+                margin: var(--space-2xl) 0;
+                box-shadow: var(--shadow-sm);
+            }
+
+            .time-comparison-title {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--text-primary);
+                margin-top: 0;
+                margin-bottom: var(--space-lg);
+            }
+
+            .time-bar {
+                margin-bottom: var(--space-md);
+            }
+
+            .time-bar:last-of-type {
+                margin-bottom: var(--space-sm);
+            }
+
+            .time-label {
+                display: block;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 600;
+                color: var(--text-secondary);
+                margin-bottom: 0.25rem;
+            }
+
+            .time-fill {
+                height: 2.5rem;
+                border-radius: 6px;
+                display: flex;
+                align-items: center;
+                padding: 0 var(--space-md);
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                color: #fff;
+                min-width: max-content;
+            }
+
+            .time-bar-current .time-fill {
+                background: linear-gradient(90deg, #7b8a9d, #94a3b8);
+            }
+
+            .time-bar-opentre .time-fill {
+                background: linear-gradient(90deg, #256b2b, #2E7D32);
+            }
+
+            .time-comparison-note {
+                font-family: var(--font-ui);
+                font-size: 0.75rem;
+                color: var(--text-muted);
+                margin-bottom: 0;
+                margin-top: var(--space-sm);
+            }
+
+            @media (max-width: 480px) {
+                .time-fill {
+                    font-size: 0.75rem;
+                    height: 2rem;
+                    padding: 0 var(--space-sm);
+                }
+            }
+            /* Nav logo */
+            .nav-logo {
+                height: 1em;
+                width: 1em;
+                vertical-align: middle;
+                margin-right: 0.3em;
+                border-radius: 50%;
+            }
+            /* Blog-specific accent overrides */
+            .doc-blog .callout-teal .callout-title {
+                color: var(--accent-teal);
+            }
+            .doc-blog .callout-teal {
+                border-left: 4px solid var(--accent-teal);
+            }
+            .doc-blog .drop-cap::first-letter {
+                color: #8b4513;
+            }
+
+            /* Comparison box: OHDSI vs NPfIT */
+            .comparison-box {
+                display: flex;
+                align-items: stretch;
+                gap: 0;
+                margin: var(--space-2xl) 0;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: var(--shadow-md);
+            }
+
+            .comparison-col {
+                flex: 1;
+                padding: var(--space-xl);
+            }
+
+            .comparison-col h4 {
+                font-family: var(--font-ui);
+                font-size: var(--text-lg);
+                font-weight: 700;
+                margin-bottom: var(--space-md);
+                margin-top: 0;
+                display: flex;
+                align-items: center;
+                gap: var(--space-sm);
+                flex-wrap: wrap;
+            }
+
+            .comparison-tag {
+                font-size: var(--text-xs);
+                font-weight: 600;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                padding: 2px 8px;
+                border-radius: 4px;
+            }
+
+            .comparison-protocol {
+                background: var(--accent-teal-light);
+            }
+
+            .comparison-protocol h4 {
+                color: var(--accent-teal);
+            }
+
+            .comparison-protocol .comparison-tag {
+                background: var(--accent-teal);
+                color: #fff;
+            }
+
+            .comparison-protocol ul {
+                list-style: none;
+                padding-left: 0;
+            }
+
+            .comparison-protocol li {
+                padding: var(--space-xs) 0;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                color: var(--text-primary);
+            }
+
+            .comparison-protocol li::before {
+                content: "\2713";
+                color: var(--accent-teal);
+                font-weight: 700;
+                margin-right: var(--space-sm);
+            }
+
+            .comparison-service {
+                background: var(--bg-surface);
+            }
+
+            .comparison-service h4 {
+                color: var(--accent-red);
+            }
+
+            .comparison-service .comparison-tag {
+                background: var(--accent-red);
+                color: #fff;
+            }
+
+            .comparison-service ul {
+                list-style: none;
+                padding-left: 0;
+            }
+
+            .comparison-service li {
+                padding: var(--space-xs) 0;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                color: var(--text-secondary);
+            }
+
+            .comparison-service li::before {
+                content: "\2717";
+                color: var(--accent-red);
+                font-weight: 700;
+                margin-right: var(--space-sm);
+            }
+
+            .comparison-vs {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                color: var(--text-muted);
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                padding: 0 var(--space-md);
+                background: var(--bg-primary);
+                min-width: 50px;
+            }
+
+            /* Scenario box: before/after research */
+            .scenario-box {
+                background: var(--bg-card);
+                border: 1px solid var(--border-light);
+                border-radius: 12px;
+                padding: var(--space-xl);
+                margin: var(--space-2xl) 0;
+                box-shadow: var(--shadow-sm);
+            }
+
+            .scenario-title {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--accent-amber);
+                margin-bottom: var(--space-lg);
+                margin-top: 0;
+            }
+
+            .scenario-grid {
+                display: grid;
+                grid-template-columns: 1fr auto 1fr;
+                gap: var(--space-lg);
+                align-items: start;
+            }
+
+            .scenario-before,
+            .scenario-after {
+                padding: var(--space-lg);
+                border-radius: 8px;
+            }
+
+            .scenario-before {
+                background: #fff3f0;
+                border-left: 3px solid var(--accent-red);
+            }
+
+            .scenario-after {
+                background: var(--accent-teal-light);
+                border-left: 3px solid var(--accent-teal);
+            }
+
+            .scenario-label {
+                font-family: var(--font-ui);
+                font-size: var(--text-xs);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                margin-bottom: var(--space-sm);
+            }
+
+            .scenario-before .scenario-label {
+                color: var(--accent-red);
+            }
+            .scenario-after .scenario-label {
+                color: var(--accent-teal);
+            }
+
+            .scenario-before p:last-child,
+            .scenario-after p:last-child {
+                margin-bottom: 0;
+            }
+
+            .scenario-arrow {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: var(--text-2xl);
+                color: var(--text-muted);
+                padding-top: var(--space-2xl);
+            }
+
+            .scenario-arrow::after {
+                content: "\2192";
+            }
+
+            .scenario-conclusion {
+                font-family: var(--font-headline);
+                font-style: italic;
+                font-size: var(--text-lg);
+                color: var(--accent-navy);
+                text-align: center;
+                margin-top: var(--space-lg);
+                margin-bottom: 0;
+                padding-top: var(--space-md);
+                border-top: 1px solid var(--border-light);
+            }
+
+            /* Bermuda mandates list */
+            .bermuda-mandates {
+                padding-left: var(--space-xl);
+                margin: var(--space-xl) 0;
+            }
+
+            .bermuda-mandates li {
+                margin-bottom: var(--space-lg);
+                line-height: 1.7;
+            }
+
+            .bermuda-mandates li strong {
+                color: var(--accent-navy);
+            }
+
+            /* Closing statement emphasis */
+            .closing-statement {
+                font-family: var(--font-headline);
+                font-size: var(--text-lg);
+                color: var(--text-primary);
+                line-height: 1.5;
+            }
+
+            /* Call-to-action callout */
+            .cta-callout {
+                text-align: center;
+                margin: var(--space-3xl) 0 var(--space-xl);
+                padding: var(--space-2xl) var(--space-xl);
+                border-top: 3px solid #8b4513;
+                border-bottom: 3px solid #8b4513;
+                background: linear-gradient(
+                    180deg,
+                    rgba(139, 69, 19, 0.04),
+                    rgba(193, 120, 23, 0.04)
+                );
+            }
+
+            .cta-callout p {
+                font-family: var(--font-headline);
+                font-size: var(--text-xl);
+                font-weight: 600;
+                color: var(--text-primary);
+                line-height: 1.5;
+                margin: 0 auto;
+                max-width: 40ch;
+            }
+
+            .cta-callout p + p {
+                margin-top: var(--space-md);
+                font-weight: 500;
+                font-style: italic;
+                color: #8b4513;
+            }
+
+            /* Key Takeaway boxes */
+            .key-takeaway {
+                background: linear-gradient(
+                    135deg,
+                    rgba(139, 69, 19, 0.06),
+                    rgba(193, 120, 23, 0.04)
+                );
+                border-left: 4px solid #8b4513;
+                border-radius: 8px;
+                padding: var(--space-lg) var(--space-xl);
+                margin: var(--space-xl) 0;
+            }
+
+            .key-takeaway-label {
+                font-family: var(--font-ui);
+                font-size: var(--text-xs);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                color: #8b4513;
+                margin-bottom: var(--space-xs);
+                margin-top: 0;
+            }
+
+            .key-takeaway p:last-child {
+                font-family: var(--font-body);
+                font-size: var(--text-base);
+                line-height: 1.6;
+                color: var(--text-primary);
+            }
+
+            /* Mandate table */
+            .mandate-table-wrapper {
+                margin: var(--space-xl) 0;
+                overflow-x: auto;
+            }
+
+            .mandate-table {
+                width: 100%;
+                border-collapse: collapse;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                line-height: 1.6;
+            }
+
+            .mandate-table caption {
+                clip: rect(0 0 0 0);
+                clip-path: inset(50%);
+                height: 1px;
+                overflow: hidden;
+                position: absolute;
+                white-space: nowrap;
+                width: 1px;
+            }
+
+            .mandate-table th {
+                background: var(--accent-navy);
+                color: #fff;
+                padding: var(--space-md) var(--space-lg);
+                text-align: left;
+                font-weight: 700;
+                font-size: var(--text-xs);
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .mandate-table td {
+                padding: var(--space-md) var(--space-lg);
+                border-bottom: 1px solid var(--border-light);
+                vertical-align: top;
+            }
+
+            .mandate-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .mandate-table tbody tr:nth-child(odd) {
+                background: var(--bg-card);
+            }
+
+            .mandate-table tbody tr:nth-child(even) {
+                background: var(--bg-surface);
+            }
+
+            .mandate-table td:first-child {
+                min-width: 260px;
+            }
+
+            .mandate-table td:nth-child(2) {
+                min-width: 140px;
+                color: var(--text-secondary);
+            }
+
+            .mandate-table td:nth-child(3) {
+                min-width: 180px;
+                color: var(--accent-teal);
+                font-weight: 600;
+            }
+
+            /* Endnotes */
+            .endnotes {
+                margin-top: var(--space-2xl);
+                padding-top: var(--space-xl);
+                border-top: 1px solid var(--border-light);
+            }
+
+            .endnotes h3 {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--text-secondary);
+                margin-bottom: var(--space-md);
+            }
+
+            .endnotes-list {
+                padding-left: var(--space-xl);
+                margin: 0;
+            }
+
+            .endnotes-list li {
+                font-size: var(--text-sm);
+                line-height: 1.6;
+                color: var(--text-secondary);
+                margin-bottom: var(--space-sm);
+            }
+
+            /* Glossary details element */
+            details.callout {
+                padding: var(--space-lg) var(--space-xl);
+            }
+
+            details.callout summary {
+                cursor: pointer;
+                -webkit-user-select: none;
+                user-select: none;
+            }
+
+            details.callout[open] summary span:first-child {
+                transform: rotate(90deg);
+                display: inline-block;
+            }
+
+            details.callout summary::-webkit-details-marker {
+                display: none;
+            }
+
+            /* Navy callout variant */
+            .callout-navy .callout-title {
+                color: var(--accent-navy);
+            }
+
+            .callout-navy {
+                border-left: 4px solid var(--accent-navy);
+            }
+
+            /* Responsive: comparison and scenario boxes */
+            @media (max-width: 768px) {
+                .comparison-box {
+                    flex-direction: column;
+                }
+
+                .comparison-vs {
+                    padding: var(--space-sm) 0;
+                    min-width: auto;
+                }
+
+                .scenario-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .scenario-arrow {
+                    padding-top: 0;
+                    transform: rotate(90deg);
+                }
+
+                .mandate-table td:first-child {
+                    min-width: 200px;
+                }
+
+                details.callout div {
+                    columns: 1 !important;
+                }
+            }
+
+            /* Footer two-column grid (1/3 + 2/3) */
+            .footer-grid {
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                gap: 2rem;
+                align-items: start;
+            }
+            @media (max-width: 768px) {
+                .footer-grid {
+                    grid-template-columns: 1fr;
+                    text-align: center;
+                }
+                .footer-grid > div p {
+                    text-align: center !important;
+                }
+                .footer-grid .social-links {
+                    justify-content: center;
+                }
+            }
+        </style>
+
+        <!-- JavaScript: progress bar, ToC scroll-spy, fade-in -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // --- Reading progress bar ---
+                var progressBar = document.querySelector(".progress-bar");
+                function updateProgress() {
+                    var scrollTop = window.scrollY;
+                    var docHeight =
+                        document.documentElement.scrollHeight -
+                        window.innerHeight;
+                    var progress =
+                        docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+                    progressBar.style.width = progress + "%";
+                    progressBar.setAttribute(
+                        "aria-valuenow",
+                        Math.round(progress),
+                    );
+                }
+
+                // --- ToC scroll-spy ---
+                var tocLinks = document.querySelectorAll(".toc a");
+                var sections = [];
+                tocLinks.forEach(function (link) {
+                    var id = link.getAttribute("href").slice(1);
+                    var el = document.getElementById(id);
+                    if (el) sections.push({ id: id, el: el, link: link });
+                });
+
+                function updateToc() {
+                    var scrollPos = window.scrollY + 140;
+                    var current = null;
+                    for (var i = sections.length - 1; i >= 0; i--) {
+                        if (sections[i].el.offsetTop <= scrollPos) {
+                            current = sections[i];
+                            break;
+                        }
+                    }
+                    tocLinks.forEach(function (link) {
+                        link.classList.remove("active");
+                    });
+                    if (current) current.link.classList.add("active");
+                }
+
+                // --- ToC visibility (hide over hero, show over article) ---
+                var tocWrapper = document.querySelector(".toc-wrapper");
+                var articleBody = document.querySelector(".article-body");
+                function updateTocVisibility() {
+                    if (tocWrapper && articleBody) {
+                        var articleTop =
+                            articleBody.getBoundingClientRect().top;
+                        if (articleTop <= 100) {
+                            tocWrapper.classList.add("toc-visible");
+                        } else {
+                            tocWrapper.classList.remove("toc-visible");
+                        }
+                    }
+                }
+
+                // --- Scroll handler (throttled) ---
+                var ticking = false;
+                window.addEventListener(
+                    "scroll",
+                    function () {
+                        if (!ticking) {
+                            requestAnimationFrame(function () {
+                                updateProgress();
+                                updateToc();
+                                updateTocVisibility();
+                                ticking = false;
+                            });
+                            ticking = true;
+                        }
+                    },
+                    { passive: true },
+                );
+
+                // Initial calls
+                updateProgress();
+                updateToc();
+                updateTocVisibility();
+
+                // --- Fade-in on scroll ---
+                var fadeTargets = document.querySelectorAll(".fade-in");
+                if ("IntersectionObserver" in window) {
+                    var fadeObserver = new IntersectionObserver(
+                        function (entries) {
+                            entries.forEach(function (entry) {
+                                if (entry.isIntersecting) {
+                                    entry.target.classList.add("visible");
+                                    fadeObserver.unobserve(entry.target);
+                                }
+                            });
+                        },
+                        { threshold: 0.1, rootMargin: "0px 0px -40px 0px" },
+                    );
+                    fadeTargets.forEach(function (el) {
+                        fadeObserver.observe(el);
+                    });
+                } else {
+                    fadeTargets.forEach(function (el) {
+                        el.classList.add("visible");
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>

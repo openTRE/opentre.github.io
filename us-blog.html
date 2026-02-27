@@ -1,0 +1,3382 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Current Wars of Biomedical Data - OpenTRE</title>
+        <meta
+            name="description"
+            content="Why America's $48 billion biomedical research enterprise needs protocols, not more portals. An argument for federated research data infrastructure."
+        />
+        <meta name="author" content="Susheel Varma" />
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:title"
+            content="The Current Wars of Biomedical Data"
+        />
+        <meta
+            property="og:description"
+            content="Why America's $48 billion biomedical research enterprise needs protocols, not more portals."
+        />
+        <meta property="og:url" content="https://opentre.org/us-blog.html" />
+        <meta
+            property="og:image"
+            content="https://opentre.org/images/hero-blog.png"
+        />
+        <meta property="og:site_name" content="OpenTRE" />
+        <meta property="article:author" content="Susheel Varma" />
+        <meta property="article:published_time" content="2026-02-25" />
+        <meta property="article:modified_time" content="2026-02-27" />
+        <meta
+            property="og:image:alt"
+            content="Edison's DC power station contrasted with a distributed electrical grid, representing the current wars of biomedical data"
+        />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="The Current Wars of Biomedical Data"
+        />
+        <meta
+            name="twitter:description"
+            content="Why America's $48 billion biomedical research enterprise needs protocols, not more portals."
+        />
+        <meta
+            name="twitter:image"
+            content="https://opentre.org/images/hero-blog.png"
+        />
+        <meta name="twitter:creator" content="@susheelvarma" />
+        <meta
+            name="twitter:image:alt"
+            content="Edison's DC power station contrasted with a distributed electrical grid, representing the current wars of biomedical data"
+        />
+
+        <link rel="canonical" href="https://opentre.org/us-blog.html" />
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BlogPosting",
+                "headline": "The Current Wars of Biomedical Data",
+                "description": "Why America's $48 billion biomedical research enterprise needs protocols, not more portals. An argument for federated research data infrastructure.",
+                "author": {
+                    "@type": "Person",
+                    "name": "Susheel Varma"
+                },
+                "datePublished": "2026-02-25",
+                "dateModified": "2026-02-27",
+                "image": "https://opentre.org/images/hero-blog.png",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "OpenTRE"
+                },
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://opentre.org/us-blog.html"
+                },
+                "isPartOf": {
+                    "@type": "Blog",
+                    "name": "OpenTRE",
+                    "url": "https://opentre.org/"
+                },
+                "inLanguage": "en-US",
+                "wordCount": 5500
+            }
+        </script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body class="doc-blog-us">
+        <!-- Reading progress bar -->
+        <div
+            class="progress-bar"
+            role="progressbar"
+            aria-valuenow="0"
+            aria-valuemin="0"
+            aria-valuemax="100"
+        ></div>
+
+        <!-- Site navigation -->
+        <nav class="suite-nav" aria-label="OpenTRE">
+            <div class="suite-nav-inner">
+                <a href="./index.html" class="suite-nav-label"
+                    ><img
+                        src="images/opentre-icon-512.png"
+                        alt=""
+                        class="nav-logo"
+                    />OpenTRE</a
+                >
+                <span class="nav-sep">|</span>
+                <div class="nav-dropdown">
+                    <button class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">Blog</button>
+                    <div class="nav-dropdown-menu" role="menu">
+                        <a href="./uk-blog.html" role="menuitem">UK Perspective</a>
+                        <a href="./us-blog.html" role="menuitem" class="active">US Perspective</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <header class="hero" role="banner">
+            <div
+                class="hero-bg"
+                style="background-image: url(&quot;images/hero-blog.png&quot;)"
+            ></div>
+            <div class="hero-content">
+                <img
+                    src="images/opentre-logo-white.png"
+                    alt="OpenTRE"
+                    style="height: 48px; margin-bottom: 1rem; opacity: 0.9"
+                />
+                <p class="hero-label">Blog Post</p>
+                <h1 class="hero-title">The Current Wars of Biomedical Data</h1>
+                <p class="hero-subtitle">
+                    Why America's $48 Billion Biomedical Research Enterprise
+                    Needs Protocols, Not More Portals
+                </p>
+                <div class="hero-meta">
+                    <span>Susheel Varma</span>
+                    <span>25 February 2026</span>
+                    <span>~30 min read</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Table of Contents (sidebar) -->
+        <aside class="toc-wrapper" aria-label="Table of contents">
+            <nav class="toc">
+                <p class="toc-title">Contents</p>
+                <a href="#current-wars">The Current Wars</a>
+                <a href="#landscape">The Landscape</a>
+                <a href="#portals">The Portals We Built</a>
+                <a href="#why-not-enough">Why Portals Are Not Enough</a>
+                <a href="#bermuda">The Bermuda Precedent</a>
+                <a href="#protocol-layer"
+                    >What Would a Protocol Layer Look Like?</a
+                >
+                <a href="#steelman"
+                    >When Central Services Are the Right Choice</a
+                >
+                <a href="#nih-mandates">Five Mandates for NIH</a>
+                <a href="#choice">The Choice</a>
+            </nav>
+        </aside>
+
+        <!-- Article body -->
+        <main>
+            <article class="article-body" role="article">
+                <!-- Suite context note -->
+                <aside
+                    class="callout callout-teal fade-in"
+                    style="margin-bottom: var(--space-3xl)"
+                >
+                    <p class="callout-title">OpenTRE</p>
+                    <p style="margin-bottom: 0">
+                        This is the US companion to
+                        <a href="uk-blog.html"
+                            ><em>The Catalogue and the Crisis</em></a
+                        >, which makes the case for protocol-based federation in
+                        the UK's NHS. This piece tells the same structural story
+                        from the perspective of US biomedical research. A
+                        different system, the same architectural trap.
+                    </p>
+                </aside>
+
+                <!-- 60-Second Executive Summary -->
+                <div class="exec-summary fade-in">
+                    <p class="exec-summary-title">In 60 Seconds</p>
+                    <p>
+                        <strong>What:</strong> OpenTRE proposes a shared
+                        protocol layer (identity, governance, analytics, and
+                        discovery) that lets existing NIH-funded platforms
+                        interoperate without replacing any of them.
+                    </p>
+                    <p>
+                        <strong>Why:</strong> The US has invested tens of
+                        billions in biomedical data platforms that cannot talk
+                        to each other, costing researchers months of duplicated
+                        access negotiations and leaving cross-cutting scientific
+                        questions unanswerable.
+                    </p>
+                    <p>
+                        <strong>What should be done now:</strong> NIH should
+                        require GA4GH Passport compliance and machine-readable
+                        governance in all new data platform grants: a protocol
+                        mandate that can begin within existing appropriations by
+                        redirecting current platform spend, protecting every
+                        dollar already invested.
+                    </p>
+                </div>
+
+                <!-- Section 1: The Current Wars -->
+                <section id="current-wars" class="fade-in">
+                    <h2 class="section-label">The Current Wars</h2>
+                    <figure class="figure-wide">
+                        <img
+                            src="images/current-wars-v2.png"
+                            alt="The Current Wars: Edison's constrained DC power station versus a distributed grid"
+                            loading="eager"
+                        />
+                        <figcaption>
+                            Edison's constrained DC power station versus a
+                            distributed grid
+                        </figcaption>
+                    </figure>
+
+                    <p class="drop-cap">
+                        In the 1880s, Thomas Edison and George Westinghouse
+                        fought the "<a
+                            href="https://www.energy.gov/articles/war-currents-ac-vs-dc-power"
+                            >Current Wars</a
+                        >," a bitter battle over how to electrify America.
+                        Edison championed direct current (DC): simple, local,
+                        and controlled by Edison's company. Westinghouse backed
+                        alternating current (AC): standardised interfaces,
+                        long-distance transmission, and an open market where
+                        anyone could build on the grid.
+                    </p>
+
+                    <p>
+                        Edison's DC worked beautifully for a single city block.
+                        It could not scale. Every new neighbourhood needed its
+                        own power station, its own wiring, its own operator. AC,
+                        standardised through transformers and regulated through
+                        grid codes, could power a continent.
+                    </p>
+
+                    <p>
+                        Edison fought dirty, publicly electrocuting animals to
+                        prove AC was dangerous. He lost anyway. The real history
+                        is more complex than this sketch. Tesla's polyphase
+                        motor and long-distance transmission advantages were the
+                        decisive technical factors. But the structural lesson
+                        endures. Edison lost not because AC was safer (it isn't,
+                        inherently), but because
+                        <strong
+                            >regulated interoperability scales and proprietary
+                            control does not.</strong
+                        >
+                    </p>
+
+                    <p>
+                        AC won because of the transformer: a device that stepped
+                        voltage up for long-distance transmission and down again
+                        for local use, allowing any generator and any appliance
+                        to join the same grid. In today's biomedical research
+                        system,
+                        <a href="https://www.ga4gh.org/product/ga4gh-passports/"
+                            >GA4GH Passports</a
+                        >
+                        are the transformer: they step a researcher's
+                        credentials up into a portable, machine-verifiable
+                        format and step them down again at each platform,
+                        allowing any data repository and any analytics
+                        environment to join the same grid.
+                    </p>
+
+                    <p>
+                        The Current Wars ended over a century ago, but their
+                        structural logic is playing out right now in US
+                        biomedical research, with an embarrassingly familiar
+                        problem: hundreds of data portals, each excellently
+                        engineered, none able to talk to each other. The world's
+                        most generously funded research system, where
+                        <a
+                            href="https://report.nih.gov/funding/nih-budget-and-spending-data-past-fiscal-years/budget"
+                            >NIH alone distributes over $47 billion annually</a
+                        >, has produced a patchwork of DC power stations. Each
+                        portal lights up its own city block. None of them share
+                        a grid.
+                    </p>
+                    <div class="key-takeaway fade-in">
+                        <p class="key-takeaway-label">Key Takeaway</p>
+                        <p>
+                            The US biomedical data system recapitulates the
+                            Current Wars: dozens of proprietary power stations,
+                            no shared grid. GA4GH Passports are the transformers
+                            that could connect them.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 2: The Landscape -->
+                <section id="landscape" class="fade-in">
+                    <h2>The Landscape: $48 Billion, Forty Silos</h2>
+
+                    <!-- Glossary box -->
+                    <details class="glossary-box fade-in">
+                        <summary class="glossary-toggle">
+                            Glossary of Key Terms
+                        </summary>
+                        <div class="glossary-content">
+                            <dl>
+                                <dt>TRE</dt>
+                                <dd>
+                                    Trusted Research Environment: a secure
+                                    computing space where approved researchers
+                                    analyse sensitive data without the data
+                                    leaving the environment.
+                                </dd>
+                                <dt>SDE</dt>
+                                <dd>
+                                    Secure Data Environment: the UK NHS term for
+                                    a TRE.
+                                </dd>
+                                <dt>OMOP</dt>
+                                <dd>
+                                    Observational Medical Outcomes Partnership
+                                    Common Data Model: a standard schema for
+                                    representing clinical data so queries work
+                                    across institutions.
+                                </dd>
+                                <dt>FHIR</dt>
+                                <dd>
+                                    Fast Healthcare Interoperability Resources:
+                                    an HL7 standard for exchanging healthcare
+                                    information electronically.
+                                </dd>
+                                <dt>GA4GH</dt>
+                                <dd>
+                                    Global Alliance for Genomics and Health: an
+                                    international standards body for genomic and
+                                    health data sharing.
+                                </dd>
+                                <dt>ODRL</dt>
+                                <dd>
+                                    Open Digital Rights Language: a W3C standard
+                                    for expressing data use policies in
+                                    machine-readable form.
+                                </dd>
+                                <dt>DUO</dt>
+                                <dd>
+                                    Data Use Ontology: a GA4GH standard
+                                    vocabulary for encoding consent-based data
+                                    use conditions.
+                                </dd>
+                                <dt>OHDSI</dt>
+                                <dd>
+                                    Observational Health Data Sciences and
+                                    Informatics: a global network running
+                                    federated analytics on the OMOP model across
+                                    544 data sources.
+                                </dd>
+                                <dt>N3C</dt>
+                                <dd>
+                                    National COVID Cohort Collaborative: an NIH
+                                    platform with 23M+ patient records, hosted
+                                    on Palantir Foundry.
+                                </dd>
+                                <dt>CFDE</dt>
+                                <dd>
+                                    Common Fund Data Ecosystem: an NIH
+                                    initiative to connect data across Common
+                                    Fund programmes.
+                                </dd>
+                                <dt>GREI</dt>
+                                <dd>
+                                    Generalist Repository Ecosystem Initiative:
+                                    an NIH programme aligning metadata across
+                                    seven generalist repositories.
+                                </dd>
+                                <dt>DMS Policy</dt>
+                                <dd>
+                                    NIH Data Management and Sharing Policy
+                                    (2023): the first NIH-wide mandate requiring
+                                    funded researchers to share scientific data.
+                                </dd>
+                                <dt>RAS</dt>
+                                <dd>
+                                    Researcher Auth Service: NIH's national
+                                    identity broker implementing GA4GH
+                                    Passports.
+                                </dd>
+                            </dl>
+                        </div>
+                    </details>
+
+                    <h3>The mandate without infrastructure</h3>
+
+                    <p class="drop-cap">
+                        In January 2023, the
+                        <a
+                            href="https://sharing.nih.gov/data-management-and-sharing-policy"
+                            ><strong
+                                >NIH Data Management and Sharing (DMS)
+                                Policy</strong
+                            ></a
+                        >
+                        took effect, the first NIH-wide mandate requiring all
+                        funded researchers to share scientific data. A major
+                        policy shift, and also, to put it bluntly, an unfunded
+                        mandate. No new money for repositories. No compliance
+                        infrastructure. No interoperability requirements.
+                        Thousands of Data Management and Sharing Plans have
+                        since been filed. Almost none of them are verifiable.
+                        The DMS Policy told researchers to share. It gave them
+                        nowhere coherent to share to.
+                    </p>
+
+                    <h3>The catalogue without connections</h3>
+
+                    <p>
+                        The
+                        <a href="https://commonfund.nih.gov/dataecosystem"
+                            ><strong
+                                >Common Fund Data Ecosystem (CFDE)</strong
+                            ></a
+                        >, representing roughly $50 to $100 million in total
+                        investment, was designed to connect data across Common
+                        Fund programmes. After years of work, it covers only 13
+                        of approximately 40 Common Fund programmes. The CFDE
+                        portal enables discovery but not integration or
+                        federated analysis. Individual programme portals remain
+                        separate islands. Another DC power station, larger than
+                        most, but still wired for one neighbourhood.
+                    </p>
+
+                    <p>
+                        The
+                        <a
+                            href="https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative"
+                            ><strong
+                                >Generalist Repository Ecosystem Initiative
+                                (GREI)</strong
+                            ></a
+                        >, now in its fourth year, has made real progress: seven
+                        generalist repositories (Dryad, Figshare, Dataverse,
+                        Zenodo, and others) aligned on metadata standards via
+                        schema.org. But metadata alignment is not data
+                        interoperability. You can find the dataset. You still
+                        cannot query across repositories or run federated
+                        analysis.
+                    </p>
+
+                    <h3>The platform without a parachute</h3>
+
+                    <p>
+                        <a href="https://allofus.nih.gov/"
+                            ><strong>All of Us</strong></a
+                        >, NIH's flagship precision medicine programme, is a
+                        $1.14 billion investment from the 21st Century Cures
+                        Act. It has enrolled over 832,000 participants, with
+                        notable diversity: 45% from underrepresented
+                        backgrounds. Yet its budget has been volatile: from $541
+                        million in FY2023 to $158 million proposed for FY2025, a
+                        71% reduction. It is a centralised platform, not a
+                        federated one, and an HHS Office of Inspector General
+                        cybersecurity audit flagged unresolved vulnerabilities.
+                        A single programme, however well-funded, is brittle by
+                        design. When funding is cut, the platform and every
+                        pipeline built on it are at risk.
+                    </p>
+
+                    <p>
+                        The
+                        <a href="https://ncats.nih.gov/n3c"
+                            ><strong
+                                >National COVID Cohort Collaborative
+                                (N3C)</strong
+                            ></a
+                        >
+                        was a pandemic success story: over 23 million patient
+                        records, 240+ contributing sites, 4,100+ registered
+                        researchers. But it runs on Palantir's Foundry platform
+                        under a contract exceeding $60 million. Researchers who
+                        built analytical pipelines on Foundry are now locked
+                        into Foundry. That is the trade-off N3C made: speed
+                        during a crisis, at the cost of independence afterwards.
+                    </p>
+
+                    <h3>The consortium without a grid</h3>
+
+                    <p>
+                        The
+                        <a
+                            href="https://www.nih.gov/research-training/accelerating-medicines-partnership-amp"
+                            ><strong
+                                >Accelerating Medicines Partnership
+                                (AMP)</strong
+                            ></a
+                        >, representing roughly $1 billion across disease areas,
+                        shows the problem most clearly.
+                        <a href="https://adknowledgeportal.org/">AMP AD</a>
+                        (Alzheimer's Disease) runs on Synapse.
+                        <a href="https://amp-pdrd.org/">AMP PDRD</a>
+                        (Parkinson's Disease) runs on Google Cloud.
+                        <a href="https://hugeamp.org/"
+                            >AMP T2D and its successor AMP CMD</a
+                        >
+                        (Type 2 Diabetes / Common Metabolic Diseases) was hosted
+                        at the Broad Institute.
+                        <a href="https://arkportal.synapse.org/"
+                            >AMP RA/SLE and its successor AMP AIM</a
+                        >
+                        (Rheumatoid Arthritis / Lupus) runs on Synapse.
+                        <a href="https://ampals.synapse.org/">AMP ALS</a>
+                        also runs on Synapse. Three of the five AMP programmes
+                        share a platform and have well-aligned metadata and
+                        governance. Yet a researcher approved for AMP AD data
+                        cannot use those credentials to access AMP PDRD or AMP
+                        CMD. The same consortium, funded by the same agency,
+                        cannot run a cross-disease analysis without bespoke
+                        agreements for each portal.
+                    </p>
+
+                    <p>
+                        NIH has also invested in multiple cloud-based analysis
+                        environments:
+                        <a href="https://anvilproject.org/"
+                            ><strong>AnVIL</strong></a
+                        >
+                        (genomic data, Broad/WashU),
+                        <a href="https://biodatacatalyst.nhlbi.nih.gov/"
+                            ><strong>BioData Catalyst</strong></a
+                        >
+                        (heart/lung/blood/sleep, NHLBI), the
+                        <a href="https://datacommons.cancer.gov/"
+                            ><strong>Cancer Research Data Commons</strong></a
+                        >
+                        (NCI), and
+                        <a href="https://kidsfirstdrc.org/"
+                            ><strong>Kids First</strong></a
+                        >
+                        (paediatric, NICHD). The
+                        <a
+                            href="https://datascience.nih.gov/data-ecosystem/ncpi"
+                            ><strong
+                                >NIH Cloud Platform Interoperability
+                                (NCPI)</strong
+                            ></a
+                        >
+                        effort is attempting to connect them, but after years of
+                        work, cross-platform queries remain experimental.
+                    </p>
+
+                    <!-- Landscape comparison table -->
+                    <div class="landscape-table-wrapper fade-in">
+                        <p class="landscape-table-title">
+                            US Biomedical Data Landscape at a Glance
+                        </p>
+                        <div style="overflow-x: auto">
+                            <table class="landscape-table">
+                                <caption>
+                                    US biomedical data platforms compared by
+                                    strengths, federation barriers, and
+                                    structural lessons
+                                </caption>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Programme</th>
+                                        <th scope="col">What Works</th>
+                                        <th scope="col">
+                                            Why It Does Not Federate
+                                        </th>
+                                        <th scope="col">Structural Lesson</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>N3C</strong></td>
+                                        <td>
+                                            23M patient records; pandemic-speed
+                                            assembly
+                                        </td>
+                                        <td>
+                                            Single-vendor platform (Palantir
+                                            Foundry); pipelines locked in
+                                        </td>
+                                        <td>
+                                            Speed without open interfaces
+                                            creates lock-in
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>All of Us</strong></td>
+                                        <td>
+                                            832K participants; 45% from
+                                            underrepresented backgrounds
+                                        </td>
+                                        <td>
+                                            Centralised platform; budget
+                                            volatility (71% proposed cut FY2025)
+                                        </td>
+                                        <td>
+                                            Centralised programmes are
+                                            structurally fragile to budget
+                                            cycles
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>AMP</strong></td>
+                                        <td>
+                                            $1B+ across disease areas; real
+                                            science
+                                        </td>
+                                        <td>
+                                            Same consortium, three platforms, no
+                                            credential portability
+                                        </td>
+                                        <td>
+                                            Even internal consortia silo without
+                                            shared protocols
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>OHDSI</strong></td>
+                                        <td>
+                                            974M records; 544 sources; 54
+                                            countries; no central warehouse
+                                        </td>
+                                        <td>
+                                            Governance and identity are out of
+                                            scope; ETL burden on sites
+                                        </td>
+                                        <td>
+                                            Protocol-first design scales;
+                                            missing layers are still missing
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>CFDE</strong></td>
+                                        <td>
+                                            Discovery across 13 Common Fund
+                                            programmes
+                                        </td>
+                                        <td>
+                                            No integration or federated
+                                            analysis; only 13 of ~40 programmes
+                                        </td>
+                                        <td>
+                                            Catalogues without query layers are
+                                            incomplete
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>GREI</strong></td>
+                                        <td>
+                                            Seven repositories aligned on
+                                            schema.org metadata
+                                        </td>
+                                        <td>
+                                            Surface-level alignment<sup
+                                                ><a href="#endnote-1" id="ref-1"
+                                                    >[1]</a
+                                                ></sup
+                                            >; no cross-repository query
+                                        </td>
+                                        <td>
+                                            Guidelines without protocols produce
+                                            unverifiable compliance
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>NCPI</strong></td>
+                                        <td>
+                                            Connecting AnVIL, BioData Catalyst,
+                                            CRDC, Kids First
+                                        </td>
+                                        <td>
+                                            Cross-platform queries remain
+                                            experimental after years
+                                        </td>
+                                        <td>
+                                            Connecting platforms after the fact
+                                            is harder than designing for interop
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <p>
+                        None of these programmes is bad. Most of them are
+                        impressive. That is the frustration. Tens of billions
+                        invested, real science produced, and there is still no
+                        grid. Researchers are told to share data but given no
+                        shared infrastructure to share it through. We have built
+                        dozens of excellent power stations and somehow forgotten
+                        to agree on the voltage.
+                        <a href="https://bmjopen.bmj.com/content/11/8/e047575"
+                            >Taylor et al. (2021)</a
+                        >
+                        documented the cost of this kind of governance
+                        fragmentation: duplicated reviews, inconsistent access
+                        timelines, and wasted researcher effort navigating
+                        incompatible systems.
+                    </p>
+
+                    <figure class="figure-wide">
+                        <img
+                            src="images/governance-fragmentation-taylor-2021.png"
+                            alt="Governance fragmentation across biomedical data platforms: dozens of portals, no shared query layer"
+                            loading="lazy"
+                        />
+                        <figcaption>
+                            The cost of governance fragmentation. Adapted from
+                            Taylor et al. (2021).<sup
+                                ><a href="#endnote-2" id="ref-2">[2]</a></sup
+                            >
+                        </figcaption>
+                    </figure>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 3: The Portals We Built -->
+                <section id="portals" class="fade-in">
+                    <h2>The Portals We Built</h2>
+
+                    <p class="drop-cap">
+                        I should declare my own position. I am Chief Data
+                        Officer at
+                        <a href="https://sagebionetworks.org"
+                            >Sage Bionetworks</a
+                        >, a non-profit research organisation that operates
+                        <a href="https://synapse.org">Synapse</a>, one of the
+                        larger biomedical data platforms in the US ecosystem.
+                    </p>
+
+                    <p>
+                        <a href="https://synapse.org">Synapse</a> hosts over 3.8
+                        petabytes of data. It is the data coordination platform
+                        for several major NIH programmes, including the
+                        <a href="https://adknowledgeportal.org/"
+                            >AD Knowledge Portal</a
+                        >,
+                        <a href="https://humantumoratlas.org/">HTAN</a>
+                        (the Human Tumor Atlas Network), the
+                        <a href="https://nf.synapse.org/">NF Data Portal</a>,
+                        <a href="https://genie.synapse.org/">GENIE</a>
+                        (Genomics Evidence Neoplasia Information Exchange, with
+                        data from over 211,000 cancer patients across 19
+                        institutions), and portals for
+                        <a href="https://ampals.synapse.org/">ALS</a>,
+                        <a href="https://arkportal.synapse.org/">ARK</a>,
+                        PsychENCODE, and the
+                        <a href="https://eliteportal.synapse.org/">ELITE</a>
+                        programme. More than 100,000 registered users access
+                        data through these portals.
+                    </p>
+
+                    <p>
+                        I am proud of what we have built. Synapse is
+                        well-governed. It has data use agreements, access
+                        controls, provenance tracking, and a consent-aware
+                        architecture that most commercial platforms lack. The
+                        portals we operate have accelerated real science: the AD
+                        Knowledge Portal alone has contributed to hundreds of
+                        publications and several drug target discoveries.
+                    </p>
+
+                    <p>
+                        And yet. Each of these portals is, structurally, a DC
+                        power station.
+                    </p>
+
+                    <p>
+                        Within the Synapse ecosystem, some alignment exists. A
+                        researcher using credentials for AMP AD can use the same
+                        credentials to access AMP AIM and AMP ALS, with metadata
+                        fairly well aligned and governance processes harmonised.
+                        But the same cannot be said for accessing AMP PDRD or
+                        AMP CMD simultaneously. The
+                        <a href="https://commonfund.nih.gov/venture/sysbio"
+                            >AMP SysBio project</a
+                        >
+                        and its FAIRPlex platform aim to solve this: cross-AMP
+                        data discovery, federated search, harmonised governance.
+                        These are the right goals, and FAIRPlex has made
+                        meaningful progress on cross-AMP metadata alignment
+                        and data discovery. But the approach is still to build
+                        another coordinating platform on top of existing
+                        platforms, rather than standardising the interfaces
+                        between them. The basic technical interoperability,
+                        OIDC-based authentication, GA4GH DRS for data access,
+                        existing data use agreements, could be achieved with
+                        protocols that already exist. Instead, the reflex is to
+                        add another layer, another portal, another metadata
+                        catalogue. I bear some responsibility for this. I was in
+                        those rooms. I could have pushed harder for
+                        protocol-first design, where we prioritised the urgent
+                        delivery of working environments over the slower, more
+                        difficult work of standardising interfaces. But this
+                        is not really a confession; it is a diagnosis. Every smart team in
+                        this ecosystem keeps making the same choice, for the
+                        same reason: funding cycles reward delivery speed, and
+                        interoperability can always wait until next year. The
+                        incentive structure makes portal-building rational and
+                        protocol-building invisible. That structural trap, not
+                        any individual failure of will, is why the grid does not
+                        exist. The cost shows up in the questions we still
+                        cannot answer.
+                    </p>
+
+                    <p>
+                        The AMP Systems of Biology Inflammation (SBI) project
+                        showed what cross-AMP data analysis could look like
+                        through its six pilot projects. We are still trying to
+                        recreate it, without focusing on the core problem that
+                        plagued those pilots: interoperable governance. The
+                        problem is that "governance" is a loaded term. It means
+                        different things to different people. Almost everyone
+                        will agree that good governance is important, but nobody
+                        can agree what "good" is or what it will look like. So
+                        we bikeshed: everyone has an opinion on the colour, but
+                        nobody wants to lay the foundations. Get interoperable
+                        governance right and everything else follows.
+                    </p>
+
+                    <div
+                        class="pull-quote fade-in"
+                        role="figure"
+                        aria-label="Pull quote"
+                    >
+                        "We are too busy doing the wrong thing to do the right
+                        thing."
+                        <cite
+                            style="
+                                display: block;
+                                font-size: var(--text-sm);
+                                font-style: normal;
+                                color: var(--text-secondary);
+                                margin-top: var(--space-xs);
+                            "
+                            >An AMP Biomedical Data Manager</cite
+                        >
+                    </div>
+
+                    <p>
+                        The portals serve their communities. But they do not yet
+                        serve the cross-cutting questions that biomedical
+                        science increasingly needs to ask: What do Alzheimer's
+                        and Parkinson's share at the molecular level? Which
+                        cancer subtypes respond to treatments originally
+                        developed for autoimmune disease? These questions
+                        require querying across portals. And today, that
+                        requires heroic manual effort: months of negotiation,
+                        duplicated ethics reviews, incompatible access systems,
+                        before a single line of code is written. A researcher's
+                        grant clock does not pause while four separate data
+                        access committees deliberate.
+                    </p>
+
+                    <!-- Researcher's Bill of Rights -->
+                    <div class="rights-box fade-in">
+                        <p class="rights-box-title">
+                            A Researcher's Bill of Rights
+                        </p>
+                        <p>
+                            If a protocol layer existed, every NIH-funded
+                            researcher would have:
+                        </p>
+                        <ol class="rights-list">
+                            <li>
+                                <strong>Cross-portal search.</strong> One query
+                                across all NIH-funded repositories, not forty
+                                separate catalogues.
+                            </li>
+                            <li>
+                                <strong
+                                    >Automated access for routine
+                                    queries.</strong
+                                >
+                                When credentials, purpose, and data conditions
+                                clearly match, access granted in hours, not
+                                months.
+                            </li>
+                            <li>
+                                <strong>Portable credentials.</strong> One GA4GH
+                                Passport accepted everywhere: a "Passport to
+                                Science," not a credentialing nightmare repeated
+                                at every portal.
+                            </li>
+                            <li>
+                                <strong>Transparent governance logs.</strong>
+                                Machine-readable records of every access
+                                decision, open to audit by researchers,
+                                institutions, and participants.
+                            </li>
+                            <li>
+                                <strong
+                                    >Time-to-science measured in days, not
+                                    months.</strong
+                                >
+                                The grant clock starts when the question forms,
+                                not when the last data access committee replies.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <!-- Time-to-Science Comparison Chart (Comment 16.3) -->
+                    <div
+                        class="time-comparison fade-in"
+                        role="figure"
+                        aria-label="Time-to-science comparison: current approach versus OpenTRE protocols"
+                    >
+                        <h4 class="time-comparison-title">Time-to-Science</h4>
+                        <div class="time-bar time-bar-current">
+                            <span class="time-label">Current approach</span>
+                            <div class="time-fill" style="width: 90%">
+                                9-14 months
+                            </div>
+                        </div>
+                        <div class="time-bar time-bar-opentre">
+                            <span class="time-label"
+                                >With OpenTRE protocols</span
+                            >
+                            <div class="time-fill" style="width: 15%">
+                                Days to weeks
+                            </div>
+                        </div>
+                        <p class="time-comparison-note">
+                            Negotiation, approval, and onboarding vs.
+                            protocol-based access
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 4: Why Portals Are Not Enough -->
+                <section id="why-not-enough" class="fade-in">
+                    <h2>Why Portals Are Not Enough</h2>
+
+                    <p class="drop-cap">
+                        The DMS Policy created the obligation to share but not
+                        the infrastructure to interoperate. Each programme built
+                        bespoke solutions because no shared protocol layer
+                        existed. The result is a coordination failure: every
+                        team rationally builds the best portal it can for its
+                        own programme, and the aggregate outcome is forty
+                        portals with zero interoperability.
+                    </p>
+
+                    <p>
+                        <a
+                            href="https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/"
+                            >Elinor Ostrom</a
+                        >
+                        would recognise this immediately. Her work on governing
+                        commons showed that cooperation problems can be solved
+                        without centralisation, provided participants agree on
+                        clear rules and enforce them. The US biomedical data
+                        ecosystem is a commons problem. The technology has
+                        existed for years. Nobody has agreed on the rules.
+                    </p>
+
+                    <p>
+                        Consider the identity problem. NIH built the
+                        <a href="https://auth.nih.gov/"
+                            >Researcher Auth Service (RAS)</a
+                        >
+                        to solve it: a national identity broker implementing
+                        <a href="https://www.ga4gh.org/product/ga4gh-passports/"
+                            >GA4GH Passports</a
+                        >. The technology is sound. But RAS's authorisation
+                        model is centralised: it must be the sole issuer of
+                        every Visa within a Passport. A data repository cannot
+                        add its own signed Visa, even for datasets it manages
+                        directly. A researcher with legitimate access to both a
+                        dbGaP dataset and a consortium dataset arrives at a
+                        Trusted Research Environment with an incomplete
+                        Passport, and the planned multi-dataset analysis fails.
+                        RAS Visas cannot be repackaged into non-RAS Passports;
+                        partner repositories cannot link user accounts from
+                        other identity providers. There is no federation with
+                        international systems like
+                        <a href="https://lifescience-ri.eu/ls-login/"
+                            >Life Science Login</a
+                        >
+                        or ORCID. The engineering is solid. The architecture is
+                        wrong.
+                    </p>
+
+                    <p>
+                        The discovery problem follows the same pattern.
+                        <a
+                            href="https://datascience.nih.gov/data-ecosystem/exploring-a-generalist-repository-for-nih-funded-data"
+                            >GREI</a
+                        >
+                        was established to align metadata across seven
+                        generalist repositories. After years of work, NIH's own
+                        <a
+                            href="https://dpcpsi.nih.gov/sites/g/files/mnhszr346/files/2025-05/GREI-CoC-Recommendations-Report.pdf"
+                            >Council of Councils Working Group</a
+                        >
+                        (May 2025) found that the alignment remains
+                        "surface-level", that GREI's FAIR compliance claims are
+                        "unverifiable", and that it is "difficult to determine
+                        actual impact." No cross-repository search exists. There
+                        is no
+                        <a href="https://www.w3.org/TR/vocab-dcat-3/">DCAT</a>
+                        alignment, no harmonisation of access conditions or
+                        governance provenance. The initiative is not a failure
+                        of effort. It is what happens when you try to coordinate
+                        repositories through guidelines rather than through
+                        shared protocols.
+                    </p>
+
+                    <p>
+                        Programme-specific platforms are inherently fragile.
+                        Budgets always shift, and when they do, the platform is
+                        at risk along with every pipeline built on it. All of Us
+                        has already seen its funding swing dramatically. TCP/IP
+                        has survived seven US presidents. GenBank has survived
+                        nine NIH directors over 44 years, but GenBank is
+                        infrastructure that functions as a protocol: an open
+                        standard for sequence deposition, not a
+                        programme-specific portal. The programme-specific
+                        platforms that most NIH-funded researchers actually
+                        interact with are far more fragile.
+                    </p>
+
+                    <div
+                        class="pull-quote fade-in"
+                        role="figure"
+                        aria-label="Pull quote"
+                    >
+                        We keep building power stations. We have never
+                        standardised the voltage.
+                    </div>
+
+                    <p>
+                        The US does not need more portals. It needs what the
+                        power industry needed in the 1890s: not a bigger
+                        generator, but a shared grid.
+                    </p>
+
+                    <!-- Patient/public legitimacy -->
+                    <p>
+                        There is one more constituency that a protocol layer
+                        serves: the patients and research participants whose
+                        data makes all of this possible. Over 832,000 people
+                        enrolled in All of Us. Millions more contributed to N3C,
+                        PCORnet, and disease-specific registries. They were told
+                        their data would advance science. When that data is
+                        locked in silos that cannot interoperate, the promise is
+                        only partially kept. A protocol layer with transparent
+                        governance logs and machine-readable consent makes the
+                        use of their data auditable and accountable, worthy of
+                        the trust they placed in the system.
+                    </p>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 5: The Bermuda Precedent -->
+                <section id="bermuda" class="fade-in">
+                    <h2>The Bermuda Precedent</h2>
+
+                    <p class="drop-cap">
+                        This week, between 25-28 February 2026, scientists are
+                        gathering at the Hamilton Princess Hotel in Bermuda for
+                        the 30th anniversary of the Bermuda Principles, the
+                        agreement that opened the Human Genome Project's data to
+                        the world.
+                    </p>
+
+                    <p>
+                        The original
+                        <a href="https://bermudaprinciples.org/"
+                            >Bermuda Principles</a
+                        >, adopted 25 to 28 February 1996 at that same hotel,
+                        proved that the multi-stakeholder coordination problem
+                        can be solved. Bermuda was, in effect, the first
+                        successful "grid agreement" for biological data: simple
+                        rules that turned competing sequencing centres into a
+                        shared resource. They are a direct precedent.
+                    </p>
+
+                    <p>
+                        The story
+                        <a href="https://doi.org/10.1101/gr.216911.116"
+                            >begins with worms</a
+                        >.
+                        <a
+                            href="https://www.nobelprize.org/prizes/medicine/2002/sulston/facts/"
+                            >John Sulston</a
+                        >
+                        at the Sanger Centre and
+                        <a href="https://www.genome.gov/human-genome-project"
+                            >Robert Waterston</a
+                        >
+                        at Washington University had been sharing
+                        <em>C. elegans</em> genome sequence data daily, before
+                        publication, with no restrictions. When the Human Genome
+                        Project scaled up, they proposed the same radical norm
+                        for human DNA: release all sequence data to public
+                        databases within 24 hours of generation. No embargoes.
+                        No patents on raw sequence. No permission required.
+                    </p>
+
+                    <p>
+                        NIH and the Wellcome Trust made this a condition of
+                        funding. The principles fit on a single page.
+                        Implementation used existing infrastructure:
+                        <a href="https://www.ncbi.nlm.nih.gov/genbank/"
+                            >GenBank</a
+                        >,
+                        <a href="https://www.ebi.ac.uk/ena/browser/home">EMBL</a
+                        >, and <a href="https://www.ddbj.nig.ac.jp/">DDBJ</a>,
+                        three mirrored databases that any centre could deposit
+                        into and any researcher could access. No single operator
+                        controlled the system. The protocol was the agreement.
+                        Everything else was implementation.
+                    </p>
+
+                    <figure class="figure-wide">
+                        <img
+                            src="images/bermuda-principles.png"
+                            alt="The Bermuda Principles: one page that changed science permanently"
+                            loading="lazy"
+                        />
+                        <figcaption>
+                            The Bermuda Principles: one page that changed
+                            science permanently
+                        </figcaption>
+                    </figure>
+
+                    <p>
+                        The numbers are worth stating plainly. GenBank grew from
+                        730.6 million bases in 1996 to 38.97 trillion by
+                        December 2024: a 53,000-fold increase. The $3.8 billion
+                        Human Genome Project generated an estimated
+                        <a
+                            href="https://doe-humangenomeproject.ornl.gov/economic-impact/"
+                            >$965 billion in economic activity</a
+                        >
+                        (Battelle, 2013). When
+                        COVID-19 struck,
+                        <a href="https://www.gisaid.org/">GISAID</a>, directly
+                        inspired by Bermuda's rapid-release model, enabled
+                        global viral surveillance in real time.
+                    </p>
+
+                    <p>
+                        This was not a technology platform. It was a social
+                        protocol: simple rules, funder enforcement,
+                        decentralised implementation, open access. The
+                        governance lineage runs directly to the present: Fort
+                        Lauderdale (2003), Toronto (2009),
+                        <a href="https://www.ga4gh.org/framework/">GA4GH</a>
+                        (2013). And the consequence was permissionless
+                        innovation at the tooling layer: because the data was
+                        open and the protocols were shared, anyone could build
+                        tools on top of the grid. BLAST, Ensembl, UCSC Genome
+                        Browser, Galaxy: none of these were planned by the
+                        original funders. They emerged because the protocol
+                        layer created a <strong>Marketplace of Tools</strong> on
+                        top of a <strong>Grid of Data</strong>. No single-vendor
+                        lock-in. Permissionless innovation at the application
+                        and tooling layer; never permissionless data access.
+                        Every query is still authenticated, authorised, and
+                        logged.
+                    </p>
+
+                    <p>
+                        When the protocol is open, the result is not a walled
+                        garden controlled by a single vendor; it is a
+                        marketplace. Any team -- academic, commercial, or
+                        government -- can build tools on top of the grid, the
+                        same way the open Web enabled Google, Wikipedia, and
+                        thousands of startups to build on HTTP without asking
+                        permission from a central authority. That marketplace is
+                        what today's biomedical data system lacks: N3C locks
+                        pipelines into Foundry, the CFDE locks discovery into
+                        one portal, and each platform's tools are trapped inside
+                        its own walled garden.
+                    </p>
+
+                    <p>
+                        Biomedical research data is harder than raw genome
+                        sequence in three specific ways. It is identifiable and
+                        subject to consent conditions. It spans heterogeneous
+                        data types that require common data models before any
+                        query can cross institutional boundaries. And it
+                        involves thousands of institutions with different
+                        governance structures, not the dozen large sequencing
+                        centres that Bermuda coordinated. But these are
+                        differences of degree, not kind. GA4GH Passports solve
+                        identity federation. Appropriate open standards by data
+                        type -- OMOP/FHIR for clinical, DICOM for imaging, GA4GH
+                        standards for genomics -- cover data model convergence.
+                        ODRL and DUO provide machine-readable governance. The
+                        protocol components exist. What is missing is the
+                        coordination layer that Bermuda provided: funder
+                        mandates that require their use.
+                    </p>
+
+                    <p>
+                        There is a hard question here that protocols alone do
+                        not answer: consent scope. Bermuda worked partly because
+                        raw genome sequence was not identifiable in the way
+                        clinical and phenotypic data are. A researcher
+                        federating across AMP AD and AMP PDRD may be crossing
+                        consent boundaries that participants never anticipated.
+                        Machine-readable governance can encode these boundaries,
+                        but only if consent instruments are precise enough to
+                        express computably, and only if participants trust the
+                        encoding. Protocol-based federation makes cross-cutting
+                        research possible. It does not make it automatically
+                        permissible.
+                    </p>
+
+                    <p>
+                        NIH co-created the Bermuda Principles. NIH created the
+                        DMS Policy. The institutional DNA for funder-enforced
+                        data sharing exists. What is missing is the protocol
+                        layer between the mandate and the infrastructure.
+                    </p>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 6: What Would a Protocol Layer Look Like? -->
+                <section id="protocol-layer" class="fade-in">
+                    <h2>What Would a Protocol Layer Look Like?</h2>
+
+                    <p class="drop-cap">
+                        The UK companion piece describes OpenTRE, the Open
+                        Trusted Research Ecosystem, a protocol stack for
+                        federated health data. The US biomedical research
+                        community faces a different but structurally identical
+                        challenge: not how to federate health records across NHS
+                        trusts, but how to federate research data across
+                        NIH-funded platforms.
+                    </p>
+
+                    <h3>What the protocol layer provides</h3>
+
+                    <p>The components needed are the same:</p>
+
+                    <p>
+                        <strong>Layer 1: Identity federation.</strong> A
+                        researcher approved by one NIH-funded platform should be
+                        able to present those credentials to any other.
+                        <a href="https://www.ga4gh.org/product/ga4gh-passports/"
+                            >GA4GH Passports</a
+                        >
+                        already do this for genomic data platforms in dozens of
+                        countries. NIH's own
+                        <a href="https://auth.nih.gov/"
+                            >Researcher Auth Service (RAS)</a
+                        >
+                        was designed for exactly this: a national identity
+                        broker implementing GA4GH Passports. But RAS's
+                        centralised authorisation model limits what repositories
+                        can do with the credentials they issue, and in practice,
+                        a researcher moving between NIH-funded platforms still
+                        starts the credentialing process largely from scratch.
+                        This is as absurd as needing a new driving licence for
+                        every state. A fully federated GA4GH Passport would be a
+                        researcher's <strong>Passport to Science</strong>
+                        and the end of the credentialing nightmare: one portable
+                        credential accepted across the entire research
+                        ecosystem.
+                    </p>
+
+                    <p>
+                        <strong>Layer 2: Machine-readable governance.</strong>
+                        Every NIH-funded data repository publishes data use
+                        conditions. Today, those conditions are expressed in PDF
+                        documents reviewed by committees. When data use
+                        conditions are encoded in the
+                        <a href="https://www.w3.org/TR/odrl-model/"
+                            >W3C Open Digital Rights Language</a
+                        >
+                        and the
+                        <a
+                            href="https://www.ga4gh.org/product/data-use-ontology-duo/"
+                            >GA4GH Data Use Ontology</a
+                        >, the question "can this researcher access this dataset
+                        for this purpose?" becomes a computable query. Not
+                        replacing review committees, but automating the majority
+                        of routine access requests where credentials, purpose,
+                        and data conditions clearly match. Machine-readable
+                        governance also enables <strong>auditability</strong>:
+                        every access decision produces a transparency log that
+                        institutions, researchers, and oversight bodies can
+                        inspect. For a Chief Data Officer, this is access
+                        control <em>and</em> a compliance audit trail that
+                        today's PDF-based processes cannot provide.
+                    </p>
+
+                    <blockquote class="pull-quote fade-in">
+                        <p>
+                            "I review 200 data access requests a year. At least
+                            half are routine renewals or straightforward matches
+                            between researcher credentials and published data
+                            use conditions. Every one still requires a full
+                            committee meeting. That is not governance -- it is
+                            paperwork."
+                        </p>
+                        <cite
+                            >A data access committee chair, NIH-funded genomics
+                            consortium</cite
+                        >
+                    </blockquote>
+
+                    <p>
+                        <strong>Layer 3: Federated analytics.</strong> Code
+                        travels to data; only aggregated, disclosure-checked
+                        results return.
+                        <a href="https://www.ohdsi.org/">OHDSI</a>
+                        has proven this at scale: 974 million patient records
+                        across 544 data sources in 54 countries, with 4,700
+                        collaborators across 88 countries and no central data
+                        warehouse. In Europe, the
+                        <a href="https://www.ehden.eu/"
+                            >European Health Data and Evidence Network
+                            (EHDEN)</a
+                        >, an IMI2-funded initiative, has mapped 210 data
+                        sources across 30 countries to the OMOP Common Data
+                        Model, covering over 850 million patient records, and
+                        runs federated analytics without centralising data. The
+                        model works. The technical barriers are no longer the
+                        constraint; the components exist, and what remains is
+                        the institutional will to connect them.
+                    </p>
+
+                    <p>
+                        OHDSI's scale is real, but so are its costs. Mapping
+                        heterogeneous clinical data to the OMOP Common Data
+                        Model requires substantial ETL investment at each
+                        participating site. The protocol layer enables
+                        federation; it does not eliminate the work of
+                        harmonisation. But it makes that work cumulative rather
+                        than disposable: each site's investment benefits every
+                        future query, not just one programme's portal.
+                    </p>
+
+                    <p>
+                        <strong>Layer 4: Discovery.</strong> A single, federated
+                        catalogue where a researcher can search across all
+                        NIH-funded repositories simultaneously. CFDE attempted
+                        this for Common Fund data.
+                        <a
+                            href="https://datascience.nih.gov/data-ecosystem/exploring-a-generalist-repository-for-nih-funded-data"
+                            >GREI</a
+                        >
+                        has attempted to align discovery metadata across its
+                        seven generalist repositories, but NIH's own
+                        <a
+                            href="https://dpcpsi.nih.gov/sites/g/files/mnhszr346/files/2025-05/GREI-CoC-Recommendations-Report.pdf"
+                            >Council of Councils Working Group</a
+                        >
+                        (May 2025) characterised the results as "surface-level."
+                        The approach should extend to all DMS-compliant
+                        repositories, with real semantic depth, not just shared
+                        field names.
+                    </p>
+
+                    <!-- Transparency First: Layer 4 quick win (Comment 14.3) -->
+                    <div class="callout callout-teal fade-in">
+                        <p class="callout-title">Transparency First</p>
+                        <p style="margin-bottom: 0">
+                            Even before full automation, merely publishing
+                            machine-readable policies (ODRL) is already useful.
+                            Researchers can search for "access-friendly"
+                            datasets before writing a single grant proposal.
+                            Funders can audit whether their open-access mandates
+                            are being honoured. Transparency is not the end
+                            state; it is the first step, and it is useful
+                            immediately.
+                        </p>
+                    </div>
+
+                    <h3>What participants experience</h3>
+
+                    <p>
+                        For research participants and patients, the protocol
+                        model means their data is used under auditable
+                        governance, with transparency logs they can inspect.
+                        Access decisions, credential checks, query purposes: all
+                        recorded in a machine-readable audit trail. When a
+                        cancer patient enrolled in All of Us or an AMP disease
+                        registry asks "who has used my data, and for what?", the
+                        protocol layer provides an auditable record, not a
+                        reassurance. Today's PDF-based governance cannot offer
+                        that.
+                    </p>
+
+                    <!-- Participant's Agency (Comment #39) -->
+                    <aside class="callout callout-teal fade-in">
+                        <p class="callout-title">Participant's Agency</p>
+                        <p style="margin-bottom: 0">
+                            For patients, machine-readable consent is not just
+                            an audit trail. It means being able to say: "I want
+                            my data used for cancer research, but not by
+                            tobacco-funded studies" -- and knowing the system
+                            will enforce that choice automatically. This is what
+                            ODRL makes possible: consent that is not buried in a
+                            PDF nobody reads, but encoded in a format that
+                            machines can check before every query runs.
+                        </p>
+                    </aside>
+
+                    <h3>What exists already</h3>
+
+                    <p
+                        class="layer-mapping-note"
+                        style="
+                            font-size: var(--text-sm);
+                            color: var(--text-secondary);
+                            font-style: italic;
+                            margin: var(--space-lg) 0;
+                        "
+                    >
+                        These four capabilities (identity, governance,
+                        analytics, and discovery) map to the seven-layer
+                        protocol stack detailed in the companion UK essay,
+                        <a href="uk-blog.html"
+                            ><em>The Catalogue and the Crisis</em></a
+                        >. The UK framing adds explicit layers for data
+                        standards, security, and the application interface; the
+                        US framing groups them into the four capabilities that
+                        NIH policy can most directly mandate.
+                    </p>
+
+                    <figure
+                        class="figure-wide"
+                        style="margin: var(--space-xl) 0"
+                    >
+                        <img
+                            src="images/hourglass-protocol-stack.png"
+                            alt="OpenTRE seven-layer protocol stack showing the hourglass architecture with Layer 4 Interoperable Governance as the thin waist"
+                            loading="lazy"
+                            style="
+                                max-width: 400px;
+                                margin: 0 auto;
+                                display: block;
+                            "
+                        />
+                        <figcaption>
+                            The OpenTRE seven-layer protocol stack. The four US
+                            capabilities map to layers within this hourglass
+                            architecture.
+                        </figcaption>
+                    </figure>
+
+                    <h3>What NIH should fund</h3>
+
+                    <p>
+                        None of these require replacing existing platforms.
+                        Synapse, AnVIL, BioData Catalyst, and the Cancer
+                        Research Data Commons continue to operate. They add
+                        protocol interfaces. Wrap and evolve, not rip and
+                        replace. This is not speculative; it is the
+                        <strong>fiscally conservative option</strong>. A
+                        protocol layer is an insurance policy against platform
+                        obsolescence: it protects the billions already invested
+                        in existing platforms by making them interoperable,
+                        rather than gambling that any single platform will
+                        survive the next budget cycle. Every dollar spent on
+                        OMOP mapping or GA4GH Passport compliance at one site
+                        benefits every future query across the entire network.
+                        Without protocols, each platform investment is
+                        disposable: when the grant ends or the vendor changes,
+                        the pipelines built on it are stranded.
+                    </p>
+
+                    <!-- Low-Risk Transition Path (Comment 14.1) -->
+                    <div class="callout callout-teal fade-in">
+                        <p class="callout-title">Low-Risk Transition Path</p>
+                        <p style="margin-bottom: 0">
+                            Leaders rightly fear "big-bang" deployments: ripping
+                            out working systems to install untested
+                            replacements. Adding a protocol interface to an
+                            existing platform is the opposite. It is a small,
+                            bounded task with large network effects. Each
+                            platform that adds a GA4GH Passport endpoint or
+                            publishes machine-readable governance makes every
+                            other compliant platform more useful. The transition
+                            is incremental and reversible. Nothing already built
+                            needs to change.
+                        </p>
+                    </div>
+
+                    <!-- Personal narrative bridge (Comment 14.5) -->
+                    <p>
+                        A data curator at an NCI-designated cancer centre does
+                        not experience the governance layer as a protocol
+                        specification. She experiences it as the difference
+                        between a project started in January and one still
+                        waiting for access approval in December. A principal
+                        investigator running a multi-site rare disease study
+                        experiences the identity layer as one portable
+                        credential instead of eleven separate onboarding
+                        processes. The protocol layer is abstract only until it
+                        is your grant clock that is ticking.
+                    </p>
+
+                    <!-- Success-Based Funding -->
+                    <div class="callout callout-teal fade-in">
+                        <p class="callout-title">Success-Based Funding</p>
+                        <p>
+                            The protocol model shifts the question from "who
+                            runs the central hub?" to "how do we help every
+                            institution join the grid?" Rather than
+                            concentrating resources in a single coordinating
+                            platform, NIH could fund institutions to achieve
+                            protocol compliance: a success-based model where
+                            sites receive support for OMOP mapping, GA4GH
+                            Passport integration, and machine-readable
+                            governance adoption. The cost is spread across the
+                            network. Each site's investment is cumulative, and
+                            no single point of failure can bring down the grid.
+                        </p>
+                    </div>
+
+                    <!-- Sovereignty Guarantee (Comment #37) -->
+                    <aside class="callout callout-teal fade-in">
+                        <p class="callout-title">Sovereignty Guarantee</p>
+                        <p>
+                            Under a protocol model, every institution retains:
+                        </p>
+                        <ul style="margin-bottom: 0">
+                            <li>
+                                <strong>Full data ownership</strong> -- your
+                                data never leaves your infrastructure
+                            </li>
+                            <li>
+                                <strong>Final veto power</strong> -- no query
+                                runs without your explicit approval
+                            </li>
+                            <li>
+                                <strong>Local security protocols</strong> --
+                                your IRB, your firewall, your rules
+                            </li>
+                            <li>
+                                <strong>Intellectual property rights</strong> --
+                                derived datasets and analyses remain yours
+                            </li>
+                        </ul>
+                        <p
+                            style="
+                                margin-top: var(--space-sm);
+                                margin-bottom: 0;
+                            "
+                        >
+                            The protocol standardises how institutions
+                            <em>describe</em> their access conditions. It does
+                            not standardise the conditions themselves.
+                        </p>
+                    </aside>
+
+                    <!-- Protocol vs Platform comparison -->
+                    <div class="comparison-box fade-in">
+                        <div class="comparison-col comparison-protocol">
+                            <h4>
+                                OHDSI
+                                <span class="comparison-tag"
+                                    >Protocol-based</span
+                                >
+                            </h4>
+                            <ul>
+                                <li>
+                                    974M patient records, 544 data sources
+                                    across 54 countries, 4,700 collaborators
+                                    across 88 countries
+                                </li>
+                                <li>No central data warehouse</li>
+                                <li>
+                                    Volunteer-governed, minimal central funding
+                                </li>
+                                <li>Open OMOP Common Data Model</li>
+                                <li>Analysis runs where data lives</li>
+                            </ul>
+                        </div>
+                        <div class="comparison-vs">vs</div>
+                        <div class="comparison-col comparison-service">
+                            <h4>
+                                Typical NIH Portal
+                                <span class="comparison-tag"
+                                    >Platform-based</span
+                                >
+                            </h4>
+                            <ul>
+                                <li>Single programme scope</li>
+                                <li>Centralised or single-vendor hosted</li>
+                                <li>Grant-cycle-dependent funding</li>
+                                <li>Programme-specific data model</li>
+                                <li>Data moves to analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="key-takeaway fade-in">
+                        <p class="key-takeaway-label">Key Takeaway</p>
+                        <p>
+                            The protocol components already exist. A protocol
+                            layer is the cost-effective option: it protects
+                            existing investments by making them interoperable,
+                            rather than gambling on any single platform's
+                            survival.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Steelman: When Central Services Are the Right Choice -->
+                <section id="steelman" class="fade-in">
+                    <h2>When Central Services Are the Right Choice</h2>
+
+                    <p class="drop-cap">
+                        The argument for protocols should be honest about its
+                        limits. There are cases where centralised services are
+                        acceptable and sometimes necessary.
+                    </p>
+
+                    <div class="callout callout-teal fade-in">
+                        <p class="callout-title">
+                            Protocols first, not protocols only
+                        </p>
+                        <ul>
+                            <li>
+                                <strong>National reference datasets</strong>
+                                (e.g., a curated cancer registry or a national
+                                genomic reference panel) benefit from central
+                                curation and quality control. The protocol layer
+                                does not replace these; it makes them
+                                discoverable and queryable alongside federated
+                                sources.
+                            </li>
+                            <li>
+                                <strong>Shared tooling and services</strong>
+                                (identity providers, conformance testing suites,
+                                metadata registries) are the service layers that
+                                protocols need. RAS is the right idea (a
+                                national identity broker) even if its current
+                                architecture needs to become more federated. The
+                                protocol layer defines the interfaces; services
+                                implement them.
+                            </li>
+                            <li>
+                                <strong>Emergency response</strong> may justify
+                                temporary centralisation. N3C assembled 23
+                                million records at pandemic speed; that matters.
+                                The lesson is not that N3C was wrong, but that
+                                the pipelines built on it should not be stranded
+                                when the emergency ends. Protocols are the exit
+                                strategy that makes crisis-speed centralisation
+                                safe.
+                            </li>
+                            <li>
+                                <strong
+                                    >Small or under-resourced
+                                    institutions</strong
+                                >
+                                may lack the capacity to run their own
+                                protocol-compliant environments. Shared hosted
+                                services (run as commodities against open
+                                interfaces, not as proprietary platforms) fill
+                                this gap without creating lock-in.
+                            </li>
+                        </ul>
+                        <p style="margin-bottom: 0">
+                            The principle is simple:
+                            <strong
+                                >services should implement protocols, not
+                                replace them.</strong
+                            >
+                            When a central service speaks GA4GH, publishes
+                            open-standard endpoints, and logs governance
+                            decisions in machine-readable form, it strengthens
+                            the grid. When it speaks only its own proprietary
+                            language, it is another DC power station.
+                        </p>
+                    </div>
+
+                    <!-- "Just Another Standard" Rebuttal (Comment #43) -->
+                    <div class="callout callout-teal fade-in">
+                        <p class="callout-title">
+                            Rebuttal: "Just Another Standard"
+                        </p>
+                        <p>
+                            <em
+                                >"We already have FHIR and OMOP. Why add another
+                                layer?"</em
+                            >
+                        </p>
+                        <p style="margin-bottom: 0">
+                            OpenTRE is not a data format. FHIR and OMOP define
+                            how data is structured; OpenTRE defines how
+                            institutions negotiate access to that data across
+                            boundaries. If FHIR is the letter and OMOP is the
+                            language, OpenTRE is the postal system and the
+                            passport.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- NIH Mandates Section -->
+                <section id="nih-mandates" class="fade-in">
+                    <h2>Five Mandates for NIH</h2>
+
+                    <p class="drop-cap">
+                        The UK companion piece proposes five specific mandates
+                        for the NHS Health Data Research Service. The US system
+                        is different: more distributed, more pluralistic, with
+                        funding flowing through institutes rather than a single
+                        national service. But the logic is the same: funders
+                        have the leverage to require protocols, and protocols
+                        cost a fraction of the platforms they connect.
+                    </p>
+
+                    <div class="mandate-table-wrapper fade-in">
+                        <table class="mandate-table">
+                            <caption>
+                                Five mandates for NIH with responsible
+                                stakeholders and 12-month success metrics
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Mandate</th>
+                                    <th scope="col">Stakeholder</th>
+                                    <th scope="col">12-Month Metric</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <strong>1. Federated identity.</strong>
+                                        Require
+                                        <a
+                                            href="https://www.ga4gh.org/product/ga4gh-passports/"
+                                            >GA4GH Passport</a
+                                        >
+                                        compliance in all new data platform
+                                        grants. No new platform should receive
+                                        NIH funding without federated identity
+                                        support. Mandate that RAS evolves to
+                                        support multi-issuer Passports and
+                                        international federation.
+                                    </td>
+                                    <td>NIH Directors</td>
+                                    <td>
+                                        All new data platform grants require
+                                        GA4GH Passport compliance
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>2. Protocol interfaces.</strong>
+                                        Publish endpoints compliant with
+                                        appropriate open standards by data type
+                                        (OMOP/FHIR for clinical data, DICOM for
+                                        imaging, GA4GH standards for genomics)
+                                        and implement machine-readable
+                                        governance (ODRL/DUO) within 24 months.
+                                        Existing platforms add protocol
+                                        interfaces by wrapping and evolving, not
+                                        ripping and replacing.
+                                    </td>
+                                    <td>Platform Operators</td>
+                                    <td>
+                                        Open-standard endpoints and ODRL/DUO
+                                        policies published by major platforms
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong
+                                            >3. Success-based funding.</strong
+                                        >
+                                        Adopt success-based funding for protocol
+                                        compliance. Fund institutions to achieve
+                                        interoperability, not to build
+                                        proprietary platforms. Redirect a
+                                        fraction of existing platform spending
+                                        toward protocol adoption support.
+                                    </td>
+                                    <td>Funders</td>
+                                    <td>
+                                        Protocol compliance funding in at least
+                                        3 major grant programmes
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong
+                                            >4. Portable credentials.</strong
+                                        >
+                                        Demand portable credentials. When
+                                        submitting data management plans under
+                                        the DMS Policy, specify GA4GH-compliant
+                                        sharing. Push back on platforms that do
+                                        not support federated access.
+                                    </td>
+                                    <td>Researchers</td>
+                                    <td>
+                                        DMS Plans routinely specify
+                                        GA4GH-compliant sharing
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>5. Transparency logs.</strong>
+                                        Require transparency logs for all data
+                                        access decisions. Insist that
+                                        machine-readable governance includes
+                                        auditable consent enforcement. The data
+                                        belongs to participants; they deserve to
+                                        know how it is used.
+                                    </td>
+                                    <td>Patient Advocates</td>
+                                    <td>
+                                        First annual transparency report
+                                        published for major platforms
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p
+                            style="
+                                font-size: var(--text-sm);
+                                color: var(--text-secondary);
+                                margin-top: var(--space-sm);
+                                margin-bottom: 0;
+                            "
+                        >
+                            See the full
+                            <a href="#" title="Coming soon"
+                                ><em>implementation roadmap</em></a
+                            >
+                            for detailed timelines and dependencies.
+                        </p>
+                    </div>
+
+                    <!-- Ecosystem Certification (Comment 14.4) -->
+                    <div class="callout callout-teal fade-in">
+                        <p class="callout-title">Ecosystem Certification</p>
+                        <p style="margin-bottom: 0">
+                            How do funders know the mandates are being met? A
+                            <strong>protocol conformance test suite</strong>
+                            gives institutions a clear target and funders a
+                            Yes/No metric for grant compliance. Can the platform
+                            accept a GA4GH Passport? Can it publish ODRL
+                            policies? Can it respond to a federated analytics
+                            query? Each test is binary and automatable.
+                            Certification turns "we support interoperability"
+                            from a vague promise into a verifiable fact.
+                        </p>
+                        <p style="margin-bottom: 0">
+                            Conformance can be incremental. Level 1 requires
+                            identity federation (accepting GA4GH Passports).
+                            Level 2 adds machine-readable governance (publishing
+                            ODRL policies). Level 3 adds query portability
+                            (supporting federated analytics). This ladder lets
+                            funders mandate a starting point without requiring
+                            every institution to reach the summit on day one.
+                        </p>
+                    </div>
+
+                    <!-- Implementation Burden Rebuttal (Comment 15.1) -->
+                    <div class="callout callout-teal fade-in">
+                        <p class="callout-title">
+                            Rebuttal: Implementation Burden
+                        </p>
+                        <p>
+                            <em
+                                >"My team is already overstretched. Mapping to
+                                OMOP and ODRL is another unfunded mandate."</em
+                            >
+                        </p>
+                        <p style="margin-bottom: 0">
+                            Fair enough, and that is exactly why
+                            <strong>Adoption Tooling</strong> must be part of
+                            the mandate. NIH should fund pre-built adapters and
+                            "Mapping-as-a-Service" for major platform
+                            architectures: REDCap-to-OMOP pipelines, ODRL policy
+                            generators for common DUA templates, and reference
+                            implementations that institutions can deploy rather
+                            than build from scratch. The mandate is for the
+                            protocol; the tooling is for the institutions.
+                            Leaving each site to figure it out alone is not a
+                            protocol problem; it is a funding design failure.
+                        </p>
+                    </div>
+
+                    <!-- Security Surface Area Rebuttal (Comment 15.2) -->
+                    <div class="callout callout-teal fade-in">
+                        <p class="callout-title">
+                            Rebuttal: Security Surface Area
+                        </p>
+                        <p>
+                            <em
+                                >"Federation increases points of failure. One
+                                weak node compromises the whole grid."</em
+                            >
+                        </p>
+                        <p style="margin-bottom: 0">
+                            The opposite is true. In a centralised model, one
+                            breach exposes everything. In a federated model with
+                            a shared
+                            <strong>incident response protocol</strong> and a
+                            network-wide "circuit breaker," a compromised node
+                            can be isolated without bringing down the grid. Each
+                            node maintains its own security perimeter,
+                            conformant with baselines such as
+                            <a
+                                href="https://satre-specification.readthedocs.io/"
+                                >SATRE</a
+                            >
+                            (Standard Architecture for Trusted Research
+                            Environments). Federation does not eliminate
+                            security risk; it contains it. That is the property
+                            critical infrastructure actually needs.
+                        </p>
+                    </div>
+
+                    <!-- UK Cross-Pollination (Comment 16.1) -->
+                    <p>
+                        The UK companion essay,
+                        <a href="uk-blog.html"
+                            ><em>The Catalogue and the Crisis</em></a
+                        >, proposes a complementary "success-based funding"
+                        model: funding institutions specifically to achieve
+                        protocol compliance, rather than funding central hubs to
+                        aggregate their data. NIH is similarly sensitive to
+                        fiscal accountability. The model translates directly.
+                    </p>
+
+                    <!-- Roadmap Link (Comment #42) -->
+                    <p style="margin-top: var(--space-lg); font-style: italic">
+                        For an implementation timeline and detailed owner
+                        assignments, see the
+                        <a href="#" title="Coming soon"
+                            >OpenTRE 12-Month Roadmap</a
+                        >.
+                    </p>
+
+                    <div class="key-takeaway fade-in">
+                        <p class="key-takeaway-label">Key Takeaway</p>
+                        <p>
+                            Five mandates, five stakeholder groups, one
+                            principle: require the protocols, fund the
+                            compliance, audit the results.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider" role="separator"></div>
+
+                <!-- Section 7: The Choice -->
+                <section id="choice" class="fade-in">
+                    <h2>The Choice</h2>
+
+                    <p class="drop-cap">
+                        The US has advantages no other country can match: $47
+                        billion a year from NIH, the first NIH-wide data sharing
+                        mandate, and institutional infrastructure (GenBank,
+                        OHDSI) and international standards (GA4GH, a
+                        Toronto-based consortium) that the rest of the world
+                        builds on.
+                    </p>
+
+                    <p>
+                        This may seem improbable at a moment when NIH faces
+                        budget pressures and institutional uncertainty. But
+                        protocols are cheapest when budgets are tight. The IETF
+                        runs on $14 million a year. Mandating GA4GH Passport
+                        compliance can begin within existing appropriations by
+                        redirecting current platform spending toward
+                        interoperable interfaces. This is achievable within
+                        existing budgets -- and it is an insurance policy
+                        against platform obsolescence. Every dollar NIH has
+                        invested in N3C, All of Us, CFDE, AnVIL, and dozens of
+                        other platforms is at risk when budgets shift or vendors
+                        change. Protocols protect those investments by making
+                        them interoperable: the data, the governance rules, and
+                        the researcher credentials survive even if the platform
+                        does not.
+                    </p>
+
+                    <p>
+                        And yet the picture looks like the 1880s electrical
+                        industry: dozens of competing DC power stations, each
+                        well engineered, none sharing a grid.
+                    </p>
+
+                    <p>
+                        The Bermuda Principles worked because NIH and Wellcome
+                        made them a condition of funding. The DMS Policy created
+                        the mandate. Now NIH needs to create the protocol layer:
+                        require all funded platforms to implement shared
+                        standards for identity, governance, discovery, and
+                        federated analytics. Not a new platform. Not another
+                        portal. A grid.
+                    </p>
+
+                    <p>
+                        Protocol governance costs a fraction of platform
+                        operations. Implementation costs are borne by
+                        participants, which is exactly the point: the cost is
+                        distributed, not concentrated. The IETF governs the
+                        protocols that run the entire internet on $14 million a
+                        year. The internet itself costs trillions to operate.
+                        But that $14 million coordination layer has survived
+                        seven US presidents. NPfIT, the UK's &pound;12.7 billion
+                        centralised health record programme, survived three
+                        prime ministers. N3C's Palantir contract, All of Us's
+                        funding variability, AMP's five disease programmes
+                        spread across three platforms that do not interoperate:
+                        these are not failures of execution. They are the
+                        predictable consequences of building power stations
+                        instead of a grid.
+                    </p>
+
+                    <p>
+                        Somewhere right now, a researcher with a good question,
+                        adequate funding, and the right ethics approval is
+                        filling out her fourth data access application for her
+                        fourth NIH-funded platform. She knows the data exists.
+                        She can see it described in four separate catalogues.
+                        She cannot touch it without four separate negotiations.
+                        Her grant clock is ticking.
+                    </p>
+
+                    <!-- Funder Before/After scenario -->
+                    <div class="scenario-box fade-in">
+                        <p class="scenario-title">The Funder's Choice</p>
+                        <div class="scenario-grid">
+                            <div class="scenario-before">
+                                <p class="scenario-label">Today</p>
+                                <p>
+                                    Paying for 40 siloed databases. Each grant
+                                    builds a new portal with its own identity
+                                    system, its own governance process, its own
+                                    metadata schema. When the grant ends, the
+                                    portal and every pipeline built on it may be
+                                    stranded.
+                                </p>
+                            </div>
+                            <div class="scenario-arrow"></div>
+                            <div class="scenario-after">
+                                <p class="scenario-label">Tomorrow</p>
+                                <p>
+                                    Paying for 1 interoperable grid. The same
+                                    institutions, the same data, but every site
+                                    speaks the same protocols. Each investment
+                                    is cumulative. No single point of failure.
+                                    Researchers query across the network in
+                                    days, not months.
+                                </p>
+                            </div>
+                        </div>
+                        <p class="scenario-conclusion">
+                            The grid costs less than the silos. The IETF's $14
+                            million annual budget maintains the protocols used
+                            by billions; no centralised service achieves
+                            comparable reach at comparable cost. It just
+                            requires someone to mandate the voltage.
+                        </p>
+                    </div>
+
+                    <p class="closing-statement">
+                        That researcher is not a hypothetical. There are
+                        thousands of her. The infrastructure they need is not
+                        expensive. It is not technically novel. It is not even
+                        controversial. It is simply not required. That is the
+                        only thing that needs to change.
+                    </p>
+
+                    <div class="cta-callout fade-in">
+                        <p>
+                            <img
+                                src="images/opentre-logo-transparent.png"
+                                alt="OpenTRE"
+                                style="
+                                    height: 56px;
+                                    margin-bottom: 1rem;
+                                    display: block;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    opacity: 0.8;
+                                "
+                            />
+                            Protocols, not portals. A grid, not another
+                            generator.
+                        </p>
+                        <p>
+                            <a href="https://opentre.org">opentre.org</a>
+                        </p>
+                    </div>
+
+                    <!-- Audience-specific CTAs -->
+                    <div class="audience-ctas fade-in">
+                        <p class="audience-ctas-title">What You Can Do Next</p>
+                        <div class="audience-cta-grid">
+                            <div class="audience-cta-item">
+                                <p class="audience-cta-role">Policy Leads</p>
+                                <p>
+                                    Add GA4GH Passport compliance as a
+                                    requirement in the next round of NIH data
+                                    platform funding announcements. Use the
+                                    <a href="#" title="Coming soon"
+                                        >OpenTRE roadmap</a
+                                    >
+                                    as a starting framework.
+                                </p>
+                            </div>
+                            <div class="audience-cta-item">
+                                <p class="audience-cta-role">
+                                    Platform Operators
+                                </p>
+                                <p>
+                                    Assess your current systems against the four
+                                    protocol capabilities (identity, governance,
+                                    analytics, discovery). Publish a timeline
+                                    for open-standard endpoints and GA4GH
+                                    Passport support.
+                                </p>
+                            </div>
+                            <div class="audience-cta-item">
+                                <p class="audience-cta-role">Funders</p>
+                                <p>
+                                    Shift from funding portals to funding
+                                    protocol compliance. Add "must interoperate
+                                    via GA4GH Passport" to your next grant
+                                    solicitation. Fund open-standard adoption at
+                                    under-resourced sites.
+                                </p>
+                            </div>
+                            <div class="audience-cta-item">
+                                <p class="audience-cta-role">Researchers</p>
+                                <p>
+                                    When writing DMS Plans, specify
+                                    GA4GH-compliant sharing. Ask platform
+                                    providers whether your credentials are
+                                    portable. Push back on access processes that
+                                    take months.
+                                </p>
+                            </div>
+                            <div class="audience-cta-item">
+                                <p class="audience-cta-role">
+                                    Patient Advocates
+                                </p>
+                                <p>
+                                    Demand transparency logs for data access
+                                    decisions. Ask how your consent conditions
+                                    are being enforced, and whether the answer
+                                    is auditable. Support federated models that
+                                    keep data where it belongs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Notes -->
+                <aside class="endnotes fade-in" id="endnotes">
+                    <h3 class="endnotes-title">Notes</h3>
+                    <ol class="endnotes-list">
+                        <li id="endnote-1">
+                            NIH Council of Councils Working Group on GREI (May
+                            2025),
+                            <a
+                                href="https://dpcpsi.nih.gov/sites/g/files/mnhszr346/files/2025-05/GREI-CoC-Recommendations-Report.pdf"
+                                ><em>Recommendations Report</em></a
+                            >. The Working Group found that GREI's FAIR
+                            compliance claims were "unverifiable" and alignment
+                            remained "surface-level."
+                            <a href="#ref-1" aria-label="Back to reference 1"
+                                >&uarr;</a
+                            >
+                        </li>
+                        <li id="endnote-2">
+                            Taylor, J.A. et al. (2021). "Health data governance
+                            for research: a review of evidence and mechanisms."
+                            <em>BMJ Open</em>, 11(8), e047575.
+                            <a
+                                href="https://bmjopen.bmj.com/content/11/8/e047575"
+                                >doi:10.1136/bmjopen-2020-047575</a
+                            >.
+                            <a href="#ref-2" aria-label="Back to reference 2"
+                                >&uarr;</a
+                            >
+                        </li>
+                    </ol>
+                </aside>
+
+                <hr />
+
+                <!-- Author bio -->
+                <footer class="author-bio fade-in">
+                    <div class="footer-grid">
+                        <!-- Column 1: Logo, social, disclaimer, license -->
+                        <div style="text-align: center">
+                            <div style="margin-bottom: 1rem">
+                                <img
+                                    src="images/opentre-logo-transparent.png"
+                                    alt="OpenTRE - Open Trusted Research Ecosystem"
+                                    style="height: 48px"
+                                />
+                            </div>
+                            <div
+                                class="social-links"
+                                style="
+                                    justify-content: center;
+                                    margin-bottom: 1rem;
+                                "
+                            >
+                                <a
+                                    href="https://susheelvarma.com"
+                                    title="Website"
+                                    ><svg
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <line x1="2" y1="12" x2="22" y2="12" />
+                                        <path
+                                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                                        /></svg
+                                ></a>
+                                <a
+                                    href="https://bsky.app/profile/susheelvarma.com"
+                                    title="Bluesky"
+                                    ><svg
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.785 2.627 3.601 3.476 6.178 3.126-4.478.779-8.467 2.674-4.748 7.521 4.303 4.98 6.542-1.26 7.946-4.558.513-1.205.753-2.216.753-2.216s.24 1.011.753 2.216c1.404 3.298 3.643 9.538 7.946 4.558 3.719-4.847-.27-6.742-4.748-7.521 2.577.35 5.393-.499 6.178-3.126C21.622 9.418 22 4.458 22 3.768c0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24C14.046 4.747 11.087 8.686 12 10.8z"
+                                        /></svg
+                                ></a>
+                                <a
+                                    href="https://twitter.com/susheelvarma"
+                                    title="X / Twitter"
+                                    ><svg
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                                        /></svg
+                                ></a>
+                                <a
+                                    href="https://www.linkedin.com/in/susheelvarma/"
+                                    title="LinkedIn"
+                                    ><svg
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                                        /></svg
+                                ></a>
+                            </div>
+                            <p
+                                class="image-disclaimer"
+                                style="
+                                    font-size: var(--text-sm);
+                                    color: var(--text-secondary);
+                                    margin-bottom: 1rem;
+                                "
+                            >
+                                All illustrations were generated using AI, with
+                                prompts, reviews, and revisions by the author.
+                            </p>
+                            <a
+                                href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                                rel="license"
+                                title="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+                                style="
+                                    display: inline-block;
+                                    text-decoration: none;
+                                "
+                            >
+                                <img
+                                    src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.eu.svg"
+                                    alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+                                    height="31"
+                                    style="border: 0"
+                                />
+                            </a>
+                            <p
+                                style="
+                                    font-size: var(--text-sm);
+                                    color: var(--text-secondary);
+                                    margin-top: 0.75rem;
+                                    margin-bottom: 0;
+                                "
+                            >
+                                Copyright &copy; 2026 Susheel Varma.<br />
+                                Licensed under
+                                <a
+                                    href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                                    rel="license"
+                                    style="color: var(--text-secondary)"
+                                    >CC BY-NC-SA 4.0</a
+                                >.
+                            </p>
+                        </div>
+
+                        <!-- Column 2: Author bio, companion papers -->
+                        <div>
+                            <p style="margin-top: 0">
+                                <a
+                                    href="https://susheelvarma.com"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Susheel Varma</a
+                                >
+                                is Chief Data Officer at
+                                <a
+                                    href="https://sagebionetworks.org"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Sage Bionetworks</a
+                                >
+                                and was previously Chief Technology Officer at
+                                <a
+                                    href="https://hdruk.ac.uk/"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Health Data Research UK</a
+                                >, where he co-authored the
+                                <a
+                                    href="https://doi.org/10.5281/zenodo.4594704"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >TRE Green Paper</a
+                                >
+                                and
+                                <a
+                                    href="https://doi.org/10.5281/zenodo.5767586"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Building Trusted Research Environments</a
+                                >
+                                guidance. He was also Head of AI and Data
+                                Science at the
+                                <a
+                                    href="https://ico.org.uk/"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >Information Commissioner's Office</a
+                                >. He is a contributor to the
+                                <a
+                                    href="https://ga4gh.org/"
+                                    style="
+                                        color: inherit;
+                                        text-decoration: none;
+                                        border-bottom: 1px solid
+                                            var(--border-light);
+                                    "
+                                    >GA4GH</a
+                                >
+                                standards and workstreams. The protocol-level
+                                arguments are vendor-neutral by design and not
+                                endorsed by any one organisation. OpenTRE.org
+                                may be one of several possible proposals that
+                                NIH could consider.
+                            </p>
+                            <p>
+                                This is the US companion to
+                                <a href="uk-blog.html"
+                                    ><em>The Catalogue and the Crisis</em></a
+                                >. For the UK perspective on protocols vs
+                                platforms, read the original piece.
+                            </p>
+                            <p>
+                                For more on why standards matter, see
+                                <a
+                                    href="https://www.linkedin.com/pulse/copy-how-six-pages-built-america-why-biomedical-research-varma-lsdze/"
+                                    >How Six Pages Built America</a
+                                >
+                                (LinkedIn, July 2025).
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+        </main>
+
+        <!-- Page-specific styles -->
+        <style>
+            /* 60-Second Executive Summary */
+            .exec-summary {
+                background: linear-gradient(
+                    135deg,
+                    var(--accent-teal-light),
+                    #fff
+                );
+                border: 2px solid var(--accent-teal);
+                border-radius: 12px;
+                padding: var(--space-xl) var(--space-xl) var(--space-lg);
+                margin-bottom: var(--space-3xl);
+                box-shadow: var(--shadow-md);
+            }
+
+            .exec-summary-title {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--accent-teal);
+                margin-bottom: var(--space-md);
+                margin-top: 0;
+            }
+
+            .exec-summary p {
+                font-family: var(--font-body);
+                font-size: var(--text-base);
+                line-height: 1.7;
+                margin-bottom: var(--space-sm);
+            }
+
+            .exec-summary p:last-child {
+                margin-bottom: 0;
+            }
+
+            /* Glossary box */
+            .glossary-box {
+                background: var(--bg-card);
+                border: 1px solid var(--border-light);
+                border-radius: 8px;
+                margin: var(--space-xl) 0 var(--space-2xl);
+                box-shadow: var(--shadow-sm);
+            }
+
+            .glossary-toggle {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--accent-navy);
+                cursor: pointer;
+                padding: var(--space-lg) var(--space-xl);
+                list-style: none;
+                display: flex;
+                align-items: center;
+                gap: var(--space-sm);
+            }
+
+            .glossary-toggle::-webkit-details-marker {
+                display: none;
+            }
+
+            .glossary-toggle::before {
+                content: "\25B6";
+                font-size: 0.7em;
+                transition: transform var(--transition-fast);
+            }
+
+            .glossary-box[open] .glossary-toggle::before {
+                transform: rotate(90deg);
+            }
+
+            .glossary-content {
+                padding: 0 var(--space-xl) var(--space-xl);
+            }
+
+            .glossary-content dl {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                gap: var(--space-xs) var(--space-lg);
+                margin: 0;
+            }
+
+            .glossary-content dt {
+                font-family: var(--font-ui);
+                font-weight: 700;
+                font-size: var(--text-sm);
+                color: var(--accent-teal);
+                padding-top: var(--space-xs);
+            }
+
+            .glossary-content dd {
+                font-size: var(--text-sm);
+                color: var(--text-secondary);
+                line-height: 1.6;
+                margin: 0;
+                padding-top: var(--space-xs);
+                border-bottom: 1px solid var(--border-light);
+                padding-bottom: var(--space-xs);
+            }
+
+            .glossary-content dl > dt:last-of-type + dd {
+                border-bottom: none;
+            }
+
+            /* Landscape comparison table */
+            .landscape-table-wrapper {
+                background: var(--bg-card);
+                border: 1px solid var(--border-light);
+                border-radius: 12px;
+                padding: var(--space-xl);
+                margin: var(--space-2xl) 0;
+                box-shadow: var(--shadow-sm);
+            }
+
+            .landscape-table-title {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--accent-teal);
+                margin-bottom: var(--space-lg);
+                margin-top: 0;
+            }
+
+            .landscape-table {
+                width: 100%;
+                border-collapse: collapse;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+            }
+
+            .landscape-table caption {
+                clip: rect(0 0 0 0);
+                clip-path: inset(50%);
+                height: 1px;
+                overflow: hidden;
+                position: absolute;
+                white-space: nowrap;
+                width: 1px;
+            }
+
+            .landscape-table thead th {
+                background: var(--bg-surface);
+                font-weight: 700;
+                text-align: left;
+                padding: var(--space-sm) var(--space-md);
+                border-bottom: 2px solid var(--border-medium);
+                color: var(--accent-navy);
+                white-space: nowrap;
+            }
+
+            .landscape-table tbody td {
+                padding: var(--space-sm) var(--space-md);
+                border-bottom: 1px solid var(--border-light);
+                color: var(--text-secondary);
+                vertical-align: top;
+                line-height: 1.5;
+            }
+
+            .landscape-table tbody tr:last-child td {
+                border-bottom: none;
+            }
+
+            .landscape-table tbody td:first-child {
+                color: var(--text-primary);
+                white-space: nowrap;
+            }
+
+            /* Key Takeaway boxes */
+            .key-takeaway {
+                background: var(--accent-teal-light);
+                border-left: 4px solid var(--accent-teal);
+                border-radius: 0 8px 8px 0;
+                padding: var(--space-lg) var(--space-xl);
+                margin: var(--space-2xl) 0;
+            }
+
+            .key-takeaway-label {
+                font-family: var(--font-ui);
+                font-size: var(--text-xs);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                color: var(--accent-teal);
+                margin-bottom: var(--space-xs);
+                margin-top: 0;
+            }
+
+            .key-takeaway p:last-child {
+                font-family: var(--font-headline);
+                font-size: var(--text-base);
+                font-style: italic;
+                color: var(--text-primary);
+                line-height: 1.6;
+                margin-bottom: 0;
+            }
+
+            /* Researcher's Bill of Rights */
+            .rights-box {
+                background: linear-gradient(135deg, #e8f5e9, #fff);
+                border: 2px solid var(--accent-green);
+                border-radius: 12px;
+                padding: var(--space-xl);
+                margin: var(--space-2xl) 0;
+                box-shadow: var(--shadow-md);
+            }
+
+            .rights-box-title {
+                font-family: var(--font-headline);
+                font-size: var(--text-xl);
+                font-weight: 600;
+                color: var(--accent-green);
+                margin-top: 0;
+                margin-bottom: var(--space-md);
+            }
+
+            .rights-box > p:nth-child(2) {
+                font-family: var(--font-body);
+                font-size: var(--text-base);
+                color: var(--text-secondary);
+                margin-bottom: var(--space-lg);
+            }
+
+            .rights-list {
+                padding-left: var(--space-xl);
+                margin: 0;
+            }
+
+            .rights-list li {
+                margin-bottom: var(--space-md);
+                line-height: 1.7;
+                font-size: var(--text-base);
+            }
+
+            .rights-list li:last-child {
+                margin-bottom: 0;
+            }
+
+            .rights-list li strong {
+                color: var(--accent-green);
+            }
+
+            /* Mandate table */
+            .mandate-table-wrapper {
+                margin: var(--space-xl) 0;
+                overflow-x: auto;
+            }
+
+            .mandate-table {
+                width: 100%;
+                border-collapse: collapse;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                line-height: 1.6;
+            }
+
+            .mandate-table caption {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                color: var(--text-secondary);
+                caption-side: bottom;
+                text-align: left;
+                padding-top: var(--space-sm);
+                clip: rect(0 0 0 0);
+                clip-path: inset(50%);
+                height: 1px;
+                overflow: hidden;
+                position: absolute;
+                white-space: nowrap;
+                width: 1px;
+            }
+
+            .mandate-table th {
+                background: var(--accent-navy);
+                color: #fff;
+                padding: var(--space-md) var(--space-lg);
+                text-align: left;
+                font-weight: 700;
+                font-size: var(--text-xs);
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .mandate-table td {
+                padding: var(--space-md) var(--space-lg);
+                border-bottom: 1px solid var(--border-light);
+                vertical-align: top;
+            }
+
+            .mandate-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .mandate-table tbody tr:nth-child(odd) {
+                background: var(--bg-card);
+            }
+
+            .mandate-table tbody tr:nth-child(even) {
+                background: var(--bg-surface);
+            }
+
+            .mandate-table td:first-child {
+                min-width: 260px;
+            }
+
+            .mandate-table td:nth-child(2) {
+                min-width: 140px;
+                color: var(--text-secondary);
+            }
+
+            .mandate-table td:nth-child(3) {
+                min-width: 180px;
+                color: var(--accent-teal);
+                font-weight: 600;
+            }
+
+            /* Audience-specific CTAs */
+            .audience-ctas {
+                margin: var(--space-2xl) 0;
+            }
+
+            .audience-ctas-title {
+                font-family: var(--font-headline);
+                font-size: var(--text-xl);
+                font-weight: 600;
+                color: var(--text-primary);
+                text-align: center;
+                margin-bottom: var(--space-xl);
+                margin-top: 0;
+            }
+
+            .audience-cta-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: var(--space-lg);
+            }
+
+            .audience-cta-item {
+                background: var(--bg-card);
+                border: 1px solid var(--border-light);
+                border-radius: 8px;
+                padding: var(--space-lg);
+                box-shadow: var(--shadow-sm);
+            }
+
+            .audience-cta-role {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                color: var(--accent-teal);
+                margin-top: 0;
+                margin-bottom: var(--space-sm);
+            }
+
+            .audience-cta-item p:last-child {
+                font-size: var(--text-sm);
+                color: var(--text-secondary);
+                line-height: 1.6;
+                margin-bottom: 0;
+            }
+
+            /* Endnotes */
+            .endnotes {
+                margin: var(--space-2xl) 0 var(--space-xl);
+                padding-top: var(--space-xl);
+                border-top: 1px solid var(--border-light);
+            }
+
+            .endnotes-title {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--text-muted);
+                margin-bottom: var(--space-lg);
+            }
+
+            .endnotes-list {
+                padding-left: var(--space-xl);
+                margin: 0;
+            }
+
+            .endnotes-list li {
+                font-size: var(--text-sm);
+                color: var(--text-secondary);
+                line-height: 1.6;
+                margin-bottom: var(--space-md);
+            }
+
+            .endnotes-list li:last-child {
+                margin-bottom: 0;
+            }
+
+            /* Responsive: glossary grid, landscape table, audience CTAs */
+            @media (max-width: 768px) {
+                .glossary-content dl {
+                    grid-template-columns: 1fr;
+                }
+
+                .glossary-content dt {
+                    padding-top: var(--space-sm);
+                    border-bottom: none;
+                }
+
+                .glossary-content dd {
+                    padding-top: 0;
+                }
+
+                .audience-cta-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            /* Visible but subtle section label (Comment 19.4) */
+            .section-label {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                color: var(--text-muted);
+                margin-top: 0;
+                margin-bottom: var(--space-md);
+            }
+            .section-label::before {
+                display: none;
+            }
+
+            /* Time-to-Science Comparison Chart (Comment 16.3) */
+            .time-comparison {
+                background: var(--bg-card);
+                border: 1px solid var(--border-light);
+                border-radius: 12px;
+                padding: var(--space-xl);
+                margin: var(--space-2xl) 0;
+                box-shadow: var(--shadow-sm);
+            }
+
+            .time-comparison-title {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--text-primary);
+                margin-top: 0;
+                margin-bottom: var(--space-lg);
+            }
+
+            .time-bar {
+                margin-bottom: var(--space-md);
+            }
+
+            .time-bar:last-of-type {
+                margin-bottom: var(--space-sm);
+            }
+
+            .time-label {
+                display: block;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 600;
+                color: var(--text-secondary);
+                margin-bottom: 0.25rem;
+            }
+
+            .time-fill {
+                height: 2.5rem;
+                border-radius: 6px;
+                display: flex;
+                align-items: center;
+                padding: 0 var(--space-md);
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                color: #fff;
+                min-width: max-content;
+            }
+
+            .time-bar-current .time-fill {
+                background: linear-gradient(90deg, #7b8a9d, #94a3b8);
+            }
+
+            .time-bar-opentre .time-fill {
+                background: linear-gradient(90deg, #256b2b, #2e7d32);
+            }
+
+            .time-comparison-note {
+                font-family: var(--font-ui);
+                font-size: 0.75rem;
+                color: var(--text-muted);
+                margin-bottom: 0;
+                margin-top: var(--space-sm);
+            }
+
+            @media (max-width: 480px) {
+                .time-fill {
+                    font-size: 0.75rem;
+                    height: 2rem;
+                    padding: 0 var(--space-sm);
+                }
+            }
+            /* Nav logo */
+            .nav-logo {
+                height: 1em;
+                width: 1em;
+                vertical-align: middle;
+                margin-right: 0.3em;
+                border-radius: 50%;
+            }
+            /* Blog-specific accent overrides */
+            .doc-blog-us .callout-teal .callout-title {
+                color: var(--accent-teal);
+            }
+            .doc-blog-us .callout-teal {
+                border-left: 4px solid var(--accent-teal);
+            }
+            .doc-blog-us .drop-cap::first-letter {
+                color: var(--accent-navy);
+            }
+
+            /* Comparison box: Protocol vs Platform */
+            .comparison-box {
+                display: flex;
+                align-items: stretch;
+                gap: 0;
+                margin: var(--space-2xl) 0;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: var(--shadow-md);
+            }
+
+            .comparison-col {
+                flex: 1;
+                padding: var(--space-xl);
+            }
+
+            .comparison-col h4 {
+                font-family: var(--font-ui);
+                font-size: var(--text-lg);
+                font-weight: 700;
+                margin-bottom: var(--space-md);
+                margin-top: 0;
+                display: flex;
+                align-items: center;
+                gap: var(--space-sm);
+                flex-wrap: wrap;
+            }
+
+            .comparison-tag {
+                font-size: var(--text-xs);
+                font-weight: 600;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                padding: 2px 8px;
+                border-radius: 4px;
+            }
+
+            .comparison-protocol {
+                background: var(--accent-teal-light);
+            }
+
+            .comparison-protocol h4 {
+                color: var(--accent-teal);
+            }
+
+            .comparison-protocol .comparison-tag {
+                background: var(--accent-teal);
+                color: #fff;
+            }
+
+            .comparison-protocol ul {
+                list-style: none;
+                padding-left: 0;
+            }
+
+            .comparison-protocol li {
+                padding: var(--space-xs) 0;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                color: var(--text-primary);
+            }
+
+            .comparison-protocol li::before {
+                content: "\2713";
+                color: var(--accent-teal);
+                font-weight: 700;
+                margin-right: var(--space-sm);
+            }
+
+            .comparison-service {
+                background: var(--bg-surface);
+            }
+
+            .comparison-service h4 {
+                color: var(--accent-red);
+            }
+
+            .comparison-service .comparison-tag {
+                background: var(--accent-red);
+                color: #fff;
+            }
+
+            .comparison-service ul {
+                list-style: none;
+                padding-left: 0;
+            }
+
+            .comparison-service li {
+                padding: var(--space-xs) 0;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                color: var(--text-secondary);
+            }
+
+            .comparison-service li::before {
+                content: "\2717";
+                color: var(--accent-red);
+                font-weight: 700;
+                margin-right: var(--space-sm);
+            }
+
+            .comparison-vs {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                color: var(--text-muted);
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                padding: 0 var(--space-md);
+                background: var(--bg-primary);
+                min-width: 50px;
+            }
+
+            /* Scenario box: before/after research */
+            .scenario-box {
+                background: var(--bg-card);
+                border: 1px solid var(--border-light);
+                border-radius: 12px;
+                padding: var(--space-xl);
+                margin: var(--space-2xl) 0;
+                box-shadow: var(--shadow-sm);
+            }
+
+            .scenario-title {
+                font-family: var(--font-ui);
+                font-size: var(--text-sm);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: var(--accent-teal);
+                margin-bottom: var(--space-lg);
+                margin-top: 0;
+            }
+
+            .scenario-grid {
+                display: grid;
+                grid-template-columns: 1fr auto 1fr;
+                gap: var(--space-lg);
+                align-items: start;
+            }
+
+            .scenario-before,
+            .scenario-after {
+                padding: var(--space-lg);
+                border-radius: 8px;
+            }
+
+            .scenario-before {
+                background: #fff3f0;
+                border-left: 3px solid var(--accent-red);
+            }
+
+            .scenario-after {
+                background: var(--accent-teal-light);
+                border-left: 3px solid var(--accent-teal);
+            }
+
+            .scenario-label {
+                font-family: var(--font-ui);
+                font-size: var(--text-xs);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                margin-bottom: var(--space-sm);
+            }
+
+            .scenario-before .scenario-label {
+                color: var(--accent-red);
+            }
+            .scenario-after .scenario-label {
+                color: var(--accent-teal);
+            }
+
+            .scenario-before p:last-child,
+            .scenario-after p:last-child {
+                margin-bottom: 0;
+            }
+
+            .scenario-arrow {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: var(--text-2xl);
+                color: var(--text-muted);
+                padding-top: var(--space-2xl);
+            }
+
+            .scenario-arrow::after {
+                content: "\2192";
+            }
+
+            .scenario-conclusion {
+                font-family: var(--font-headline);
+                font-style: italic;
+                font-size: var(--text-lg);
+                color: var(--accent-navy);
+                text-align: center;
+                margin-top: var(--space-lg);
+                margin-bottom: 0;
+                padding-top: var(--space-md);
+                border-top: 1px solid var(--border-light);
+            }
+
+            /* Bermuda mandates list */
+            .bermuda-mandates {
+                padding-left: var(--space-xl);
+                margin: var(--space-xl) 0;
+            }
+
+            .bermuda-mandates li {
+                margin-bottom: var(--space-lg);
+                line-height: 1.7;
+            }
+
+            .bermuda-mandates li strong {
+                color: var(--accent-navy);
+            }
+
+            /* Closing statement emphasis */
+            .closing-statement {
+                font-family: var(--font-headline);
+                font-size: var(--text-lg);
+                color: var(--text-primary);
+                line-height: 1.5;
+            }
+
+            /* Call-to-action callout */
+            .cta-callout {
+                text-align: center;
+                margin: var(--space-3xl) 0 var(--space-xl);
+                padding: var(--space-2xl) var(--space-xl);
+                border-top: 3px solid #8b4513;
+                border-bottom: 3px solid #8b4513;
+                background: linear-gradient(
+                    180deg,
+                    rgba(139, 69, 19, 0.04),
+                    rgba(193, 120, 23, 0.04)
+                );
+            }
+
+            .cta-callout p {
+                font-family: var(--font-headline);
+                font-size: var(--text-xl);
+                font-weight: 600;
+                color: var(--text-primary);
+                line-height: 1.5;
+                margin: 0 auto;
+                max-width: 40ch;
+            }
+
+            .cta-callout p + p {
+                margin-top: var(--space-md);
+                font-weight: 500;
+                font-style: italic;
+                color: #8b4513;
+            }
+
+            /* Responsive: comparison and scenario boxes */
+            @media (max-width: 768px) {
+                .comparison-box {
+                    flex-direction: column;
+                }
+
+                .comparison-vs {
+                    padding: var(--space-sm) 0;
+                    min-width: auto;
+                }
+
+                .scenario-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .scenario-arrow {
+                    padding-top: 0;
+                    transform: rotate(90deg);
+                }
+            }
+
+            /* Footer two-column grid (1/3 + 2/3) */
+            .footer-grid {
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                gap: 2rem;
+                align-items: start;
+            }
+            @media (max-width: 768px) {
+                .footer-grid {
+                    grid-template-columns: 1fr;
+                    text-align: center;
+                }
+                .footer-grid > div p {
+                    text-align: center !important;
+                }
+                .footer-grid .social-links {
+                    justify-content: center;
+                }
+            }
+        </style>
+
+        <!-- JavaScript: progress bar, ToC scroll-spy, fade-in -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // --- Reading progress bar ---
+                var progressBar = document.querySelector(".progress-bar");
+                function updateProgress() {
+                    var scrollTop = window.scrollY;
+                    var docHeight =
+                        document.documentElement.scrollHeight -
+                        window.innerHeight;
+                    var progress =
+                        docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+                    progressBar.style.width = progress + "%";
+                    progressBar.setAttribute(
+                        "aria-valuenow",
+                        Math.round(progress),
+                    );
+                }
+
+                // --- ToC scroll-spy ---
+                var tocLinks = document.querySelectorAll(".toc a");
+                var sections = [];
+                tocLinks.forEach(function (link) {
+                    var id = link.getAttribute("href").slice(1);
+                    var el = document.getElementById(id);
+                    if (el) sections.push({ id: id, el: el, link: link });
+                });
+
+                function updateToc() {
+                    var scrollPos = window.scrollY + 140;
+                    var current = null;
+                    for (var i = sections.length - 1; i >= 0; i--) {
+                        if (sections[i].el.offsetTop <= scrollPos) {
+                            current = sections[i];
+                            break;
+                        }
+                    }
+                    tocLinks.forEach(function (link) {
+                        link.classList.remove("active");
+                    });
+                    if (current) current.link.classList.add("active");
+                }
+
+                // --- ToC visibility (hide over hero, show over article) ---
+                var tocWrapper = document.querySelector(".toc-wrapper");
+                var articleBody = document.querySelector(".article-body");
+                function updateTocVisibility() {
+                    if (tocWrapper && articleBody) {
+                        var articleTop =
+                            articleBody.getBoundingClientRect().top;
+                        if (articleTop <= 100) {
+                            tocWrapper.classList.add("toc-visible");
+                        } else {
+                            tocWrapper.classList.remove("toc-visible");
+                        }
+                    }
+                }
+
+                // --- Scroll handler (throttled) ---
+                var ticking = false;
+                window.addEventListener(
+                    "scroll",
+                    function () {
+                        if (!ticking) {
+                            requestAnimationFrame(function () {
+                                updateProgress();
+                                updateToc();
+                                updateTocVisibility();
+                                ticking = false;
+                            });
+                            ticking = true;
+                        }
+                    },
+                    { passive: true },
+                );
+
+                // Initial calls
+                updateProgress();
+                updateToc();
+                updateTocVisibility();
+
+                // --- Fade-in on scroll ---
+                var fadeTargets = document.querySelectorAll(".fade-in");
+                if ("IntersectionObserver" in window) {
+                    var fadeObserver = new IntersectionObserver(
+                        function (entries) {
+                            entries.forEach(function (entry) {
+                                if (entry.isIntersecting) {
+                                    entry.target.classList.add("visible");
+                                    fadeObserver.unobserve(entry.target);
+                                }
+                            });
+                        },
+                        { threshold: 0.1, rootMargin: "0px 0px -40px 0px" },
+                    );
+                    fadeTargets.forEach(function (el) {
+                        fadeObserver.observe(el);
+                    });
+                } else {
+                    fadeTargets.forEach(function (el) {
+                        el.classList.add("visible");
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>
